@@ -6,7 +6,8 @@ branding:
   title: Libertas
   font-size: 10px
   label: docs
-  logo: nande.png
+  logo: libertasdarklogo.png
+  logoDark: libertaswhitelogo.png
   favicon: nande.png
 links:
 - text: Discord
