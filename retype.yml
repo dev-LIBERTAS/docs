@@ -16,7 +16,7 @@ links:
   target: blank
 
 footer:
-  copyright: "© 2022-{{ year }} なんでやねんｗ. All rights reserved.  "
+  copyright: "© 2022-{{ year }} Libertas. All rights reserved.  "
   links:
   - text: Discord
     link: https://discord.gg/2FNp2kTwxX
