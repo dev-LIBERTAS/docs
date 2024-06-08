@@ -1,5 +1,7 @@
 ---
-label: 接続方法
+label: サーバーへの接続情報
 order: 999999
-icon: sign-in
+icon: server
 ---
+
+
