@@ -4,7 +4,7 @@ order: 700000
 ---
 
 埋め立て説明動画  
-https://youtu.be/5NufXU4s7Vo  
+[!embed](https://youtu.be/5NufXU4s7Vo)
 :::danger 注意
 ※埋め立てのゲームの前に必ず見てください。
 :::  
@@ -29,7 +29,7 @@ https://youtu.be/5NufXU4s7Vo
 /execute at @p run fill 7 37 -7 -7 51 7 minecraft:air
 ```
 
-🎁 ↓ギフトコマンド一覧↓ 🎁  
+# ギフトコマンド一覧  
 - ハートミー：5秒回復
 ```
   /effect give @p minecraft:regeneration 5 5
