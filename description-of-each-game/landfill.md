@@ -3,7 +3,7 @@ label: 【埋め立て】の説明
 order: 700000
 ---
 
-埋め立て説明動画  
+# 埋め立て説明動画  
 [!embed](https://youtu.be/5NufXU4s7Vo)
 :::danger 注意
 ※埋め立てのゲームの前に必ず見てください。
