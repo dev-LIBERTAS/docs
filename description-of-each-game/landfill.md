@@ -2,6 +2,9 @@
 label: 【埋め立て】の説明
 order: 700000
 ---
+スタートアップゲーム名：
+```landfill```
+
 
 # 埋め立て説明動画  
 [!embed](https://youtu.be/5NufXU4s7Vo)
@@ -9,27 +12,29 @@ order: 700000
 ※埋め立てのゲームの前に必ず見てください。
 :::  
 
-スタートアップ
-ゲーム名：landfill
 
-接続コマンド
+# コマンド一覧
+
+## 基本的なコマンド一覧
+
+- TiktokLiveと接続
 ※TikTokIDは自身のTikTokIDに変更してください。
 途中で切断された場合も同じコマンドを実行してください。
 ```
 /libertascore connect [TiktokID]
 ```
 
-ワールドリセット
+- ワールドリセット
 ```
 /libertascore reset
 ```
 
-中央枠内ブロックのみ消去
+- 中央枠内ブロックのみ消去
 ```
 /execute at @p run fill 7 37 -7 -7 51 7 minecraft:air
 ```
 
-# ギフトコマンド一覧  
+## ギフトコマンド一覧  
 - ハートミー：5秒回復
 ```
   /effect give @p minecraft:regeneration 5 5
