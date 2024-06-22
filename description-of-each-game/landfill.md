@@ -54,6 +54,11 @@ order: 700000
 /execute at @p run fill 7 37 -7 -7 51 7 minecraft:air
 ```
 
+- サーバー再起動
+```
+/restart
+```
+
 ## ギフトコマンド一覧  
 - ハートミー：5秒回復
 ```
