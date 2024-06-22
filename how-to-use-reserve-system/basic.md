@@ -6,8 +6,11 @@ order: 700000
 # サーバーの予約方法
 このページでは、サーバー予約の説明をしています。
 
-## パネルへのログイン方法
-![](/image/5.png)
+## 予約方法
+![](/image/5.png)  
+
+個人チャット内で/reserveと入力
+<video src="/image/1.mp4" controls="true"></video>
 
 1. **ログインページにアクセス**  
    ブラウザを開き、[パネル](https://panel.libertasmc.xyz/)にアクセスしてください。
