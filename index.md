@@ -4,7 +4,7 @@ order: 1000000
 icon: bookmark
 ---
 
-# LIBERTAS配信サーバーへようこそ！  
+## LIBERTAS配信サーバーへようこそ！  
 サーバーへのご参加ありがとうございます！
 
 ### LIBERTAS(リベルタス)では以下の方針で運営を行っております。
@@ -23,7 +23,7 @@ icon: bookmark
 ### ⭐ **参加方法** ⭐  
 ① フォームに回答してください↓  
 ※既に回答している方は②に進んでください  
-[参加フォーム](https://forms.gle/sckcgbppXWGJ9BrJA)
+[ここをクリック](https://forms.gle/sckcgbppXWGJ9BrJA)
 
 ② メールに送られてくる契約書にサインをお願いします。  
 ※契約書発行まで少しお時間いただきます。住所、氏名が必要です。
