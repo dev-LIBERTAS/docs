@@ -35,3 +35,171 @@ order: 699998
 13. **テレポートコマンド**  
 鉄の扉の奥にあるボタンを押すと、初期地にテレポートできます。
 ![テレポート](/image/battle9.png)
+
+## ギフトコマンド一覧  
+- ハートミー：5秒回復
+```
+  /effect give @p minecraft:regeneration 5 5
+```
+
+- バラ：ゾンビ
+```
+  /execute at @p[distance=1..] run summon minecraft:zombie ~ ~ ~ {CustomName:'{"text":"{user.profileName}"}',CustomNameVisible:1,PersistenceRequired:1b}
+```
+
+- GG：スケルトン
+```
+  /execute at @p[distance=1..] run summon minecraft:skeleton ~ ~ ~ {CustomName:'{"text":"{user.profileName}"}',CustomNameVisible:1,PersistenceRequired:1b}
+```
+
+- フィンガーハート：激怒うさぎ
+```
+  /execute at @p[distance=1..] run execute at @p run summon minecraft:rabbit ~ ~ ~ {RabbitType:99}
+```
+
+- www：クリーパー
+```
+  /execute at @p[distance=1..] run summon minecraft:creeper ~ ~ ~ {CustomName:'{"text":"{user.profileName}"}',CustomNameVisible:1,PersistenceRequired:1b}
+```
+
+- ゲームパッド：牛5匹
+```
+  /execute at @p[distance=1..] run summon minecraft:cow ~ ~ ~ {CustomName:'{"text":"{user.profileName}"}',CustomNameVisible:1,PersistenceRequired:1b}
+```
+
+- 愛してる：回復
+```
+  /effect give @p minecraft:regeneration 15 5
+```
+
+- 香水：豚10匹
+```
+  /execute at @p[distance=1..] run summon minecraft:pig ~ ~ ~ {CustomName:'{"text":"{user.profileName}"}',CustomNameVisible:1,PersistenceRequired:1b}
+```
+
+- ドーナッツ：ゴキブリ
+```
+  /execute at @p[distance=1..] run summon minecraft:silverfish ~ ~ ~ {CustomName:'{"text":"{user.profileName}"}',CustomNameVisible:1,PersistenceRequired:1b}
+```
+
+- スター：大ジャンプ
+```
+  /execute at @p[distance=1..] run effect give @p minecraft:levitation 1 100
+```
+
+- 折り鶴：TNT
+```
+  /execute at @p[distance=1..] run execute at @p run summon tnt ~ ~5 ~ {fuse:100}
+```
+
+- クラッカー：ゾンビx100
+```
+  /task zombie1 100 2
+```
+
+- ゲームコントローラー：肩車ゾンビx50
+```
+  /task zombie2 50 2
+```
+
+- 鍵と鍵穴：金床の雨
+```
+  /task anvil1 1 1 50
+```
+
+- 柴犬：カミナリ
+```
+  /execute at @p[distance=1..] run execute at @e[type=!minecraft:player,limit=30] run summon minecraft:lightning_bolt ~ ~ ~
+```
+
+- フルーツの友達：激おこ犬
+```
+  /task wolf1 25 3
+```
+
+- コーギー：耐電クリーパー
+```
+  /task powercreeper1 25 2
+```
+
+- 招きねこ：ねこパーティー
+```
+  /task cat1 100 2
+```
+
+- マネーガン：アイテム全回収
+```
+  /execute at @p[distance=1..] run clear @p
+```
+
+- すばらしい！：爆撃TNT
+```
+  /task tptnt1 1 1
+```
+
+- 白鳥：全員集合
+```
+  /execute at @p[distance=1..] run execute at @p run tp @e[type=!minecraft:minecart] ~ ~ ~
+```
+
+- 列車：バトル
+```
+  /task battle1 1 1
+```
+
+- Travel with You：強制雨
+```
+  /task weather1 1 1
+```
+
+- フラワーミラー：ウォーデン
+```
+  /execute at @p[distance=1..] run summon minecraft:warden ~ ~ ~
+```
+
+- ドラムセット：チキン祭り
+```
+  /task chicken1 1000 2
+```
+
+- 花火：チキン祭り
+```
+  /task chicken1 1000 2
+```
+
+- クジラのダイビング：動物園
+```
+  /task world2 1 1
+```
+
+- オートバイ：水族館
+```
+  /task water1 150 2
+```
+
+- 子猫のレオン：白馬の王子様
+```
+  /task leon 1 1
+```
+
+- スポーツカー：炎ミサイル
+```
+  /task blazephantom1 200 4
+```
+
+- ローザの星雲：領域展開
+```
+  /task world1 1 1
+```
+
+- ライオン：巨大ゾンビ軍
+```
+  /task ghastgiant1 200 4
+```
+
+- TikTok Universe：ワールド崩壊
+```
+  /task tnt2 1200 2
+```
+
+
