@@ -36,6 +36,32 @@ order: 699998
 鉄の扉の奥にあるボタンを押すと、初期地にテレポートできます。
 ![テレポート](/image/battle9.png)
 
+# コマンド一覧
+
+## 基本的なコマンド一覧
+
+- TiktokLiveと接続
+※TikTokIDは自身のTikTokIDに変更してください。
+途中で切断された場合も同じコマンドを実行してください。
+```
+/libertascore connect [TiktokID]
+```
+
+- ワールドリセット
+```
+/libertascore reset
+```
+
+- 中央枠内ブロックのみ消去
+```
+/execute at @p run fill 7 37 -7 -7 51 7 minecraft:air
+```
+
+- サーバー再起動
+```
+/restart
+```
+
 ## ギフトコマンド一覧  
 - ハートミー：5秒回復
 ```
