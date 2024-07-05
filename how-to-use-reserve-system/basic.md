@@ -26,3 +26,12 @@ order: 700000
 
 <video src="https://nextcloud.nandeyanen.click/index.php/s/gmWeSLaBzL5Gq7Z/download/2.mp4" controls="true"></video>
 
+## 予約したサーバーにサブユーザーを追加する
+
+# サーバーに招待する方の操作  
+1.　**LIBERTASサーバー内の個人チャンネルに/inviteと入力**
+
+2. **マインクラフトIDを入力**
+
+3. **招待したいユーザーのDiscordユーザーIDを入力**
+
