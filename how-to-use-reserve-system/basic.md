@@ -43,5 +43,5 @@ order: 700000
 
 2. **自分のマイクラIDを入力**
 
-## 動画→[例)動画](https://d.kuku.lu/tm7r5s7mf)
+<video src="https://nextcloud.nandeyanen.click/index.php/s/tMnpFgzLfAK6nDS/download/test2.mp4" controls="true"></video>
 
