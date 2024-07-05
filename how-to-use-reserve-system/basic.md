@@ -43,5 +43,5 @@ order: 700000
 
 2. **自分のマイクラIDを入力**
 
-## 例)動画→[!embed](https://d.kuku.lu/tm7r5s7mf)
+[例)動画](https://d.kuku.lu/tm7r5s7mf)
 
