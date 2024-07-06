@@ -28,7 +28,7 @@ order: 700000
 
 ## 予約したサーバーにサブユーザーを追加する
 
-**サーバーに招待する方の操作**  
+**サーバーに招待する側の操作**  
 
 1. **LIBERTASサーバー内の個人チャンネルに/inviteと入力**
 
@@ -39,9 +39,9 @@ order: 700000
 
 **サーバーの招待を受ける側の操作**
 
-1. **フレンド欄のところに"Libertas"というBOTから招待メッセージが来るので承諾を押す**
+1. **DMのところに"Libertas"というBOTから招待メッセージが来るので承諾を押す**
 
-2. **自分のマイクラIDを入力**
+2. **自分のマインクラフトIDを入力**
 
 <video src="https://nextcloud.nandeyanen.click/index.php/s/tMnpFgzLfAK6nDS/download/test2.mp4" controls="true"></video>
 
