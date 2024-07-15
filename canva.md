@@ -1,5 +1,5 @@
 ---
-label: canva
+label: Canva
 order: 999997
 icon: project-roadmap
 ---
