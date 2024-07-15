@@ -1,7 +1,7 @@
 ---
 label: canva
 order: 999997
-icon: sign-in
+icon: project-roadmap
 ---
 
 # 配信背景作り方ガイド
