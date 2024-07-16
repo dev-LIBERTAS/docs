@@ -62,9 +62,14 @@ order: 69000
 /libertascore reset
 ```
 
-- 中央枠内ブロックのみ消去
+- ダイヤブロックチーム全消し
 ```
-/execute at @p run fill 7 37 -7 -7 51 7 minecraft:air
+/execute at @p run fill 10 51 7 24 37 -7 minecraft:air
+```
+
+- 金ブロックチーム全消し
+```
+/execute at @p run fill -24 51 7 -10 37 -7 minecraft:air
 ```
 
 - サーバー再起動
