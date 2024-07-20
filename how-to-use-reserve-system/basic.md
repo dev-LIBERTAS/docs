@@ -10,11 +10,15 @@ order: 700000
 
 1. **LIBERTASサーバー内の個人チャンネルに/reserveと入力**  
 
-2. **マインクラフトIDを入力**  
+2. **マインクラフトIDを入力**
 
-3. **利用時間を選択**  
+3. **配信するゲームを選ぶ**
 
-4. **配信開始**  
+4. **空いているサーバーを選ぶ(どれでも可)**
+
+5. **利用時間を選択**  
+
+6. **配信開始**  
 
 <video src="https://nextcloud.nandeyanen.click/index.php/s/RMcHEjrjE3y88LM/download/1.mp4" controls="true"></video>
 
