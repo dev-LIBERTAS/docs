@@ -9,8 +9,8 @@ order: 699998
 
 ## 基本的なコマンド一覧
 
-- TiktokLiveと接続
-※TikTokIDは自身のTikTokIDに変更してください。
+- TiktokLiveと接続 :  
+※TikTokIDは自身のTikTokIDに変更してください。  
 途中で切断された場合も同じコマンドを実行してください。
 ```
 /libertascore connect [TiktokID]
