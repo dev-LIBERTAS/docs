@@ -7,7 +7,7 @@ icon: project-roadmap
 # 配信背景作り方ガイド
 
 ## 配信背景作り方動画
-[こちらの動画](https://youtu.be/1BWBCvPY5bo)をご覧ください。
+[!embed](https://youtu.be/1BWBCvPY5bo)
 
 ## Canva
 Canvaのデザインを使用して配信背景を作成できます。
