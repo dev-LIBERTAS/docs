@@ -2,6 +2,8 @@
 label: 【クライミング】の説明
 order: 699998
 ---
+スタートアップゲーム名：
+```climbing```
 # クライミング説明動画
 [!embed](https://youtu.be/1UFMMX067cQ)
 :::climbing 注意
