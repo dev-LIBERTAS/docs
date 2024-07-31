@@ -6,8 +6,8 @@ order: 699998
 ```climbing```
 # クライミング説明動画
 [!embed](https://youtu.be/1UFMMX067cQ)
-:::climbing 注意
-※整地のプレイ前に必ず見てください。
+:::danger 注意
+※クライミングのプレイ前に必ず見てください。
 :::  
 
 # ワールド説明
