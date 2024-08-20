@@ -5,7 +5,7 @@ order: 699998
 スタートアップゲーム名：
 ```climbing```
 # クライミング説明動画
-[!embed](https://youtu.be/1UFMMX067cQ)
+[!embed](https://youtu.be/altSgy051t8)
 :::danger 注意
 ※クライミングのプレイ前に必ず見てください。
 :::  
