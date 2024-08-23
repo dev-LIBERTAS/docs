@@ -149,9 +149,9 @@ order: 699999
 /execute at @p run summon tnt ~ ~5 ~ {fuse:100}
 ```
 
-- マネーガン：アイテム全回収
+- マネーガン：無敵xワンパン
 ```
-/clear @p
+/moneygun 1 1
 ```
 
 - すばらしい！：ダイヤモンドシャベル
