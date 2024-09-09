@@ -95,7 +95,7 @@ order: 700000
   /summon minecraft:creeper
 ```
 
-- 愛してる：回復
+- 初見です：回復
 ```
   /effect give @p minecraft:regeneration 15 5
 ```
