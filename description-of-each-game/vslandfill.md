@@ -120,7 +120,7 @@ order: 69000
   /execute at @p[distance=1..] run summon minecraft:cow ~ ~ ~ {CustomName:'{"text":"{user.profileName}"}',CustomNameVisible:1,PersistenceRequired:1b}
 ```
 
-- 愛してる：回復
+- 初見です：回復
 ```
   /effect give @p minecraft:regeneration 15 5
 ```
