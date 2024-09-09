@@ -98,7 +98,7 @@ order: 699998
   /summon minecraft:cow ~ ~3 ~2
 ```
 
-- 愛してる：回復
+- 初見です：回復
 ```
   /effect give @p minecraft:regeneration 15 5
 ```
