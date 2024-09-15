@@ -142,7 +142,7 @@ order: 700000
 
 - 折り鶴：空腹
 ```
-  /summon tnt ~ ~5 ~ {fuse:100}
+  /effect give @p minecraft:hunger 30 255
 ```
 
 - キャップ：TNT
