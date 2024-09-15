@@ -70,7 +70,7 @@ order: 700000
 ```
 
 ## ギフトコマンド一覧  
-- ハートミー：5秒回復
+- ハートミー：ミニ回復
 ```
   /effect give @p minecraft:regeneration 5 5
 ```
@@ -85,9 +85,29 @@ order: 700000
   /summon minecraft:skeleton
 ```
 
+- リスと松ぼっくり：目隠し
+```
+  /execute at @p run particle minecraft:explosion ~ ~1 ~ 0.5 0.5 0.5 0.1 100
+```
+
 - フィンガーハート：激怒うさぎ
 ```
-  /execute at @p run summon minecraft:rabbit ~ ~ ~ {RabbitType:99, Attributes:[{Name:"generic.max_health", Base:10}], Health:10f}
+  /execute at @p run summon minecraft:rabbit ~ ~ ~ {RabbitType:99}
+```
+
+- ニャオ：エンダーマン
+```
+  /summon minecraft:enderman
+```
+
+- インスタントヌードル：防具付きゾンビ
+```
+  /summon zombie ~ ~ ~ {HandItems:[{id:"minecraft:iron_sword",Count:1}]}
+```
+
+- 御守り：ハスク
+```
+  /summon minecraft:husk
 ```
 
 - www：クリーパー
@@ -95,12 +115,17 @@ order: 700000
   /summon minecraft:creeper
 ```
 
-- 初見です：回復
+- ローザ：ファイヤースケルトン
+```
+  /summon skeleton ~ ~ ~ {HandItems:[{id:"minecraft:bow",Count:1,tag:{Enchantments:[{id:flame,lvl:1}]}}]}
+```
+
+- 愛してる・初見です・ありがとう：回復
 ```
   /effect give @p minecraft:regeneration 15 5
 ```
 
-- 香水：豚10匹
+- 香水：豚
 ```
   /summon minecraft:pig
 ```
@@ -110,9 +135,24 @@ order: 700000
   /summon minecraft:silverfish
 ```
 
-- 折り鶴：TNT
+- ホットチョコレート：クモの巣
 ```
-  /execute at @p run summon tnt ~ ~5 ~ {fuse:100}
+  /fill ~ ~ ~ ~ ~ ~ minecraft:cobweb
+```
+
+- 折り鶴：空腹
+```
+  /summon tnt ~ ~5 ~ {fuse:100}
+```
+
+- キャップ：TNT
+```
+  /summon tnt ~ ~5 ~ {fuse:100}
+```
+
+- スター：大ジャンプ
+```
+  /effect give @p minecraft:levitation 1 100
 ```
 
 - クラッカー：ゾンビx100
@@ -123,6 +163,11 @@ order: 700000
 - ゲームコントローラー：肩車ゾンビx100
 ```
   /task zombie2 50 2
+```
+
+- ハートポーズ：魔法使い
+```
+  /summon minecraft:illusioner
 ```
 
 - 鍵と鍵穴：金床の雨
@@ -145,9 +190,39 @@ order: 700000
   /task powercreeper1 25 2
 ```
 
+- ハート：黒曜石追加
+```
+  /execute at @p run summon minecraft:falling_block ~ ~10 ~ {BlockState:{Name:"minecraft:obsidian"},Time:1}
+```
+
+- ニット帽：氷塊
+```
+  /fill ~-1 ~ ~-1 ~1 ~2 ~1 minecraft:ice
+```
+
+- びよ～ん：シュルカー
+```
+  /summon minecraft:shulker
+```
+
+- ゲームキーボード：ルーレット
+```
+  /roulette GamingKeyboard
+```
+
+- アヒル：クモの巣xゾンビ
+```
+  /task cobweb1 1 1
+```
+
 - 招きねこ：ねこパーティー
 ```
   /task cat1 100 2
+```
+
+- サンゴ：水の塔
+```
+  /fill 0 64 0 0 64 0 minecraft:water
 ```
 
 - マネーガン：アイテム全回収
@@ -165,12 +240,17 @@ order: 700000
   /execute at @p run fill 7 37 7 -7 45 -7 minecraft:gold_block
 ```
 
+- お疲れさま：監獄
+```
+  /task kangoku1 1 1
+```
+
 - 白鳥：全員集合
 ```
   /execute at @p run tp @e[type=!minecraft:minecart] ~ ~ ~
 ```
 
-- 列車：お邪魔ブロック
+- 列車：砂追加
 ```
   /execute at @p run fill -8 200 8 8 200 -8 minecraft:light_blue_concrete_powder
 ```
@@ -178,6 +258,16 @@ order: 700000
 - Travel with You：強制雨
 ```
   /task weather1 1 1
+```
+
+- 銀河：マグマの塔
+```
+  /execute at @p run fill 0 62 0 0 62 0 lava
+```
+
+- マジカルキャット：ラベジャー
+```
+  /summon minecraft:ravager
 ```
 
 - フラワーミラー：ウォーデン
@@ -190,6 +280,16 @@ order: 700000
   /execute at @p run fill 0 38 -25 0 38 -25 minecraft:redstone_torch
 ```
 
+- アーケードゲーム：超お助け
+```
+  /task ArcadeGame1 1 1
+```
+
+- 不思議な花火：ブロック変換
+```
+  /execute at @p run fill 7 37 7 -7 51 -7 minecraft:light_blue_wool replace minecraft:diamond_block
+```
+
 - クジラのダイビング：動物園
 ```
   /task world2 1 1
@@ -198,6 +298,11 @@ order: 700000
 - オートバイ：水族館
 ```
   /task water1 1 1
+```
+
+- 流星群：TNT流星群
+```
+  /task tnt4 1200 1
 ```
 
 - 子猫のレオン：白馬の王子様
