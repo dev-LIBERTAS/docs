@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.6.0.781121152234">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.6.0.781176812617">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.6.0">
@@ -32,11 +32,11 @@
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../resources/css/retype.css?v=3.6.0.781121152234" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.6.0.781176812617" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.6.0.781121152234" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.6.0.781176812617" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.6.0.781121152234" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.6.0.781176812617" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -333,401 +333,695 @@
     </h2>
 </doc-anchor-target>
 <ul>
-<li><p>ハートミー ：ミニ回復</p>
+<li>ハートミー ：ミニ回復
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">- /effect give @p minecraft:regeneration 5 5</code></pre>
-</doc-codeblock></div>
-</li>
-<li><p>バラ ：ゾンビ</p>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">- /summon minecraft:zombie ~ ~ ~ {CustomName:'{&quot;text&quot;:&quot;{user.profileName}&quot;}',CustomNameVisible:1,PersistenceRequired:1b,Attributes:[{Name:&quot;generic.max_health&quot;,Base:10}],Health:10.0f}</code></pre>
-</doc-codeblock></div>
-</li>
-<li><p>GG ：スケルトン</p>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">- /summon minecraft:skeleton ~ ~ ~ {CustomName:'{&quot;text&quot;:&quot;{user.profileName}&quot;}',CustomNameVisible:1,PersistenceRequired:1b}</code></pre>
-</doc-codeblock></div>
-</li>
-<li><p>ソフトクリーム ：目隠し</p>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">- /execute at @p run particle minecraft:explosion ~ ~1 ~ 0.5 0.5 0.5 0.1 100</code></pre>
-</doc-codeblock></div>
-</li>
-<li><p>リスと松ぼっくり ：目隠し</p>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">- /execute at @p run particle minecraft:explosion ~ ~1 ~ 0.5 0.5 0.5 0.1 100</code></pre>
-</doc-codeblock></div>
-</li>
-<li><p>フィンガーハート ：殺人うさぎ</p>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">- /execute at @p run summon minecraft:rabbit ~ ~ ~ {RabbitType:99}</code></pre>
-</doc-codeblock></div>
-</li>
-<li><p>ニャオ ：エンダーマン</p>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">- /summon minecraft:enderman ^ ^2 ^2 {CustomName:'{&quot;text&quot;:&quot;{user.profileName}&quot;}',CustomNameVisible:1,PersistenceRequired:1b}</code></pre>
-</doc-codeblock></div>
-</li>
-<li><p>インスタントヌードル ：防具付きゾンビ</p>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">- /summon minecraft:zombie ~ ~ ~ {CustomName:'{&quot;text&quot;:&quot;{user.profileName}&quot;}',CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:&quot;minecraft:iron_sword&quot;,Count:1}],ArmorItems:[{},{},{},{id:&quot;minecraft:iron_helmet&quot;,Count:1}]}</code></pre>
-</doc-codeblock></div>
-</li>
-<li><p>御守り ：ハスク</p>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">- /summon minecraft:husk ~ ~ ~ {CustomName:'{&quot;text&quot;:&quot;{user.profileName}&quot;}',CustomNameVisible:1,PersistenceRequired:1b}</code></pre>
-</doc-codeblock></div>
-</li>
-<li><p>www ：クリーパー</p>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">- /summon minecraft:creeper ~ ~ ~ {CustomName:'{&quot;text&quot;:&quot;{user.profileName}&quot;}',CustomNameVisible:1,PersistenceRequired:1b}</code></pre>
-</doc-codeblock></div>
-</li>
-<li><p>ゲームパッド ：牛x5</p>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">- /summon minecraft:cow ~ ~ ~ {CustomName:'{&quot;text&quot;:&quot;{user.profileName}&quot;}',CustomNameVisible:1,PersistenceRequired:1b}
-- /summon minecraft:cow ~ ~ ~ {CustomName:'{&quot;text&quot;:&quot;{user.profileName}&quot;}',CustomNameVisible:1,PersistenceRequired:1b}
-- /summon minecraft:cow ~ ~ ~ {CustomName:'{&quot;text&quot;:&quot;{user.profileName}&quot;}',CustomNameVisible:1,PersistenceRequired:1b}
-- /summon minecraft:cow ~ ~ ~ {CustomName:'{&quot;text&quot;:&quot;{user.profileName}&quot;}',CustomNameVisible:1,PersistenceRequired:1b}
-- /summon minecraft:cow ~ ~ ~ {CustomName:'{&quot;text&quot;:&quot;{user.profileName}&quot;}',CustomNameVisible:1,PersistenceRequired:1b}</code></pre>
-</doc-codeblock></div>
-</li>
-<li><p>ローザ ：ファイヤースケルトン</p>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">- /summon minecraft:skeleton ~ ~ ~ {CustomName:'{&quot;text&quot;:&quot;{user.profileName}&quot;}',CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:&quot;minecraft:bow&quot;,Count:1b,tag:{Enchantments:[{id:&quot;minecraft:flame&quot;,lvl:1}]}}],ArmorItems:[{},{},{},{}]}</code></pre>
-</doc-codeblock></div>
-</li>
-<li><p>友情ネックレス ：クリーパー</p>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">- /summon minecraft:creeper ~ ~ ~ {CustomName:'{&quot;text&quot;:&quot;{user.profileName}&quot;}',CustomNameVisible:1,PersistenceRequired:1b}</code></pre>
-</doc-codeblock></div>
-</li>
-<li><p>ヴェノム ：クリーパー</p>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">- /summon minecraft:creeper ~ ~ ~ {CustomName:'{&quot;text&quot;:&quot;{user.profileName}&quot;}',CustomNameVisible:1,PersistenceRequired:1b}</code></pre>
-</doc-codeblock></div>
-</li>
-<li><p>レイブダンス ：エンダーマンx2</p>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">- /summon minecraft:enderman ^ ^2 ^2 {CustomName:'{&quot;text&quot;:&quot;{user.profileName}&quot;}',CustomNameVisible:1,PersistenceRequired:1b}
-- /summon minecraft:enderman ^ ^2 ^2 {CustomName:'{&quot;text&quot;:&quot;{user.profileName}&quot;}',CustomNameVisible:1,PersistenceRequired:1b}</code></pre>
-</doc-codeblock></div>
-</li>
-<li><p>かき氷 ：防具つきゾンビx2</p>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">- /summon minecraft:zombie ~ ~ ~ {CustomName:'{&quot;text&quot;:&quot;{user.profileName}&quot;}',CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:&quot;minecraft:iron_sword&quot;,Count:1}],ArmorItems:[{},{},{},{id:&quot;minecraft:iron_helmet&quot;,Count:1}]}
-- /summon minecraft:zombie ~ ~ ~ {CustomName:'{&quot;text&quot;:&quot;{user.profileName}&quot;}',CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:&quot;minecraft:iron_sword&quot;,Count:1}],ArmorItems:[{},{},{},{id:&quot;minecraft:iron_helmet&quot;,Count:1}]}</code></pre>
-</doc-codeblock></div>
-</li>
-<li><p>筋肉ムキムキ ：回復</p>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">- /effect give @p minecraft:regeneration 15 5</code></pre>
-</doc-codeblock></div>
-</li>
-<li><p>愛してる ：回復</p>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">- /effect give @p minecraft:regeneration 15 5</code></pre>
-</doc-codeblock></div>
-</li>
-<li><p>香水 ：豚10匹</p>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">- /summon minecraft:pig ~ ~ ~ {CustomName:'{&quot;text&quot;:&quot;{user.profileName}&quot;}',CustomNameVisible:1,PersistenceRequired:1b}
-- /summon minecraft:pig ~ ~ ~ {CustomName:'{&quot;text&quot;:&quot;{user.profileName}&quot;}',CustomNameVisible:1,PersistenceRequired:1b}
-- /summon minecraft:pig ~ ~ ~ {CustomName:'{&quot;text&quot;:&quot;{user.profileName}&quot;}',CustomNameVisible:1,PersistenceRequired:1b}
-- /summon minecraft:pig ~ ~ ~ {CustomName:'{&quot;text&quot;:&quot;{user.profileName}&quot;}',CustomNameVisible:1,PersistenceRequired:1b}
-- /summon minecraft:pig ~ ~ ~ {CustomName:'{&quot;text&quot;:&quot;{user.profileName}&quot;}',CustomNameVisible:1,PersistenceRequired:1b}
-- /summon minecraft:pig ~ ~ ~ {CustomName:'{&quot;text&quot;:&quot;{user.profileName}&quot;}',CustomNameVisible:1,PersistenceRequired:1b}
-- /summon minecraft:pig ~ ~ ~ {CustomName:'{&quot;text&quot;:&quot;{user.profileName}&quot;}',CustomNameVisible:1,PersistenceRequired:1b}
-- /summon minecraft:pig ~ ~ ~ {CustomName:'{&quot;text&quot;:&quot;{user.profileName}&quot;}',CustomNameVisible:1,PersistenceRequired:1b}
-- /summon minecraft:pig ~ ~ ~ {CustomName:'{&quot;text&quot;:&quot;{user.profileName}&quot;}',CustomNameVisible:1,PersistenceRequired:1b}
-- /summon minecraft:pig ~ ~ ~ {CustomName:'{&quot;text&quot;:&quot;{user.profileName}&quot;}',CustomNameVisible:1,PersistenceRequired:1b}</code></pre>
-</doc-codeblock></div>
-</li>
-<li><p>ありがとう ：回復</p>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">- /effect give @p minecraft:regeneration 15 5</code></pre>
-</doc-codeblock></div>
-</li>
-<li><p>ドーナッツ ：ゴキブリx3</p>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">- /summon minecraft:silverfish ~ ~ ~ {CustomName:'{&quot;text&quot;:&quot;{user.profileName}&quot;}',CustomNameVisible:1,PersistenceRequired:1b,Attributes:[{Name:&quot;generic.max_health&quot;,Base:5}],Health:5.0f}
-- /summon minecraft:silverfish ~ ~ ~ {CustomName:'{&quot;text&quot;:&quot;{user.profileName}&quot;}',CustomNameVisible:1,PersistenceRequired:1b,Attributes:[{Name:&quot;generic.max_health&quot;,Base:5}],Health:5.0f}
-- /summon minecraft:silverfish ~ ~ ~ {CustomName:'{&quot;text&quot;:&quot;{user.profileName}&quot;}',CustomNameVisible:1,PersistenceRequired:1b,Attributes:[{Name:&quot;generic.max_health&quot;,Base:5}],Health:5.0f}</code></pre>
-</doc-codeblock></div>
-</li>
-<li><p>ホットチョコレート ：クモの巣</p>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">- /execute as @p run fill ~ ~ ~ ~ ~ ~ minecraft:cobweb</code></pre>
-</doc-codeblock></div>
-</li>
-<li><p>キャップ ：空腹</p>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">- /effect give @p minecraft:hunger 30 255</code></pre>
-</doc-codeblock></div>
-</li>
-<li><p>折り鶴 ：TNT</p>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">- /execute at @p run summon tnt ~ ~5 ~ {fuse:100}</code></pre>
-</doc-codeblock></div>
-</li>
-<li><p>スター ：大ジャンプ</p>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">- /effect give @p minecraft:levitation 1 100</code></pre>
-</doc-codeblock></div>
-</li>
-<li><p>ゲームコントローラー ：肩車ゾンビx50</p>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">- /task zombie2 50 2</code></pre>
-</doc-codeblock></div>
-</li>
-<li><p>クラッカー ：ゾンビx100</p>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">- /task zombie1 100 2</code></pre>
-</doc-codeblock></div>
-</li>
-<li><p>ハンドハート ：魔法使い</p>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">- /summon minecraft:illusioner ~ ~ ~ {CustomName:'{&quot;text&quot;:&quot;{user.profileName}&quot;}',CustomNameVisible:1,PersistenceRequired:1b}</code></pre>
-</doc-codeblock></div>
-</li>
-<li><p>ハンドハート ：魔法使い</p>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">- /summon minecraft:illusioner ~ ~ ~ {CustomName:'{&quot;text&quot;:&quot;{user.profileName}&quot;}',CustomNameVisible:1,PersistenceRequired:1b}</code></pre>
-</doc-codeblock></div>
-</li>
-<li><p>柴犬 ：カミナリ</p>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">- /execute at @e[type=!minecraft:player,limit=30] run summon minecraft:lightning_bolt ~ ~ ~</code></pre>
-</doc-codeblock></div>
-</li>
-<li><p>鍵と鍵穴 ：金床の雨</p>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">- /task anvil1 1 1 50</code></pre>
-</doc-codeblock></div>
-</li>
-<li><p>ハート ：黒曜石追加</p>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">- /execute at @p run summon minecraft:falling_block ~ ~10 ~ {BlockState:{Name:&quot;minecraft:obsidian&quot;},Time:1}
-- /execute at @p run summon minecraft:falling_block ~1 ~10 ~ {BlockState:{Name:&quot;minecraft:obsidian&quot;},Time:1}
-- /execute at @p run summon minecraft:falling_block ~-1 ~10 ~ {BlockState:{Name:&quot;minecraft:obsidian&quot;},Time:1}
-- /execute at @p run summon minecraft:falling_block ~ ~10 ~1 {BlockState:{Name:&quot;minecraft:obsidian&quot;},Time:1}
-- /execute at @p run summon minecraft:falling_block ~ ~10 ~-1 {BlockState:{Name:&quot;minecraft:obsidian&quot;},Time:1}</code></pre>
-</doc-codeblock></div>
-</li>
-<li><p>愛してる ：回復</p>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">- /effect give @p minecraft:regeneration 15 5</code></pre>
-</doc-codeblock></div>
-</li>
-<li><p>ニット帽 ：氷塊</p>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">- /execute as @p run fill ~-1 ~ ~-1 ~1 ~2 ~1 minecraft:ice</code></pre>
-</doc-codeblock></div>
-</li>
-<li><p>びよ～ん ：シュルカー</p>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">- /summon minecraft:shulker ~ ~ ~ {CustomName:'{&quot;text&quot;:&quot;{user.profileName}&quot;}',CustomNameVisible:1,PersistenceRequired:1b}</code></pre>
-</doc-codeblock></div>
-</li>
-<li><p>髪をなでる ：シュルカー</p>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">- /summon minecraft:shulker ~ ~ ~ {CustomName:'{&quot;text&quot;:&quot;{user.profileName}&quot;}',CustomNameVisible:1,PersistenceRequired:1b}</code></pre>
-</doc-codeblock></div>
-</li>
-<li><p>花冠 ：氷塊</p>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">- /execute as @p run fill ~-1 ~ ~-1 ~1 ~2 ~1 minecraft:ice</code></pre>
-</doc-codeblock></div>
-</li>
-<li><p>ゲーマーキャット ：雷+ねこパーティー</p>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">- /execute at @e[type=!minecraft:player,limit=30] run summon minecraft:lightning_bolt ~ ~ ~
-- /task cat1 100 2</code></pre>
-</doc-codeblock></div>
-</li>
-<li><p>ゲーミングキーボード ：ルーレット</p>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">- /roulette GamingKeyboard</code></pre>
-</doc-codeblock></div>
-</li>
-<li><p>コーギー ：耐電クリーパー</p>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">- /task powercreeper1 25 2</code></pre>
-</doc-codeblock></div>
-</li>
-<li><p>ボクシンググローブ ：TNT</p>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">- /execute at @p run summon tnt ~ ~5 ~ {fuse:100}</code></pre>
-</doc-codeblock></div>
-</li>
-<li><p>アヒル ：クモの巣xスケルトン</p>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">- /task cobweb1 1 1</code></pre>
-</doc-codeblock></div>
-</li>
-<li><p>フルーツの友達 ：激おこ犬</p>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">- /task wolf1 25 3</code></pre>
-</doc-codeblock></div>
-</li>
-<li><p>いたずら好きな鶏 ：クモの巣xスケルトン</p>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">- /task cobweb1 1 1</code></pre>
-</doc-codeblock></div>
-</li>
-<li><p>招きねこ ：ネコパーティー</p>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">- /task cat1 100 2</code></pre>
-</doc-codeblock></div>
-</li>
-<li><p>サンゴ ：水の塔</p>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">- /execute at @p run fill 0 64 0 0 64 0 minecraft:water</code></pre>
-</doc-codeblock></div>
-</li>
-<li><p>マネーガン ：アイテム没収</p>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">- /clear @p</code></pre>
-</doc-codeblock></div>
-</li>
-<li><p>すばらしい！ ：爆撃TNT</p>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">- /task tptnt1 1 1</code></pre>
-</doc-codeblock></div>
-</li>
-<li><p>ハグ ：お助け</p>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">- /execute at @p run fill 7 37 7 -7 45 -7 minecraft:gold_block</code></pre>
-</doc-codeblock></div>
-</li>
-<li><p>お疲れさま ：監獄</p>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">- /task kangoku1 1 1</code></pre>
-</doc-codeblock></div>
-</li>
-<li><p>ライオンのたてがみ ：お助け</p>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">- /execute at @p run fill 7 37 7 -7 45 -7 minecraft:gold_block</code></pre>
-</doc-codeblock></div>
-</li>
-<li><p>白鳥 ：全員集合</p>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">- /execute at @p run tp @e[type=!minecraft:minecart] ~ ~ ~</code></pre>
-</doc-codeblock></div>
-</li>
-<li><p>列車 ：砂追加</p>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">- /execute at @p run fill -8 200 8 8 200 -8 minecraft:light_blue_concrete_powder</code></pre>
-</doc-codeblock></div>
-</li>
-<li><p>Travel with You ：15分強制雨</p>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">- /task weather1 1 1</code></pre>
-</doc-codeblock></div>
-</li>
-<li><p>ラブリーミュージック ：ラベジャーx2</p>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">- /summon minecraft:ravager ~ ~ ~ {CustomName:'{&quot;text&quot;:&quot;{user.profileName}&quot;}',CustomNameVisible:1,PersistenceRequired:1b}
-- /summon minecraft:ravager ~ ~ ~ {CustomName:'{&quot;text&quot;:&quot;{user.profileName}&quot;}',CustomNameVisible:1,PersistenceRequired:1b}</code></pre>
-</doc-codeblock></div>
-</li>
-<li><p>銀河 ：マグマの塔</p>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">- /execute at @p run fill 0 62 0 0 62 0 lava</code></pre>
-</doc-codeblock></div>
-</li>
-<li><p>マジカルキャット ：ラベジャーx2</p>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">- /summon minecraft:ravager ~ ~ ~ {CustomName:'{&quot;text&quot;:&quot;{user.profileName}&quot;}',CustomNameVisible:1,PersistenceRequired:1b}
-- /summon minecraft:ravager ~ ~ ~ {CustomName:'{&quot;text&quot;:&quot;{user.profileName}&quot;}',CustomNameVisible:1,PersistenceRequired:1b}</code></pre>
-</doc-codeblock></div>
-</li>
-<li><p>フラワーミラー ：ウォーデン</p>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">- /summon minecraft:warden ~ ~ ~</code></pre>
-</doc-codeblock></div>
-</li>
-<li><p>キリン ：ウォーデン</p>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">- /summon minecraft:warden ~ ~ ~</code></pre>
-</doc-codeblock></div>
-</li>
-<li><p>花火 ：チキンパーティー</p>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">- /task redstonetorch1 1 1</code></pre>
-</doc-codeblock></div>
-</li>
-<li><p>ドラムセット ：チキンパーティー</p>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">- /task redstonetorch1 1 1</code></pre>
-</doc-codeblock></div>
-</li>
-<li><p>アーケードゲーム ：超お助け</p>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">- /task ArcadeGame1 1 1</code></pre>
-</doc-codeblock></div>
-</li>
-<li><p>配信者のセットアップ ：最強戦士</p>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">- /task warden1 1 1</code></pre>
-</doc-codeblock></div>
-</li>
-<li><p>不思議な花火 ：ブロック変換</p>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">- /execute at @p run fill 7 37 7 -7 51 -7 minecraft:blue_wool replace minecraft:diamond_block</code></pre>
-</doc-codeblock></div>
-</li>
-<li><p>クジラのダイビング ：動物園</p>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">- /task world2 1 1</code></pre>
-</doc-codeblock></div>
-</li>
-<li><p>オートバイ ：水族館</p>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">- /task water1 1 1</code></pre>
-</doc-codeblock></div>
-</li>
-<li><p>流星群 ：TNT流星群</p>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">- /task tnt4 1200 1</code></pre>
-</doc-codeblock></div>
-</li>
-<li><p>ゲーミングキーボード ：ルーレット</p>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">- /roulette GamingKeyboard</code></pre>
-</doc-codeblock></div>
-</li>
-<li><p>子猫のレオン ：白馬の王子様</p>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">- /task leon 1 1</code></pre>
-</doc-codeblock></div>
-</li>
-<li><p>スポーツカー ：炎ミサイル</p>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">- /task blazephantom1 200 4</code></pre>
-</doc-codeblock></div>
-</li>
-<li><p>星から星へ ：TNT大爆発</p>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">- /execute at @p run fill 7 37 -7 -7 51 7 minecraft:tnt</code></pre>
-</doc-codeblock></div>
-</li>
-<li><p>ローザの星雲 ：領域展開</p>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">- /task world1 1 1</code></pre>
-</doc-codeblock></div>
-</li>
-<li><p>ライオン ：巨大ゾンビ群</p>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">- /task ghastgiant1 200 4</code></pre>
-</doc-codeblock></div>
-</li>
-<li><p>TikTok Universe ：ワールド崩壊</p>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">- /task tnt2 1200 2</code></pre>
+<pre class="language-none"><code v-pre class="language-none"></code></pre>
 </doc-codeblock></div>
 </li>
 </ul>
+<p>/effect give @p minecraft:regeneration 5 5
+&#x60;&#x60;&#x60;</p>
+<ul>
+<li>バラ ：ゾンビ
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none"></code></pre>
+</doc-codeblock></div>
+</li>
+</ul>
+<p user.profileName="">/summon minecraft:zombie ~ ~ ~ {CustomName:&#x27;{&quot;text&quot;:&quot;&quot;}&#x27;,CustomNameVisible:1,PersistenceRequired:1b,Attributes:[{Name:&quot;generic.max_health&quot;,Base:10}],Health:10.0f}
+&#x60;&#x60;&#x60;</p>
+<ul>
+<li>GG ：スケルトン
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none"></code></pre>
+</doc-codeblock></div>
+</li>
+</ul>
+<p user.profileName="">/summon minecraft:skeleton ~ ~ ~ {CustomName:&#x27;{&quot;text&quot;:&quot;&quot;}&#x27;,CustomNameVisible:1,PersistenceRequired:1b}
+&#x60;&#x60;&#x60;</p>
+<ul>
+<li>ソフトクリーム ：目隠し
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none"></code></pre>
+</doc-codeblock></div>
+</li>
+</ul>
+<p>/execute at @p run particle minecraft:explosion ~ ~1 ~ 0.5 0.5 0.5 0.1 100
+&#x60;&#x60;&#x60;</p>
+<ul>
+<li>リスと松ぼっくり ：目隠し
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none"></code></pre>
+</doc-codeblock></div>
+</li>
+</ul>
+<p>/execute at @p run particle minecraft:explosion ~ ~1 ~ 0.5 0.5 0.5 0.1 100
+&#x60;&#x60;&#x60;</p>
+<ul>
+<li>フィンガーハート ：殺人うさぎ
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none"></code></pre>
+</doc-codeblock></div>
+</li>
+</ul>
+<p RabbitType:99="">/execute at @p run summon minecraft:rabbit ~ ~ ~ 
+&#x60;&#x60;&#x60;</p>
+<ul>
+<li>ニャオ ：エンダーマン
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none"></code></pre>
+</doc-codeblock></div>
+</li>
+</ul>
+<p user.profileName="">/summon minecraft:enderman ^ ^2 ^2 {CustomName:&#x27;{&quot;text&quot;:&quot;&quot;}&#x27;,CustomNameVisible:1,PersistenceRequired:1b}
+&#x60;&#x60;&#x60;</p>
+<ul>
+<li>インスタントヌードル ：防具付きゾンビ
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none"></code></pre>
+</doc-codeblock></div>
+</li>
+</ul>
+<p user.profileName="">/summon minecraft:zombie ~ ~ ~ {CustomName:&#x27;{&quot;text&quot;:&quot;&quot;}&#x27;,CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:&quot;minecraft:iron_sword&quot;,Count:1}],ArmorItems:[,,,{id:&quot;minecraft:iron_helmet&quot;,Count:1}]}
+&#x60;&#x60;&#x60;</p>
+<ul>
+<li>御守り ：ハスク
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none"></code></pre>
+</doc-codeblock></div>
+</li>
+</ul>
+<p user.profileName="">/summon minecraft:husk ~ ~ ~ {CustomName:&#x27;{&quot;text&quot;:&quot;&quot;}&#x27;,CustomNameVisible:1,PersistenceRequired:1b}
+&#x60;&#x60;&#x60;</p>
+<ul>
+<li>www ：クリーパー
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none"></code></pre>
+</doc-codeblock></div>
+</li>
+</ul>
+<p user.profileName="">/summon minecraft:creeper ~ ~ ~ {CustomName:&#x27;{&quot;text&quot;:&quot;&quot;}&#x27;,CustomNameVisible:1,PersistenceRequired:1b}
+&#x60;&#x60;&#x60;</p>
+<ul>
+<li>ゲームパッド ：牛x5
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none"></code></pre>
+</doc-codeblock></div>
+</li>
+</ul>
+<p user.profileName="">/summon minecraft:cow ~ ~ ~ {CustomName:&#x27;{&quot;text&quot;:&quot;&quot;}&#x27;,CustomNameVisible:1,PersistenceRequired:1b}
+/summon minecraft:cow ~ ~ ~ {CustomName:&#x27;{&quot;text&quot;:&quot;&quot;}&#x27;,CustomNameVisible:1,PersistenceRequired:1b}
+/summon minecraft:cow ~ ~ ~ {CustomName:&#x27;{&quot;text&quot;:&quot;&quot;}&#x27;,CustomNameVisible:1,PersistenceRequired:1b}
+/summon minecraft:cow ~ ~ ~ {CustomName:&#x27;{&quot;text&quot;:&quot;&quot;}&#x27;,CustomNameVisible:1,PersistenceRequired:1b}
+/summon minecraft:cow ~ ~ ~ {CustomName:&#x27;{&quot;text&quot;:&quot;&quot;}&#x27;,CustomNameVisible:1,PersistenceRequired:1b}
+&#x60;&#x60;&#x60;</p>
+<ul>
+<li>ローザ ：ファイヤースケルトン
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none"></code></pre>
+</doc-codeblock></div>
+</li>
+</ul>
+<p user.profileName="">/summon minecraft:skeleton ~ ~ ~ {CustomName:&#x27;{&quot;text&quot;:&quot;&quot;}&#x27;,CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:&quot;minecraft:bow&quot;,Count:1b,tag:{Enchantments:[{id:&quot;minecraft:flame&quot;,lvl:1}]}}],ArmorItems:[,,,]}
+&#x60;&#x60;&#x60;</p>
+<ul>
+<li>友情ネックレス ：クリーパー
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none"></code></pre>
+</doc-codeblock></div>
+</li>
+</ul>
+<p user.profileName="">/summon minecraft:creeper ~ ~ ~ {CustomName:&#x27;{&quot;text&quot;:&quot;&quot;}&#x27;,CustomNameVisible:1,PersistenceRequired:1b}
+&#x60;&#x60;&#x60;</p>
+<ul>
+<li>ヴェノム ：クリーパー
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none"></code></pre>
+</doc-codeblock></div>
+</li>
+</ul>
+<p user.profileName="">/summon minecraft:creeper ~ ~ ~ {CustomName:&#x27;{&quot;text&quot;:&quot;&quot;}&#x27;,CustomNameVisible:1,PersistenceRequired:1b}
+&#x60;&#x60;&#x60;</p>
+<ul>
+<li>レイブダンス ：エンダーマンx2
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none"></code></pre>
+</doc-codeblock></div>
+</li>
+</ul>
+<p user.profileName="">/summon minecraft:enderman ^ ^2 ^2 {CustomName:&#x27;{&quot;text&quot;:&quot;&quot;}&#x27;,CustomNameVisible:1,PersistenceRequired:1b}
+/summon minecraft:enderman ^ ^2 ^2 {CustomName:&#x27;{&quot;text&quot;:&quot;&quot;}&#x27;,CustomNameVisible:1,PersistenceRequired:1b}
+&#x60;&#x60;&#x60;</p>
+<ul>
+<li>かき氷 ：防具つきゾンビx2
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none"></code></pre>
+</doc-codeblock></div>
+</li>
+</ul>
+<p user.profileName="">/summon minecraft:zombie ~ ~ ~ {CustomName:&#x27;{&quot;text&quot;:&quot;&quot;}&#x27;,CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:&quot;minecraft:iron_sword&quot;,Count:1}],ArmorItems:[,,,{id:&quot;minecraft:iron_helmet&quot;,Count:1}]}
+/summon minecraft:zombie ~ ~ ~ {CustomName:&#x27;{&quot;text&quot;:&quot;&quot;}&#x27;,CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:&quot;minecraft:iron_sword&quot;,Count:1}],ArmorItems:[,,,{id:&quot;minecraft:iron_helmet&quot;,Count:1}]}
+&#x60;&#x60;&#x60;</p>
+<ul>
+<li>筋肉ムキムキ ：回復
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none"></code></pre>
+</doc-codeblock></div>
+</li>
+</ul>
+<p>/effect give @p minecraft:regeneration 15 5
+&#x60;&#x60;&#x60;</p>
+<ul>
+<li>愛してる ：回復
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none"></code></pre>
+</doc-codeblock></div>
+</li>
+</ul>
+<p>/effect give @p minecraft:regeneration 15 5
+&#x60;&#x60;&#x60;</p>
+<ul>
+<li>香水 ：豚10匹
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none"></code></pre>
+</doc-codeblock></div>
+</li>
+</ul>
+<p user.profileName="">/summon minecraft:pig ~ ~ ~ {CustomName:&#x27;{&quot;text&quot;:&quot;&quot;}&#x27;,CustomNameVisible:1,PersistenceRequired:1b}
+/summon minecraft:pig ~ ~ ~ {CustomName:&#x27;{&quot;text&quot;:&quot;&quot;}&#x27;,CustomNameVisible:1,PersistenceRequired:1b}
+/summon minecraft:pig ~ ~ ~ {CustomName:&#x27;{&quot;text&quot;:&quot;&quot;}&#x27;,CustomNameVisible:1,PersistenceRequired:1b}
+/summon minecraft:pig ~ ~ ~ {CustomName:&#x27;{&quot;text&quot;:&quot;&quot;}&#x27;,CustomNameVisible:1,PersistenceRequired:1b}
+/summon minecraft:pig ~ ~ ~ {CustomName:&#x27;{&quot;text&quot;:&quot;&quot;}&#x27;,CustomNameVisible:1,PersistenceRequired:1b}
+/summon minecraft:pig ~ ~ ~ {CustomName:&#x27;{&quot;text&quot;:&quot;&quot;}&#x27;,CustomNameVisible:1,PersistenceRequired:1b}
+/summon minecraft:pig ~ ~ ~ {CustomName:&#x27;{&quot;text&quot;:&quot;&quot;}&#x27;,CustomNameVisible:1,PersistenceRequired:1b}
+/summon minecraft:pig ~ ~ ~ {CustomName:&#x27;{&quot;text&quot;:&quot;&quot;}&#x27;,CustomNameVisible:1,PersistenceRequired:1b}
+/summon minecraft:pig ~ ~ ~ {CustomName:&#x27;{&quot;text&quot;:&quot;&quot;}&#x27;,CustomNameVisible:1,PersistenceRequired:1b}
+/summon minecraft:pig ~ ~ ~ {CustomName:&#x27;{&quot;text&quot;:&quot;&quot;}&#x27;,CustomNameVisible:1,PersistenceRequired:1b}
+&#x60;&#x60;&#x60;</p>
+<ul>
+<li>ありがとう ：回復
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none"></code></pre>
+</doc-codeblock></div>
+</li>
+</ul>
+<p>/effect give @p minecraft:regeneration 15 5
+&#x60;&#x60;&#x60;</p>
+<ul>
+<li>ドーナッツ ：ゴキブリx3
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none"></code></pre>
+</doc-codeblock></div>
+</li>
+</ul>
+<p user.profileName="">/summon minecraft:silverfish ~ ~ ~ {CustomName:&#x27;{&quot;text&quot;:&quot;&quot;}&#x27;,CustomNameVisible:1,PersistenceRequired:1b,Attributes:[{Name:&quot;generic.max_health&quot;,Base:5}],Health:5.0f}
+/summon minecraft:silverfish ~ ~ ~ {CustomName:&#x27;{&quot;text&quot;:&quot;&quot;}&#x27;,CustomNameVisible:1,PersistenceRequired:1b,Attributes:[{Name:&quot;generic.max_health&quot;,Base:5}],Health:5.0f}
+/summon minecraft:silverfish ~ ~ ~ {CustomName:&#x27;{&quot;text&quot;:&quot;&quot;}&#x27;,CustomNameVisible:1,PersistenceRequired:1b,Attributes:[{Name:&quot;generic.max_health&quot;,Base:5}],Health:5.0f}
+&#x60;&#x60;&#x60;</p>
+<ul>
+<li>ホットチョコレート ：クモの巣
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none"></code></pre>
+</doc-codeblock></div>
+</li>
+</ul>
+<p>/execute as @p run fill ~ ~ ~ ~ ~ ~ minecraft:cobweb
+&#x60;&#x60;&#x60;</p>
+<ul>
+<li>キャップ ：空腹
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none"></code></pre>
+</doc-codeblock></div>
+</li>
+</ul>
+<p>/effect give @p minecraft:hunger 30 255
+&#x60;&#x60;&#x60;</p>
+<ul>
+<li>折り鶴 ：TNT
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none"></code></pre>
+</doc-codeblock></div>
+</li>
+</ul>
+<p fuse:100="">/execute at @p run summon tnt ~ ~5 ~ 
+&#x60;&#x60;&#x60;</p>
+<ul>
+<li>スター ：大ジャンプ
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none"></code></pre>
+</doc-codeblock></div>
+</li>
+</ul>
+<p>/effect give @p minecraft:levitation 1 100
+&#x60;&#x60;&#x60;</p>
+<ul>
+<li>ゲームコントローラー ：肩車ゾンビx50
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none"></code></pre>
+</doc-codeblock></div>
+</li>
+</ul>
+<p>/task zombie2 50 2
+&#x60;&#x60;&#x60;</p>
+<ul>
+<li>クラッカー ：ゾンビx100
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none"></code></pre>
+</doc-codeblock></div>
+</li>
+</ul>
+<p>/task zombie1 100 2
+&#x60;&#x60;&#x60;</p>
+<ul>
+<li>ハンドハート ：魔法使い
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none"></code></pre>
+</doc-codeblock></div>
+</li>
+</ul>
+<p user.profileName="">/summon minecraft:illusioner ~ ~ ~ {CustomName:&#x27;{&quot;text&quot;:&quot;&quot;}&#x27;,CustomNameVisible:1,PersistenceRequired:1b}
+&#x60;&#x60;&#x60;</p>
+<ul>
+<li>ハンドハート ：魔法使い
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none"></code></pre>
+</doc-codeblock></div>
+</li>
+</ul>
+<p user.profileName="">/summon minecraft:illusioner ~ ~ ~ {CustomName:&#x27;{&quot;text&quot;:&quot;&quot;}&#x27;,CustomNameVisible:1,PersistenceRequired:1b}
+&#x60;&#x60;&#x60;</p>
+<ul>
+<li>柴犬 ：カミナリ
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none"></code></pre>
+</doc-codeblock></div>
+</li>
+</ul>
+<p>/execute at @e[type=!minecraft:player,limit=30] run summon minecraft:lightning_bolt ~ ~ ~
+&#x60;&#x60;&#x60;</p>
+<ul>
+<li>鍵と鍵穴 ：金床の雨
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none"></code></pre>
+</doc-codeblock></div>
+</li>
+</ul>
+<p>/task anvil1 1 1 50
+&#x60;&#x60;&#x60;</p>
+<ul>
+<li>ハート ：黒曜石追加
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none"></code></pre>
+</doc-codeblock></div>
+</li>
+</ul>
+<p>/execute at @p run summon minecraft:falling_block ~ ~10 ~ {BlockState:{Name:&quot;minecraft:obsidian&quot;},Time:1}
+/execute at @p run summon minecraft:falling_block ~1 ~10 ~ {BlockState:{Name:&quot;minecraft:obsidian&quot;},Time:1}
+/execute at @p run summon minecraft:falling_block ~-1 ~10 ~ {BlockState:{Name:&quot;minecraft:obsidian&quot;},Time:1}
+/execute at @p run summon minecraft:falling_block ~ ~10 ~1 {BlockState:{Name:&quot;minecraft:obsidian&quot;},Time:1}
+/execute at @p run summon minecraft:falling_block ~ ~10 ~-1 {BlockState:{Name:&quot;minecraft:obsidian&quot;},Time:1}
+&#x60;&#x60;&#x60;</p>
+<ul>
+<li>愛してる ：回復
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none"></code></pre>
+</doc-codeblock></div>
+</li>
+</ul>
+<p>/effect give @p minecraft:regeneration 15 5
+&#x60;&#x60;&#x60;</p>
+<ul>
+<li>ニット帽 ：氷塊
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none"></code></pre>
+</doc-codeblock></div>
+</li>
+</ul>
+<p>/execute as @p run fill ~-1 ~ ~-1 ~1 ~2 ~1 minecraft:ice
+&#x60;&#x60;&#x60;</p>
+<ul>
+<li>びよ～ん ：シュルカー
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none"></code></pre>
+</doc-codeblock></div>
+</li>
+</ul>
+<p user.profileName="">/summon minecraft:shulker ~ ~ ~ {CustomName:&#x27;{&quot;text&quot;:&quot;&quot;}&#x27;,CustomNameVisible:1,PersistenceRequired:1b}
+&#x60;&#x60;&#x60;</p>
+<ul>
+<li>髪をなでる ：シュルカー
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none"></code></pre>
+</doc-codeblock></div>
+</li>
+</ul>
+<p user.profileName="">/summon minecraft:shulker ~ ~ ~ {CustomName:&#x27;{&quot;text&quot;:&quot;&quot;}&#x27;,CustomNameVisible:1,PersistenceRequired:1b}
+&#x60;&#x60;&#x60;</p>
+<ul>
+<li>花冠 ：氷塊
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none"></code></pre>
+</doc-codeblock></div>
+</li>
+</ul>
+<p>/execute as @p run fill ~-1 ~ ~-1 ~1 ~2 ~1 minecraft:ice
+&#x60;&#x60;&#x60;</p>
+<ul>
+<li>ゲーマーキャット ：雷+ねこパーティー
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none"></code></pre>
+</doc-codeblock></div>
+</li>
+</ul>
+<p>/execute at @e[type=!minecraft:player,limit=30] run summon minecraft:lightning_bolt ~ ~ ~
+/task cat1 100 2
+&#x60;&#x60;&#x60;</p>
+<ul>
+<li>ゲーミングキーボード ：ルーレット
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none"></code></pre>
+</doc-codeblock></div>
+</li>
+</ul>
+<p>/roulette GamingKeyboard
+&#x60;&#x60;&#x60;</p>
+<ul>
+<li>コーギー ：耐電クリーパー
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none"></code></pre>
+</doc-codeblock></div>
+</li>
+</ul>
+<p>/task powercreeper1 25 2
+&#x60;&#x60;&#x60;</p>
+<ul>
+<li>ボクシンググローブ ：TNT
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none"></code></pre>
+</doc-codeblock></div>
+</li>
+</ul>
+<p fuse:100="">/execute at @p run summon tnt ~ ~5 ~ 
+&#x60;&#x60;&#x60;</p>
+<ul>
+<li>アヒル ：クモの巣xスケルトン
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none"></code></pre>
+</doc-codeblock></div>
+</li>
+</ul>
+<p>/task cobweb1 1 1
+&#x60;&#x60;&#x60;</p>
+<ul>
+<li>フルーツの友達 ：激おこ犬
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none"></code></pre>
+</doc-codeblock></div>
+</li>
+</ul>
+<p>/task wolf1 25 3
+&#x60;&#x60;&#x60;</p>
+<ul>
+<li>いたずら好きな鶏 ：クモの巣xスケルトン
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none"></code></pre>
+</doc-codeblock></div>
+</li>
+</ul>
+<p>/task cobweb1 1 1
+&#x60;&#x60;&#x60;</p>
+<ul>
+<li>招きねこ ：ネコパーティー
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none"></code></pre>
+</doc-codeblock></div>
+</li>
+</ul>
+<p>/task cat1 100 2
+&#x60;&#x60;&#x60;</p>
+<ul>
+<li>サンゴ ：水の塔
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none"></code></pre>
+</doc-codeblock></div>
+</li>
+</ul>
+<p>/execute at @p run fill 0 64 0 0 64 0 minecraft:water
+&#x60;&#x60;&#x60;</p>
+<ul>
+<li>マネーガン ：アイテム没収
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none"></code></pre>
+</doc-codeblock></div>
+</li>
+</ul>
+<p>/clear @p
+&#x60;&#x60;&#x60;</p>
+<ul>
+<li>すばらしい！ ：爆撃TNT
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none"></code></pre>
+</doc-codeblock></div>
+</li>
+</ul>
+<p>/task tptnt1 1 1
+&#x60;&#x60;&#x60;</p>
+<ul>
+<li>ハグ ：お助け
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none"></code></pre>
+</doc-codeblock></div>
+</li>
+</ul>
+<p>/execute at @p run fill 7 37 7 -7 45 -7 minecraft:gold_block
+&#x60;&#x60;&#x60;</p>
+<ul>
+<li>お疲れさま ：監獄
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none"></code></pre>
+</doc-codeblock></div>
+</li>
+</ul>
+<p>/task kangoku1 1 1
+&#x60;&#x60;&#x60;</p>
+<ul>
+<li>ライオンのたてがみ ：お助け
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none"></code></pre>
+</doc-codeblock></div>
+</li>
+</ul>
+<p>/execute at @p run fill 7 37 7 -7 45 -7 minecraft:gold_block
+&#x60;&#x60;&#x60;</p>
+<ul>
+<li>白鳥 ：全員集合
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none"></code></pre>
+</doc-codeblock></div>
+</li>
+</ul>
+<p>/execute at @p run tp @e[type=!minecraft:minecart] ~ ~ ~
+&#x60;&#x60;&#x60;</p>
+<ul>
+<li>列車 ：砂追加
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none"></code></pre>
+</doc-codeblock></div>
+</li>
+</ul>
+<p>/execute at @p run fill -8 200 8 8 200 -8 minecraft:light_blue_concrete_powder
+&#x60;&#x60;&#x60;</p>
+<ul>
+<li>Travel with You ：15分強制雨
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none"></code></pre>
+</doc-codeblock></div>
+</li>
+</ul>
+<p>/task weather1 1 1
+&#x60;&#x60;&#x60;</p>
+<ul>
+<li>ラブリーミュージック ：ラベジャーx2
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none"></code></pre>
+</doc-codeblock></div>
+</li>
+</ul>
+<p user.profileName="">/summon minecraft:ravager ~ ~ ~ {CustomName:&#x27;{&quot;text&quot;:&quot;&quot;}&#x27;,CustomNameVisible:1,PersistenceRequired:1b}
+/summon minecraft:ravager ~ ~ ~ {CustomName:&#x27;{&quot;text&quot;:&quot;&quot;}&#x27;,CustomNameVisible:1,PersistenceRequired:1b}
+&#x60;&#x60;&#x60;</p>
+<ul>
+<li>銀河 ：マグマの塔
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none"></code></pre>
+</doc-codeblock></div>
+</li>
+</ul>
+<p>/execute at @p run fill 0 62 0 0 62 0 lava
+&#x60;&#x60;&#x60;</p>
+<ul>
+<li>マジカルキャット ：ラベジャーx2
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none"></code></pre>
+</doc-codeblock></div>
+</li>
+</ul>
+<p user.profileName="">/summon minecraft:ravager ~ ~ ~ {CustomName:&#x27;{&quot;text&quot;:&quot;&quot;}&#x27;,CustomNameVisible:1,PersistenceRequired:1b}
+/summon minecraft:ravager ~ ~ ~ {CustomName:&#x27;{&quot;text&quot;:&quot;&quot;}&#x27;,CustomNameVisible:1,PersistenceRequired:1b}
+&#x60;&#x60;&#x60;</p>
+<ul>
+<li>フラワーミラー ：ウォーデン
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none"></code></pre>
+</doc-codeblock></div>
+</li>
+</ul>
+<p>/summon minecraft:warden ~ ~ ~
+&#x60;&#x60;&#x60;</p>
+<ul>
+<li>キリン ：ウォーデン
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none"></code></pre>
+</doc-codeblock></div>
+</li>
+</ul>
+<p>/summon minecraft:warden ~ ~ ~
+&#x60;&#x60;&#x60;</p>
+<ul>
+<li>花火 ：チキンパーティー
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none"></code></pre>
+</doc-codeblock></div>
+</li>
+</ul>
+<p>/task redstonetorch1 1 1
+&#x60;&#x60;&#x60;</p>
+<ul>
+<li>ドラムセット ：チキンパーティー
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none"></code></pre>
+</doc-codeblock></div>
+</li>
+</ul>
+<p>/task redstonetorch1 1 1
+&#x60;&#x60;&#x60;</p>
+<ul>
+<li>アーケードゲーム ：超お助け
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none"></code></pre>
+</doc-codeblock></div>
+</li>
+</ul>
+<p>/task ArcadeGame1 1 1
+&#x60;&#x60;&#x60;</p>
+<ul>
+<li>配信者のセットアップ ：最強戦士
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none"></code></pre>
+</doc-codeblock></div>
+</li>
+</ul>
+<p>/task warden1 1 1
+&#x60;&#x60;&#x60;</p>
+<ul>
+<li>不思議な花火 ：ブロック変換
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none"></code></pre>
+</doc-codeblock></div>
+</li>
+</ul>
+<p>/execute at @p run fill 7 37 7 -7 51 -7 minecraft:blue_wool replace minecraft:diamond_block
+&#x60;&#x60;&#x60;</p>
+<ul>
+<li>クジラのダイビング ：動物園
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none"></code></pre>
+</doc-codeblock></div>
+</li>
+</ul>
+<p>/task world2 1 1
+&#x60;&#x60;&#x60;</p>
+<ul>
+<li>オートバイ ：水族館
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none"></code></pre>
+</doc-codeblock></div>
+</li>
+</ul>
+<p>/task water1 1 1
+&#x60;&#x60;&#x60;</p>
+<ul>
+<li>流星群 ：TNT流星群
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none"></code></pre>
+</doc-codeblock></div>
+</li>
+</ul>
+<p>/task tnt4 1200 1
+&#x60;&#x60;&#x60;</p>
+<ul>
+<li>ゲーミングキーボード ：ルーレット
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none"></code></pre>
+</doc-codeblock></div>
+</li>
+</ul>
+<p>/roulette GamingKeyboard
+&#x60;&#x60;&#x60;</p>
+<ul>
+<li>子猫のレオン ：白馬の王子様
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none"></code></pre>
+</doc-codeblock></div>
+</li>
+</ul>
+<p>/task leon 1 1
+&#x60;&#x60;&#x60;</p>
+<ul>
+<li>スポーツカー ：炎ミサイル
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none"></code></pre>
+</doc-codeblock></div>
+</li>
+</ul>
+<p>/task blazephantom1 200 4
+&#x60;&#x60;&#x60;</p>
+<ul>
+<li>星から星へ ：TNT大爆発
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none"></code></pre>
+</doc-codeblock></div>
+</li>
+</ul>
+<p>/execute at @p run fill 7 37 -7 -7 51 7 minecraft:tnt
+&#x60;&#x60;&#x60;</p>
+<ul>
+<li>ローザの星雲 ：領域展開
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none"></code></pre>
+</doc-codeblock></div>
+</li>
+</ul>
+<p>/task world1 1 1
+&#x60;&#x60;&#x60;</p>
+<ul>
+<li>ライオン ：巨大ゾンビ群
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none"></code></pre>
+</doc-codeblock></div>
+</li>
+</ul>
+<p>/task ghastgiant1 200 4
+&#x60;&#x60;&#x60;</p>
+<ul>
+<li>TikTok Universe ：ワールド崩壊
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none"></code></pre>
+</doc-codeblock></div>
+</li>
+</ul>
+<p>/task tnt2 1200 2
+&#x60;&#x60;&#x60;</p>
 
                                 
                                 <!-- Required only on API pages -->
