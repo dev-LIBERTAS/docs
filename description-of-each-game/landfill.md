@@ -76,11 +76,11 @@ order: 700000
 ```
 - バラ:ゾンビ
 ```
-/summon minecraft:zombie ~ ~ ~ {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b,Attributes:[{Name:""generic.max_health"",Base:10}],Health:10.0f}
+/summon minecraft:zombie ~ ~ ~
 ```
 - GG:スケルトン
 ```
-/summon minecraft:skeleton ~ ~ ~ {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b}
+/summon minecraft:skeleton ~ ~ ~
 ```
 - ソフトクリーム:目隠し
 ```
@@ -96,7 +96,7 @@ order: 700000
 ```
 - ニャオ:エンダーマン
 ```
-/summon minecraft:enderman ^ ^2 ^2 {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b}
+/summon minecraft:enderman ^ ^2 ^2
 ```
 - インスタントヌードル:防具付きゾンビ
 ```
@@ -104,15 +104,15 @@ order: 700000
 ```
 - 御守り:ハスク
 ```
-/summon minecraft:husk ~ ~ ~ {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b}
+/summon minecraft:husk ~ ~ ~
 ```
 - www:クリーパー
 ```
-/summon minecraft:creeper ~ ~ ~ {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b}
+/summon minecraft:creeper ~ ~ ~
 ```
 - ゲームパッド:牛x5
 ```
-/summon minecraft:cow ~ ~ ~ {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b}
+/summon minecraft:cow ~ ~ ~
 ```
 - ローザ:ファイヤースケルトン
 ```
@@ -120,15 +120,15 @@ order: 700000
 ```
 - 友情ネックレス:クリーパー
 ```
-/summon minecraft:creeper ~ ~ ~ {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b}
+/summon minecraft:creeper ~ ~ ~
 ```
 - ヴェノム:クリーパー
 ```
-/summon minecraft:creeper ~ ~ ~ {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b}
+/summon minecraft:creeper ~ ~ ~
 ```
 - レイブダンス:エンダーマンx2
 ```
-/summon minecraft:enderman ^ ^2 ^2 {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b}
+/summon minecraft:enderman ^ ^2 ^2
 ```
 - かき氷:防具つきゾンビx2
 ```
@@ -144,7 +144,7 @@ order: 700000
 ```
 - 香水:豚10匹
 ```
-/summon minecraft:pig ~ ~ ~ {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b}
+/summon minecraft:pig ~ ~ ~
 ```
 - ありがとう:回復
 ```
@@ -152,7 +152,7 @@ order: 700000
 ```
 - ドーナッツ:ゴキブリx3
 ```
-/summon minecraft:silverfish ~ ~ ~ {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b,Attributes:[{Name:""generic.max_health"",Base:5}],Health:5.0f}
+/summon minecraft:silverfish ~ ~ ~
 ```
 - ホットチョコレート:クモの巣
 ```
@@ -180,7 +180,7 @@ order: 700000
 ```
 - ハンドハート:魔法使い
 ```
-/summon minecraft:illusioner ~ ~ ~ {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b}
+/summon minecraft:illusioner ~ ~ ~
 ```
 - 柴犬:カミナリ
 ```
@@ -200,11 +200,11 @@ order: 700000
 ```
 - びよ～ん:シュルカー
 ```
-/summon minecraft:shulker ~ ~ ~ {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b}
+/summon minecraft:shulker ~ ~ ~
 ```
 - 髪をなでる:シュルカー
 ```
-/summon minecraft:shulker ~ ~ ~ {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b}
+/summon minecraft:shulker ~ ~ ~
 ```
 - 花冠:氷塊
 ```
@@ -283,7 +283,7 @@ order: 700000
 ```
 - ラブリーミュージック:ラベジャーx2
 ```
-/summon minecraft:ravager ~ ~ ~ {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b}
+/summon minecraft:ravager ~ ~ ~
 ```
 - 銀河:マグマの塔
 ```
@@ -291,7 +291,7 @@ order: 700000
 ```
 - マジカルキャット:ラベジャーx2
 ```
-/summon minecraft:ravager ~ ~ ~ {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b}
+/summon minecraft:ravager ~ ~ ~
 ```
 - フラワーミラー:ウォーデン
 ```
