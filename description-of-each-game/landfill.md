@@ -85,12 +85,10 @@ order: 700000
 - ソフトクリーム:目隠し
 ```
 /execute at @p run particle minecraft:explosion ~ ~1 ~ 0.5 0.5 0.5 0.1 100
-/playsound minecraft:entity.generic.explode master @p ~ ~ ~ 1 1 1
 ```
 - リスと松ぼっくり:目隠し
 ```
 /execute at @p run particle minecraft:explosion ~ ~1 ~ 0.5 0.5 0.5 0.1 100
-/playsound minecraft:entity.generic.explode master @p ~ ~ ~ 1 1 1
 ```
 - フィンガーハート:殺人うさぎ
 ```
@@ -115,10 +113,6 @@ order: 700000
 - ゲームパッド:牛x5
 ```
 /summon minecraft:cow ~ ~ ~ {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b}
-/summon minecraft:cow ~ ~ ~ {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b}
-/summon minecraft:cow ~ ~ ~ {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b}
-/summon minecraft:cow ~ ~ ~ {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b}
-/summon minecraft:cow ~ ~ ~ {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b}
 ```
 - ローザ:ファイヤースケルトン
 ```
@@ -135,11 +129,9 @@ order: 700000
 - レイブダンス:エンダーマンx2
 ```
 /summon minecraft:enderman ^ ^2 ^2 {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b}
-/summon minecraft:enderman ^ ^2 ^2 {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b}
 ```
 - かき氷:防具つきゾンビx2
 ```
-/summon minecraft:zombie ~ ~ ~ {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:""minecraft:iron_sword"",Count:1}],ArmorItems:[{},{},{},{id:""minecraft:iron_helmet"",Count:1}]}
 /summon minecraft:zombie ~ ~ ~ {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:""minecraft:iron_sword"",Count:1}],ArmorItems:[{},{},{},{id:""minecraft:iron_helmet"",Count:1}]}
 ```
 - 筋肉ムキムキ:回復
@@ -153,15 +145,6 @@ order: 700000
 - 香水:豚10匹
 ```
 /summon minecraft:pig ~ ~ ~ {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b}
-/summon minecraft:pig ~ ~ ~ {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b}
-/summon minecraft:pig ~ ~ ~ {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b}
-/summon minecraft:pig ~ ~ ~ {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b}
-/summon minecraft:pig ~ ~ ~ {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b}
-/summon minecraft:pig ~ ~ ~ {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b}
-/summon minecraft:pig ~ ~ ~ {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b}
-/summon minecraft:pig ~ ~ ~ {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b}
-/summon minecraft:pig ~ ~ ~ {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b}
-/summon minecraft:pig ~ ~ ~ {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b}
 ```
 - ありがとう:回復
 ```
@@ -169,8 +152,6 @@ order: 700000
 ```
 - ドーナッツ:ゴキブリx3
 ```
-/summon minecraft:silverfish ~ ~ ~ {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b,Attributes:[{Name:""generic.max_health"",Base:5}],Health:5.0f}
-/summon minecraft:silverfish ~ ~ ~ {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b,Attributes:[{Name:""generic.max_health"",Base:5}],Health:5.0f}
 /summon minecraft:silverfish ~ ~ ~ {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b,Attributes:[{Name:""generic.max_health"",Base:5}],Health:5.0f}
 ```
 - ホットチョコレート:クモの巣
@@ -212,10 +193,6 @@ order: 700000
 - ハート:黒曜石追加
 ```
 /execute at @p run summon minecraft:falling_block ~ ~10 ~ {BlockState:{Name:""minecraft:obsidian""},Time:1}
-/execute at @p run summon minecraft:falling_block ~1 ~10 ~ {BlockState:{Name:""minecraft:obsidian""},Time:1}
-/execute at @p run summon minecraft:falling_block ~-1 ~10 ~ {BlockState:{Name:""minecraft:obsidian""},Time:1}
-/execute at @p run summon minecraft:falling_block ~ ~10 ~1 {BlockState:{Name:""minecraft:obsidian""},Time:1}
-/execute at @p run summon minecraft:falling_block ~ ~10 ~-1 {BlockState:{Name:""minecraft:obsidian""},Time:1}
 ```
 - ニット帽:氷塊
 ```
@@ -236,6 +213,8 @@ order: 700000
 - ゲーマーキャット:雷+ねこパーティー
 ```
 /execute at @e[type=!minecraft:player,limit=30] run summon minecraft:lightning_bolt ~ ~ ~
+```
+```
 /task cat1 100 2
 ```
 - ゲーミングキーボード:ルーレット
@@ -305,7 +284,6 @@ order: 700000
 - ラブリーミュージック:ラベジャーx2
 ```
 /summon minecraft:ravager ~ ~ ~ {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b}
-    - /summon minecraft:ravager ~ ~ ~ {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b}
 ```
 - 銀河:マグマの塔
 ```
@@ -314,7 +292,6 @@ order: 700000
 - マジカルキャット:ラベジャーx2
 ```
 /summon minecraft:ravager ~ ~ ~ {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b}
-    - /summon minecraft:ravager ~ ~ ~ {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b}
 ```
 - フラワーミラー:ウォーデン
 ```
