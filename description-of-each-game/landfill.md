@@ -76,11 +76,11 @@ order: 700000
 ```
 - バラ:ゾンビ
 ```
-/summon minecraft:zombie ~ ~ ~
+/summon minecraft:zombie ~ ~ ~ {CustomNameVisible:1,PersistenceRequired:1b,Attributes:[{Name:""generic.max_health"",Base:10}],Health:10.0f}
 ```
 - GG:スケルトン
 ```
-/summon minecraft:skeleton ~ ~ ~
+/summon minecraft:skeleton ~ ~ ~ 
 ```
 - ソフトクリーム:目隠し
 ```
@@ -96,43 +96,43 @@ order: 700000
 ```
 - ニャオ:エンダーマン
 ```
-/summon minecraft:enderman ^ ^2 ^2
+/summon minecraft:enderman ^ ^2 ^2 
 ```
 - インスタントヌードル:防具付きゾンビ
 ```
-/summon minecraft:zombie ~ ~ ~ {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:""minecraft:iron_sword"",Count:1}],ArmorItems:[{},{},{},{id:""minecraft:iron_helmet"",Count:1}]}
+/summon minecraft:zombie ~ ~ ~ {CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:""minecraft:iron_sword"",Count:1}],ArmorItems:[{},{},{},{id:""minecraft:iron_helmet"",Count:1}]}
 ```
 - 御守り:ハスク
 ```
-/summon minecraft:husk ~ ~ ~
+/summon minecraft:husk ~ ~ ~ 
 ```
 - www:クリーパー
 ```
-/summon minecraft:creeper ~ ~ ~
+/summon minecraft:creeper ~ ~ ~ 
 ```
 - ゲームパッド:牛x5
 ```
-/summon minecraft:cow ~ ~ ~
+/summon minecraft:cow ~ ~ ~ 
 ```
 - ローザ:ファイヤースケルトン
 ```
-/summon minecraft:skeleton ~ ~ ~ {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:""minecraft:bow"",Count:1b,tag:{Enchantments:[{id:""minecraft:flame"",lvl:1}]}}],ArmorItems:[{},{},{},{}]}
+/summon minecraft:skeleton ~ ~ ~ {CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:""minecraft:bow"",Count:1b,tag:{Enchantments:[{id:""minecraft:flame"",lvl:1}]}}],ArmorItems:[{},{},{},{}]}
 ```
 - 友情ネックレス:クリーパー
 ```
-/summon minecraft:creeper ~ ~ ~
+/summon minecraft:creeper ~ ~ ~ 
 ```
 - ヴェノム:クリーパー
 ```
-/summon minecraft:creeper ~ ~ ~
+/summon minecraft:creeper ~ ~ ~ 
 ```
 - レイブダンス:エンダーマンx2
 ```
-/summon minecraft:enderman ^ ^2 ^2
+/summon minecraft:enderman ^ ^2 ^2 
 ```
 - かき氷:防具つきゾンビx2
 ```
-/summon minecraft:zombie ~ ~ ~ {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:""minecraft:iron_sword"",Count:1}],ArmorItems:[{},{},{},{id:""minecraft:iron_helmet"",Count:1}]}
+/summon minecraft:zombie ~ ~ ~ {CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:""minecraft:iron_sword"",Count:1}],ArmorItems:[{},{},{},{id:""minecraft:iron_helmet"",Count:1}]}
 ```
 - 筋肉ムキムキ:回復
 ```
@@ -144,7 +144,7 @@ order: 700000
 ```
 - 香水:豚10匹
 ```
-/summon minecraft:pig ~ ~ ~
+/summon minecraft:pig ~ ~ ~ 
 ```
 - ありがとう:回復
 ```
@@ -152,7 +152,7 @@ order: 700000
 ```
 - ドーナッツ:ゴキブリx3
 ```
-/summon minecraft:silverfish ~ ~ ~
+/summon minecraft:silverfish ~ ~ ~ {CustomNameVisible:1,PersistenceRequired:1b,Attributes:[{Name:""generic.max_health"",Base:5}],Health:5.0f}
 ```
 - ホットチョコレート:クモの巣
 ```
@@ -180,7 +180,7 @@ order: 700000
 ```
 - ハンドハート:魔法使い
 ```
-/summon minecraft:illusioner ~ ~ ~
+/summon minecraft:illusioner ~ ~ ~ 
 ```
 - 柴犬:カミナリ
 ```
@@ -200,11 +200,11 @@ order: 700000
 ```
 - びよ～ん:シュルカー
 ```
-/summon minecraft:shulker ~ ~ ~
+/summon minecraft:shulker ~ ~ ~ 
 ```
 - 髪をなでる:シュルカー
 ```
-/summon minecraft:shulker ~ ~ ~
+/summon minecraft:shulker ~ ~ ~ 
 ```
 - 花冠:氷塊
 ```
@@ -213,9 +213,6 @@ order: 700000
 - ゲーマーキャット:雷+ねこパーティー
 ```
 /execute at @e[type=!minecraft:player,limit=30] run summon minecraft:lightning_bolt ~ ~ ~
-```
-```
-/task cat1 100 2
 ```
 - ゲーミングキーボード:ルーレット
 ```
@@ -312,6 +309,51 @@ order: 700000
 - アーケードゲーム:超お助け
 ```
 /task ArcadeGame1 1 1
+```
+- 配信者のセットアップ:最強戦士
+```
+/task warden1 1 1
+```
+- 不思議な花火:ブロック変換
+```
+/execute at @p run fill 7 37 7 -7 51 -7 minecraft:blue_wool replace minecraft:diamond_block
+```
+- クジラのダイビング:動物園
+```
+/task world2 1 1
+```
+- オートバイ:水族館
+```
+/task water1 1 1
+```
+- 流星群:TNT流星群
+```
+/task tnt4 1200 1
+```
+- 子猫のレオン:白馬の王子様
+```
+/task leon 1 1
+```
+- スポーツカー:炎ミサイル
+```
+/task blazephantom1 200 4
+```
+- 星から星へ:TNT大爆発
+```
+/execute at @p run fill 7 37 -7 -7 51 7 minecraft:tnt
+```
+- ローザの星雲:領域展開
+```
+/task world1 1 1
+```
+- ライオン:巨大ゾンビ群
+```
+/task ghastgiant1 200 4
+```
+- TikTok Universe:ワールド崩壊
+```
+/task tnt2 1200 2
+```
 ```
 - 配信者のセットアップ:最強戦士
 ```
