@@ -74,16 +74,15 @@ order: 699998
 ```
 - バラ:ゾンビ
 ```
-/summon minecraft:zombie ~ ~3 ~2 {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b,Attributes:[{Name:""generic.max_health"",Base:10}],Health:10.0f}
+/summon minecraft:zombie ~ ~3 ~2 {CustomNameVisible:1,PersistenceRequired:1b,Attributes:[{Name:"generic.max_health",Base:10}],Health:10.0f}
 ```
 - GG:スケルトン
 ```
-/summon minecraft:skeleton ~ ~3 ~2 {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:""minecraft:bow"",Count:1},{}]}
+/summon minecraft:skeleton ~ ~3 ~2 {CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:"minecraft:bow",Count:1},{}]}
 ```
 - ソフトクリーム:目隠し
 ```
 /execute at @p run particle minecraft:explosion ~ ~1 ~ 0.5 0.5 0.5 0.1 100
-    - /playsound minecraft:entity.generic.explode master @p ~ ~ ~ 1 1 1
 ```
 - フィンガーハート:トロッコx1
 ```
@@ -91,49 +90,43 @@ order: 699998
 ```
 - ニャオ:エンダーマン
 ```
-/summon minecraft:enderman ~ ~3 ~2 {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b}
+/summon minecraft:enderman ~ ~3 ~2 
 ```
 - インスタントヌードル:防具付きゾンビ
 ```
-/summon minecraft:zombie ~ ~3 ~2 {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:""minecraft:iron_sword"",Count:1}],HandDropChances:[0.0f]}
+/summon minecraft:zombie ~ ~3 ~2 {CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:"minecraft:iron_sword",Count:1}],HandDropChances:[0.0f]}
 ```
 - 御守り:ハスク
 ```
-/summon minecraft:husk ~ ~3 ~2 {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b}
+/summon minecraft:husk ~ ~3 ~2 
 ```
 - www:クリーパー
 ```
-/summon minecraft:creeper ~ ~3 ~2 {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b}
+/summon minecraft:creeper ~ ~3 ~2 
 ```
 - ゲームパッド:牛x5
 ```
-/summon minecraft:cow ~ ~3 ~2 {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b}
-    - /summon minecraft:cow ~ ~3 ~2 {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b}
-    - /summon minecraft:cow ~ ~3 ~2 {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b}
-    - /summon minecraft:cow ~ ~3 ~2 {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b}
-    - /summon minecraft:cow ~ ~3 ~2 {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b}
+/summon minecraft:cow ~ ~3 ~2 
 ```
 - ローザ:ファイヤースケルトン
 ```
-/summon minecraft:skeleton ~ ~3 ~2 {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:""minecraft:bow"",Count:1b,tag:{Enchantments:[{id:""minecraft:flame"",lvl:1}]}}],ArmorItems:[{},{},{},{}]}
+/summon minecraft:skeleton ~ ~3 ~2 {CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:"minecraft:bow",Count:1b,tag:{Enchantments:[{id:"minecraft:flame",lvl:1}]}}],ArmorItems:[{},{},{},{}]}
 ```
 - 友情ネックレス:クリーパー
 ```
-/summon minecraft:creeper ~ ~3 ~2 {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b}
+/summon minecraft:creeper ~ ~3 ~2 
 ```
 - ヴェノム:クリーパー
 ```
-/summon minecraft:creeper ~ ~3 ~2 {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b}
+/summon minecraft:creeper ~ ~3 ~2 
 ```
 - レイブダンス:エンダーマンx2
 ```
-/summon minecraft:enderman ~ ~3 ~2 {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b}
-    - /summon minecraft:enderman ~ ~3 ~2 {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b}
+/summon minecraft:enderman ~ ~3 ~2 
 ```
 - かき氷:防具つきゾンビx2
 ```
-/summon minecraft:zombie ~ ~3 ~2 {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:""minecraft:iron_sword"",Count:1}],ArmorItems:[{},{},{},{id:""minecraft:iron_helmet"",Count:1}]}
-    - /summon minecraft:zombie ~ ~3 ~2 {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:""minecraft:iron_sword"",Count:1}],ArmorItems:[{},{},{},{id:""minecraft:iron_helmet"",Count:1}]}
+/summon minecraft:zombie ~ ~3 ~2 {CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:"minecraft:iron_sword",Count:1}],ArmorItems:[{},{},{},{id:"minecraft:iron_helmet",Count:1}]}
 ```
 - 筋肉ムキムキ:回復
 ```
@@ -145,16 +138,7 @@ order: 699998
 ```
 - 香水:豚10匹
 ```
-/summon minecraft:pig ~ ~3 ~2 {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b}
-    - /summon minecraft:pig ~ ~3 ~2 {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b}
-    - /summon minecraft:pig ~ ~3 ~2 {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b}
-    - /summon minecraft:pig ~ ~3 ~2 {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b}
-    - /summon minecraft:pig ~ ~3 ~2 {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b}
-    - /summon minecraft:pig ~ ~3 ~2 {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b}
-    - /summon minecraft:pig ~ ~3 ~2 {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b}
-    - /summon minecraft:pig ~ ~3 ~2 {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b}
-    - /summon minecraft:pig ~ ~3 ~2 {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b}
-    - /summon minecraft:pig ~ ~3 ~2 {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b}
+/summon minecraft:pig ~ ~3 ~2 
 ```
 - ありがとう:回復
 ```
@@ -190,7 +174,7 @@ order: 699998
 ```
 - ハンドハート:魔法使い
 ```
-/summon minecraft:illusioner ~ ~3 ~2 {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b}
+/summon minecraft:illusioner ~ ~3 ~2 
 ```
 - 柴犬:カミナリ
 ```
@@ -202,24 +186,19 @@ order: 699998
 ```
 - ハート:黒曜石追加
 ```
-/execute at @p run summon minecraft:falling_block ~ ~10 ~ {BlockState:{Name:""minecraft:obsidian""},Time:1}
-    - /execute at @p run summon minecraft:falling_block ~1 ~10 ~ {BlockState:{Name:""minecraft:obsidian""},Time:1}
-    - /execute at @p run summon minecraft:falling_block ~-1 ~10 ~ {BlockState:{Name:""minecraft:obsidian""},Time:1}
-    - /execute at @p run summon minecraft:falling_block ~ ~10 ~1 {BlockState:{Name:""minecraft:obsidian""},Time:1}
-    - /execute at @p run summon minecraft:falling_block ~ ~10 ~-1 {BlockState:{Name:""minecraft:obsidian""},Time:1}
+/execute at @p run summon minecraft:falling_block ~ ~10 ~ {BlockState:{Name:"minecraft:obsidian"},Time:1}
 ```
 - びよ～ん:シュルカー
 ```
-/summon minecraft:shulker ~ ~3 ~2 {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b}
+/summon minecraft:shulker ~ ~3 ~2 
 ```
 - 髪をなでる:シュルカー
 ```
-/summon minecraft:shulker ~ ~3 ~2 {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b}
+/summon minecraft:shulker ~ ~3 ~2 
 ```
 - ゲーマーキャット:雷+ねこパーティー
 ```
 /execute at @e[type=!minecraft:player,limit=30] run summon minecraft:lightning_bolt ~ ~ ~
-    - /task cat1 30 4
 ```
 - ゲーミングキーボード:ルーレット
 ```
@@ -283,8 +262,7 @@ order: 699998
 ```
 - ラブリーミュージック:ラベジャーx2
 ```
-/summon minecraft:ravager ~ ~3 ~2 {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b}
-    - /summon minecraft:ravager ~ ~3 ~2 {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b}
+/summon minecraft:ravager ~ ~3 ~2 
 ```
 - フラワーミラー:ウォーデン
 ```
