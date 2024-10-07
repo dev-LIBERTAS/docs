@@ -97,7 +97,7 @@ order: 699999
 
   - ローザ ：ファイヤースケルトン
     ```
-    /summon minecraft:skeleton ~ ~ ~ {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:""minecraft:bow"",Count:1b,tag:{Enchantments:[{id:""minecraft:flame"",lvl:1}]}}],ArmorItems:[{},{},{},{}]}
+    /summon minecraft:skeleton ~ ~ ~ {CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:"minecraft:bow",Count:1b,tag:{Enchantments:[{id:"minecraft:flame",lvl:1}]}}],ArmorItems:[{},{},{},{}]}
     ```
     
   - 友情ネックレス ：クリーパー
@@ -112,12 +112,12 @@ order: 699999
 
   - レイブダンス ：エンダーマンx2
     ```
-    /summon minecraft:enderman ^ ^2 ^2 {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b}
+    /summon minecraft:enderman ^ ^2 ^2 {CustomNameVisible:1,PersistenceRequired:1b}
     ```
 
   - かき氷 ：防具つきゾンビx2
     ```
-    /summon minecraft:zombie ~ ~ ~ {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:""minecraft:iron_sword"",Count:1}],ArmorItems:[{},{},{},{id:""minecraft:iron_helmet"",Count:1}]}
+    /summon minecraft:zombie ~ ~ ~ {CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:"minecraft:iron_sword",Count:1}],ArmorItems:[{},{},{},{id:"minecraft:iron_helmet",Count:1}]}
     ```
     
   - 筋肉ムキムキ ：回復
@@ -132,7 +132,7 @@ order: 699999
 
   - 香水 ：豚10匹
     ```
-    /summon minecraft:pig ~ ~ ~ {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b}
+    /summon minecraft:pig ~ ~ ~ {CustomNameVisible:1,PersistenceRequired:1b}
     ```
 
   - ありがとう ：回復
@@ -167,12 +167,12 @@ order: 699999
 
   - ハンドハート ：魔法使い
     ```
-    /summon minecraft:illusioner ~ ~ ~ {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b}
+    /summon minecraft:illusioner ~ ~ ~ {CustomNameVisible:1,PersistenceRequired:1b}
     ```
     
   - ハンドハート ：魔法使い
     ```
-    /summon minecraft:illusioner ~ ~ ~ {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b}
+    /summon minecraft:illusioner ~ ~ ~ {CustomNameVisible:1,PersistenceRequired:1b}
     ```
 
   - 柴犬 ：カミナリ
@@ -187,7 +187,7 @@ order: 699999
     
   - ハート ：黒曜石追加
     ```
-    /execute at @p run summon minecraft:falling_block ~ ~10 ~ {BlockState:{Name:""minecraft:obsidian""},Time:1}
+    /execute at @p run summon minecraft:falling_block ~ ~10 ~ {BlockState:{Name:"minecraft:obsidian"},Time:1}
     ```
 
   - 愛してる ：回復
@@ -197,7 +197,7 @@ order: 699999
     
   - 髪をなでる ：シュルカー
     ```
-    /summon minecraft:shulker ~ ~ ~ {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b}
+    /summon minecraft:shulker ~ ~ ~ {CustomNameVisible:1,PersistenceRequired:1b}
     ```
 
   - 花冠 ：氷塊
