@@ -90,169 +90,257 @@ order: 69000
 ```
 
 ### ギフトコマンド一覧  
-- ハートミー：5秒回復
+- ハートミー:ミニ回復
 ```
-  /effect give @p minecraft:regeneration 5 5
+/effect give @p minecraft:regeneration 5 5
 ```
+- バラ:ゾンビ
+```
+/execute at @p[distance=1..] run summon minecraft:zombie ~ ~ ~ {CustomNameVisible:1,PersistenceRequired:1b,Attributes:[{Name:"generic.max_health",Base:10}],Health:10.0f}
+```
+- GG:スケルトン
+```
+/execute at @p[distance=1..] run summon minecraft:skeleton ~ ~ ~ 
+```
+- ソフトクリーム:目隠し
+```
+/execute at @p[distance=1..] run particle minecraft:explosion ~ ~1 ~ 0.5 0.5 0.5 0.1 100
+```
+- リスと松ぼっくり:目隠し
+```
+/execute at @p[distance=1..] run particle minecraft:explosion ~ ~1 ~ 0.5 0.5 0.5 0.1 100
+```
+- フィンガーハート:殺人うさぎ
+```
+/execute at @p[distance=1..] run execute at @p run summon minecraft:rabbit ~ ~ ~ {RabbitType:99}
+```
+- ニャオ:エンダーマン
+```
+/execute at @p[distance=1..] run summon minecraft:enderman ^ ^2 ^2 
+```
+- インスタントヌードル:防具付きゾンビ
+```
+/execute at @p[distance=1..] run summon zombie ~ ~ ~ {CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:"iron_sword",Count:1}],ArmorItems:[{},{},{},{id:"iron_helmet",Count:1}]}
+```
+- 御守り:ハスク
+```
+/execute at @p[distance=1..] run summon minecraft:husk ~ ~ ~ 
+```
+- www:クリーパー
+```
+/execute at @p[distance=1..] run summon minecraft:creeper ~ ~ ~ 
+```
+- ゲームパッド:牛x5
+```
+/execute at @p[distance=1..] run summon minecraft:cow ~ ~ ~ 
+```
+- ローザ:ファイヤースケルトン
+```
+/execute at @p[distance=1..] run summon skeleton ~ ~ ~ {CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:"bow",Count:1b,tag:{Enchantments:[{id:"flame",lvl:1}]}}],ArmorItems:[{},{},{},{}]}
+```
+- 友情ネックレス:クリーパー
+```
+/execute at @p[distance=1..] run summon minecraft:creeper ~ ~ ~ 
+```
+- ヴェノム:クリーパー
+```
+/execute at @p[distance=1..] run summon minecraft:creeper ~ ~ ~ 
+```
+- レイブダンス:エンダーマンx2
+```
+/execute at @p[distance=1..] run summon minecraft:enderman ^ ^2 ^2 
+```
+- かき氷:防具つきゾンビx2
+```
+/execute at @p[distance=1..] run summon zombie ~ ~ ~ {CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:"iron_sword",Count:1}],ArmorItems:[{},{},{},{id:"iron_helmet",Count:1}]}
+```
+- 筋肉ムキムキ:回復
+```
+/effect give @p minecraft:regeneration 15 5
+```
+- 愛してる:回復
+```
+/effect give @p minecraft:regeneration 15 5
+```
+- 香水:豚10匹
+```
+/execute at @p[distance=1..] run summon minecraft:pig ~ ~ ~ 
+```
+- ありがとう:回復
+```
+/effect give @p minecraft:regeneration 15 5
+```
+- ドーナッツ:ゴキブリx3
+```
+/execute at @p[distance=1..] run summon minecraft:silverfish ~ ~ ~ {CustomNameVisible:1,PersistenceRequired:1b,Attributes:[{Name:"generic.max_health",Base:5}],Health:5.0f}
+```
+- ホットチョコレート:クモの巣
+```
+/execute at @p[distance=1..] run fill ~ ~ ~ ~ ~ ~ minecraft:cobweb
+```
+- キャップ:空腹
+```
+/execute at @p[distance=1..] run effect give @p minecraft:hunger 30 255
+```
+- 折り鶴:TNT
+```
+/execute at @p[distance=1..] run execute at @p run summon tnt ~ ~5 ~ {fuse:100}
+```
+- スター:大ジャンプ
+```
+/execute at @p[distance=1..] run effect give @p minecraft:levitation 1 100
+```
+- ゲームコントローラー:肩車ゾンビx50
+```
+/task zombie2 50 2
+```
+- クラッカー:ゾンビx100
+```
+/task zombie1 100 2
+```
+- ハンドハート:魔法使い
+```
+/execute at @p[distance=1..] run summon minecraft:illusioner ~ ~ ~ 
+```
+- 柴犬:カミナリ
+```
+/execute at @p[distance=1..] run execute at @e[type=!minecraft:player,limit=30] run summon minecraft:lightning_bolt ~ ~ ~
+```
+- 鍵と鍵穴:金床の雨
+```
+/task anvil1 1 1 50
+```
+- サングラス:どっちもゾンビx100
+```
+/task zombie3 100 2
+```
+- ハート:黒曜石追加
+```
+/execute at @p[distance=1..] run summon minecraft:falling_block ~ ~10 ~ {BlockState:{Name:"minecraft:obsidian"},Time:1}
+```
+- 愛してる:どっちもTNT
+```
+/execute at @p[distance=1..] run execute at @p run summon tnt ~ ~5 ~ {fuse:100}
+```
+- 髪をなでる:シュルカー
+```
+/execute at @p[distance=1..] run summon minecraft:shulker ~ ~ ~ 
+```
+- 花冠:氷塊
+```
+/execute at @p[distance=1..] run fill ~-1 ~ ~-1 ~1 ~2 ~1 minecraft:ice
+```
+- ゲーマーキャット:雷+ねこパーティー
+```
+/execute at @e[type=!minecraft:player,limit=30] run summon minecraft:lightning_bolt ~ ~ ~
+```
+- ゲーミングキーボード:ルーレット
+```
+/roulette GamingKeyboard
+```
+- コーギー:耐電クリーパー
+```
+/task powercreeper1 25 2
+```
+- ボクシンググローブ:TNT
+```
+/execute at @p[distance=1..] run execute at @p run summon tnt ~ ~5 ~ {fuse:100}
+```
+- フルーツの友達:激おこ犬
+```
+/task wolf1 25 3
+```
+- いたずら好きな鶏:クモの巣xスケルトン
+```
+/task cobweb1 1 1
+```
+- 招きねこ:ネコパーティー
+```
+/task cat1 100 2
+```
+- サンゴ:水の塔
+```
+/execute at @p[distance=1..] run fill ~ ~5 ~ ~ ~5 ~ minecraft:water
+```
+- マネーガン:アイテム没収
+```
+/execute at @p[distance=1..] run clear @p
+```
+- すばらしい！:爆撃TNT
+```
+/task tptnt1 1 1
+```
+- ライオンのたてがみ:監獄
+```
+/task kangoku1 1 1
+```
+- 白鳥:全員集合
+```
+/execute at @p[distance=1..] run execute at @p run tp @e[type=!minecraft:minecart] ~ ~ ~
 
-- バラ：ゾンビ
 ```
-  /execute at @p[distance=1..] run summon minecraft:zombie ~ ~ ~ {CustomName:'{"text":"{user.profileName}"}',CustomNameVisible:1,PersistenceRequired:1b}
+- 列車:砂追加
 ```
-
-- GG：スケルトン
+/task battle1 1 1
 ```
-  /execute at @p[distance=1..] run summon minecraft:skeleton ~ ~ ~ {CustomName:'{"text":"{user.profileName}"}',CustomNameVisible:1,PersistenceRequired:1b}
+- Travel with You:15分強制雨
 ```
-
-- フィンガーハート：激怒うさぎ
+/task weather1 1 1
 ```
-  /execute at @p[distance=1..] run execute at @p run summon minecraft:rabbit ~ ~ ~ {RabbitType:99}
+- ラブリーミュージック:ラベジャーx2
 ```
-
-- www：クリーパー
+/execute at @p[distance=1..] run summon minecraft:ravager ~ ~ ~ 
+    - /execute at @p[distance=1..] run summon minecraft:ravager ~ ~ ~ 
 ```
-  /execute at @p[distance=1..] run summon minecraft:creeper ~ ~ ~ {CustomName:'{"text":"{user.profileName}"}',CustomNameVisible:1,PersistenceRequired:1b}
+- 銀河:マグマの塔
 ```
-
-- ゲームパッド：牛5匹
+/execute at @p[distance=1..] run fill ~ ~5 ~ ~ ~5 ~ minecraft:lava
 ```
-  /execute at @p[distance=1..] run summon minecraft:cow ~ ~ ~ {CustomName:'{"text":"{user.profileName}"}',CustomNameVisible:1,PersistenceRequired:1b}
+- キリン:ウォーデン
 ```
-
-- 初見です：回復
+/execute at @p[distance=1..] run summon minecraft:warden ~ ~ ~
 ```
-  /effect give @p minecraft:regeneration 15 5
+- 花火:チキンパーティー
 ```
-
-- 香水：豚10匹
+/task chicken1 1000 2
 ```
-  /execute at @p[distance=1..] run summon minecraft:pig ~ ~ ~ {CustomName:'{"text":"{user.profileName}"}',CustomNameVisible:1,PersistenceRequired:1b}
+- ドラムセット:チキンパーティー
 ```
-
-- ドーナッツ：ゴキブリ
+/task chicken1 1000 2
 ```
-  /execute at @p[distance=1..] run summon minecraft:silverfish ~ ~ ~ {CustomName:'{"text":"{user.profileName}"}',CustomNameVisible:1,PersistenceRequired:1b}
+- アーケードゲーム:超お助け
 ```
-
-- スター：大ジャンプ
+/task ArcadeGame1 1 1
 ```
-  /execute at @p[distance=1..] run effect give @p minecraft:levitation 1 100
+- 配信者のセットアップ:最強戦士
 ```
-
-- 折り鶴：TNT
+/task warden1 1 1
 ```
-  /execute at @p[distance=1..] run execute at @p run summon tnt ~ ~5 ~ {fuse:100}
+- クジラのダイビング:動物園
 ```
-
-- クラッカー：ゾンビx100
+/task world2 1 1
 ```
-  /task zombie1 100 2
+- オートバイ:水族館
 ```
-
-- ゲームコントローラー：肩車ゾンビx50
+/task water1 150 2
 ```
-  /task zombie2 50 2
+- 子猫のレオン:白馬の王子様
 ```
-
-- 鍵と鍵穴：金床の雨
+/task leon 1 1
 ```
-  /task anvil1 1 1 50
+- スポーツカー:炎ミサイル
 ```
-
-- 柴犬：カミナリ
+/task blazephantom1 100 4
 ```
-  /execute at @p[distance=1..] run execute at @e[type=!minecraft:player,limit=30] run summon minecraft:lightning_bolt ~ ~ ~
+- ローザの星雲:領域展開
 ```
-
-- フルーツの友達：激おこ犬
+/task world1 1 1
 ```
-  /task wolf1 25 3
+- ライオン:巨大ゾンビ群
 ```
-
-- コーギー：耐電クリーパー
+/task ghastgiant1 200 4
 ```
-  /task powercreeper1 25 2
+- TikTok Universe:ワールド崩壊
 ```
-
-- 招きねこ：ねこパーティー
+/task tnt2 1200 2
 ```
-  /task cat1 100 2
-```
-
-- マネーガン：アイテム全回収
-```
-  /execute at @p[distance=1..] run clear @p
-```
-
-- すばらしい！：爆撃TNT
-```
-  /task tptnt1 1 1
-```
-
-- 白鳥：全員集合
-```
-  /execute at @p[distance=1..] run execute at @p run tp @e[type=!minecraft:minecart] ~ ~ ~
-```
-
-- 列車：バトル
-```
-  /task battle1 1 1
-```
-
-- Travel with You：強制雨
-```
-  /task weather1 1 1
-```
-
-- フラワーミラー：ウォーデン
-```
-  /execute at @p[distance=1..] run summon minecraft:warden ~ ~ ~
-```
-
-- ドラムセット：チキン祭り
-```
-  /task chicken1 1000 2
-```
-
-- 花火：チキン祭り
-```
-  /task chicken1 1000 2
-```
-
-- クジラのダイビング：動物園
-```
-  /task world2 1 1
-```
-
-- オートバイ：水族館
-```
-  /task water1 150 2
-```
-
-- 子猫のレオン：白馬の王子様
-```
-  /task leon 1 1
-```
-
-- スポーツカー：炎ミサイル
-```
-  /task blazephantom1 200 4
-```
-
-- ローザの星雲：領域展開
-```
-  /task world1 1 1
-```
-
-- ライオン：巨大ゾンビ軍
-```
-  /task ghastgiant1 200 4
-```
-
-- TikTok Universe：ワールド崩壊
-```
-  /task tnt2 1200 2
-```
-
-
