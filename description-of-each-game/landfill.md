@@ -132,7 +132,8 @@ order: 700000
 ```
 - かき氷:防具つきゾンビx2
 ```
-/summon minecraft:zombie ~ ~ ~ {CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:"minecraft:iron_sword",Count:1}],ArmorItems:[{},{},{},{id:"minecraft:iron_helmet",Count:1}]}```
+/summon minecraft:zombie ~ ~ ~ {CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:"minecraft:iron_sword",Count:1}],ArmorItems:[{},{},{},{id:"minecraft:iron_helmet",Count:1}]}
+```
 - 筋肉ムキムキ:回復
 ```
 /effect give @p minecraft:regeneration 15 5
