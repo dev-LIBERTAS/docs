@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.6.0.781348690542">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.6.0.781605460811">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.6.0">
@@ -32,11 +32,11 @@
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../resources/css/retype.css?v=3.6.0.781348690542" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.6.0.781605460811" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.6.0.781348690542" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.6.0.781605460811" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.6.0.781348690542" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.6.0.781605460811" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -342,7 +342,7 @@
 <li>バラ:ゾンビ</li>
 </ul>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/summon minecraft:zombie ~ ~ ~ {CustomNameVisible:1,PersistenceRequired:1b,Attributes:[{Name:&quot;&quot;generic.max_health&quot;&quot;,Base:10}],Health:10.0f}</code></pre>
+<pre class="language-none"><code v-pre class="language-none">/summon minecraft:zombie ~ ~ ~ {CustomNameVisible:1,PersistenceRequired:1b,Attributes:[{Name:&quot;generic.max_health&quot;,Base:10}],Health:10.0f}</code></pre>
 </doc-codeblock></div>
 <ul>
 <li>GG:スケルトン</li>
@@ -378,7 +378,7 @@
 <li>インスタントヌードル:防具付きゾンビ</li>
 </ul>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/summon minecraft:zombie ~ ~ ~ {CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:&quot;&quot;minecraft:iron_sword&quot;&quot;,Count:1}],ArmorItems:[{},{},{},{id:&quot;&quot;minecraft:iron_helmet&quot;&quot;,Count:1}]}</code></pre>
+<pre class="language-none"><code v-pre class="language-none">/summon minecraft:zombie ~ ~ ~ {CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:&quot;minecraft:iron_sword&quot;,Count:1}],ArmorItems:[{},{},{},{id:&quot;minecraft:iron_helmet&quot;,Count:1}]}</code></pre>
 </doc-codeblock></div>
 <ul>
 <li>御守り:ハスク</li>
@@ -402,7 +402,7 @@
 <li>ローザ:ファイヤースケルトン</li>
 </ul>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/summon minecraft:skeleton ~ ~ ~ {CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:&quot;&quot;minecraft:bow&quot;&quot;,Count:1b,tag:{Enchantments:[{id:&quot;&quot;minecraft:flame&quot;&quot;,lvl:1}]}}],ArmorItems:[{},{},{},{}]}</code></pre>
+<pre class="language-none"><code v-pre class="language-none">/summon skeleton ~ ~ ~ {CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:&quot;bow&quot;,Count:1b,tag:{Enchantments:[{id:&quot;flame&quot;,lvl:1}]}}],ArmorItems:[{},{},{},{id:&quot;iron_helmet&quot;,Count:1b}]}</code></pre>
 </doc-codeblock></div>
 <ul>
 <li>友情ネックレス:クリーパー</li>
@@ -426,337 +426,228 @@
 <li>かき氷:防具つきゾンビx2</li>
 </ul>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/summon minecraft:zombie ~ ~ ~ {CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:&quot;&quot;minecraft:iron_sword&quot;&quot;,Count:1}],ArmorItems:[{},{},{},{id:&quot;&quot;minecraft:iron_helmet&quot;&quot;,Count:1}]}</code></pre>
+<pre class="language-none"><code v-pre class="language-none">/summon minecraft:zombie ~ ~ ~ {CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:&quot;minecraft:iron_sword&quot;,Count:1}],ArmorItems:[{},{},{},{id:&quot;minecraft:iron_helmet&quot;,Count:1}]}```
+- 筋肉ムキムキ:回復</code></pre>
 </doc-codeblock></div>
-<ul>
-<li>筋肉ムキムキ:回復</li>
-</ul>
+<p>/effect give @p minecraft:regeneration 15 5</p>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/effect give @p minecraft:regeneration 15 5</code></pre>
+<pre class="language-none"><code v-pre class="language-none">- 愛してる:回復</code></pre>
 </doc-codeblock></div>
-<ul>
-<li>愛してる:回復</li>
-</ul>
+<p>/effect give @p minecraft:regeneration 15 5</p>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/effect give @p minecraft:regeneration 15 5</code></pre>
+<pre class="language-none"><code v-pre class="language-none">- 香水:豚10匹</code></pre>
 </doc-codeblock></div>
-<ul>
-<li>香水:豚10匹</li>
-</ul>
+<p>/summon minecraft:pig ~ ~ ~</p>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/summon minecraft:pig ~ ~ ~ </code></pre>
+<pre class="language-none"><code v-pre class="language-none">- ありがとう:回復</code></pre>
 </doc-codeblock></div>
-<ul>
-<li>ありがとう:回復</li>
-</ul>
+<p>/effect give @p minecraft:regeneration 15 5</p>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/effect give @p minecraft:regeneration 15 5</code></pre>
+<pre class="language-none"><code v-pre class="language-none">- ドーナッツ:ゴキブリx3</code></pre>
 </doc-codeblock></div>
-<ul>
-<li>ドーナッツ:ゴキブリx3</li>
-</ul>
+<p>/summon minecraft:silverfish ~ ~ ~ {CustomNameVisible:1,PersistenceRequired:1b,Attributes:[{Name:&quot;generic.max_health&quot;,Base:5}],Health:5.0f}</p>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/summon minecraft:silverfish ~ ~ ~ {CustomNameVisible:1,PersistenceRequired:1b,Attributes:[{Name:&quot;&quot;generic.max_health&quot;&quot;,Base:5}],Health:5.0f}</code></pre>
+<pre class="language-none"><code v-pre class="language-none">- ホットチョコレート:クモの巣</code></pre>
 </doc-codeblock></div>
-<ul>
-<li>ホットチョコレート:クモの巣</li>
-</ul>
+<p>/execute as @p run fill ~ ~ ~ ~ ~ ~ minecraft:cobweb</p>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/execute as @p run fill ~ ~ ~ ~ ~ ~ minecraft:cobweb</code></pre>
+<pre class="language-none"><code v-pre class="language-none">- キャップ:空腹</code></pre>
 </doc-codeblock></div>
-<ul>
-<li>キャップ:空腹</li>
-</ul>
+<p>/effect give @p minecraft:hunger 30 255</p>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/effect give @p minecraft:hunger 30 255</code></pre>
+<pre class="language-none"><code v-pre class="language-none">- 折り鶴:TNT</code></pre>
 </doc-codeblock></div>
-<ul>
-<li>折り鶴:TNT</li>
-</ul>
+<p fuse:100="">/execute at @p run summon tnt ~ ~5 ~ </p>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/execute at @p run summon tnt ~ ~5 ~ {fuse:100}</code></pre>
+<pre class="language-none"><code v-pre class="language-none">- スター:大ジャンプ</code></pre>
 </doc-codeblock></div>
-<ul>
-<li>スター:大ジャンプ</li>
-</ul>
+<p>/effect give @p minecraft:levitation 1 100</p>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/effect give @p minecraft:levitation 1 100</code></pre>
+<pre class="language-none"><code v-pre class="language-none">- ゲームコントローラー:肩車ゾンビx50</code></pre>
 </doc-codeblock></div>
-<ul>
-<li>ゲームコントローラー:肩車ゾンビx50</li>
-</ul>
+<p>/task zombie2 50 2</p>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/task zombie2 50 2</code></pre>
+<pre class="language-none"><code v-pre class="language-none">- クラッカー:ゾンビx100</code></pre>
 </doc-codeblock></div>
-<ul>
-<li>クラッカー:ゾンビx100</li>
-</ul>
+<p>/task zombie1 100 2</p>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/task zombie1 100 2</code></pre>
+<pre class="language-none"><code v-pre class="language-none">- ハンドハート:魔法使い</code></pre>
 </doc-codeblock></div>
-<ul>
-<li>ハンドハート:魔法使い</li>
-</ul>
+<p>/summon minecraft:illusioner ~ ~ ~</p>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/summon minecraft:illusioner ~ ~ ~ </code></pre>
+<pre class="language-none"><code v-pre class="language-none">- 柴犬:カミナリ</code></pre>
 </doc-codeblock></div>
-<ul>
-<li>柴犬:カミナリ</li>
-</ul>
+<p>/execute at @e[type=!minecraft:player,limit=30] run summon minecraft:lightning_bolt ~ ~ ~</p>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/execute at @e[type=!minecraft:player,limit=30] run summon minecraft:lightning_bolt ~ ~ ~</code></pre>
+<pre class="language-none"><code v-pre class="language-none">- 鍵と鍵穴:金床の雨</code></pre>
 </doc-codeblock></div>
-<ul>
-<li>鍵と鍵穴:金床の雨</li>
-</ul>
+<p>/task anvil1 1 1 50</p>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/task anvil1 1 1 50</code></pre>
+<pre class="language-none"><code v-pre class="language-none">- ハート:黒曜石追加</code></pre>
 </doc-codeblock></div>
-<ul>
-<li>ハート:黒曜石追加</li>
-</ul>
+<p>/execute at @p run summon minecraft:falling_block ~ ~10 ~ {BlockState:{Name:&quot;minecraft:obsidian&quot;},Time:1}</p>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/execute at @p run summon minecraft:falling_block ~ ~10 ~ {BlockState:{Name:&quot;&quot;minecraft:obsidian&quot;&quot;},Time:1}</code></pre>
+<pre class="language-none"><code v-pre class="language-none">- ニット帽:氷塊</code></pre>
 </doc-codeblock></div>
-<ul>
-<li>ニット帽:氷塊</li>
-</ul>
+<p>/execute as @p run fill ~-1 ~ ~-1 ~1 ~2 ~1 minecraft:ice</p>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/execute as @p run fill ~-1 ~ ~-1 ~1 ~2 ~1 minecraft:ice</code></pre>
+<pre class="language-none"><code v-pre class="language-none">- びよ～ん:シュルカー</code></pre>
 </doc-codeblock></div>
-<ul>
-<li>びよ～ん:シュルカー</li>
-</ul>
+<p>/summon minecraft:shulker ~ ~ ~</p>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/summon minecraft:shulker ~ ~ ~ </code></pre>
+<pre class="language-none"><code v-pre class="language-none">- 髪をなでる:シュルカー</code></pre>
 </doc-codeblock></div>
-<ul>
-<li>髪をなでる:シュルカー</li>
-</ul>
+<p>/summon minecraft:shulker ~ ~ ~</p>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/summon minecraft:shulker ~ ~ ~ </code></pre>
+<pre class="language-none"><code v-pre class="language-none">- 花冠:氷塊</code></pre>
 </doc-codeblock></div>
-<ul>
-<li>花冠:氷塊</li>
-</ul>
+<p>/execute as @p run fill ~-1 ~ ~-1 ~1 ~2 ~1 minecraft:ice</p>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/execute as @p run fill ~-1 ~ ~-1 ~1 ~2 ~1 minecraft:ice</code></pre>
+<pre class="language-none"><code v-pre class="language-none">- ゲーマーキャット:雷+ねこパーティー</code></pre>
 </doc-codeblock></div>
-<ul>
-<li>ゲーマーキャット:雷+ねこパーティー</li>
-</ul>
+<p>/execute at @e[type=!minecraft:player,limit=30] run summon minecraft:lightning_bolt ~ ~ ~</p>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/execute at @e[type=!minecraft:player,limit=30] run summon minecraft:lightning_bolt ~ ~ ~</code></pre>
+<pre class="language-none"><code v-pre class="language-none">- ゲーミングキーボード:ルーレット</code></pre>
 </doc-codeblock></div>
-<ul>
-<li>ゲーミングキーボード:ルーレット</li>
-</ul>
+<p>/roulette GamingKeyboard</p>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/roulette GamingKeyboard</code></pre>
+<pre class="language-none"><code v-pre class="language-none">- コーギー:耐電クリーパー</code></pre>
 </doc-codeblock></div>
-<ul>
-<li>コーギー:耐電クリーパー</li>
-</ul>
+<p>/task powercreeper1 25 2</p>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/task powercreeper1 25 2</code></pre>
+<pre class="language-none"><code v-pre class="language-none">- ボクシンググローブ:TNT</code></pre>
 </doc-codeblock></div>
-<ul>
-<li>ボクシンググローブ:TNT</li>
-</ul>
+<p fuse:100="">/execute at @p run summon tnt ~ ~5 ~ </p>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/execute at @p run summon tnt ~ ~5 ~ {fuse:100}</code></pre>
+<pre class="language-none"><code v-pre class="language-none">- アヒル:クモの巣xスケルトン</code></pre>
 </doc-codeblock></div>
-<ul>
-<li>アヒル:クモの巣xスケルトン</li>
-</ul>
+<p>/task cobweb1 1 1</p>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/task cobweb1 1 1</code></pre>
+<pre class="language-none"><code v-pre class="language-none">- フルーツの友達:激おこ犬</code></pre>
 </doc-codeblock></div>
-<ul>
-<li>フルーツの友達:激おこ犬</li>
-</ul>
+<p>/task wolf1 25 3</p>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/task wolf1 25 3</code></pre>
+<pre class="language-none"><code v-pre class="language-none">- いたずら好きな鶏:クモの巣xスケルトン</code></pre>
 </doc-codeblock></div>
-<ul>
-<li>いたずら好きな鶏:クモの巣xスケルトン</li>
-</ul>
+<p>/task cobweb1 1 1</p>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/task cobweb1 1 1</code></pre>
+<pre class="language-none"><code v-pre class="language-none">- 招きねこ:ネコパーティー</code></pre>
 </doc-codeblock></div>
-<ul>
-<li>招きねこ:ネコパーティー</li>
-</ul>
+<p>/task cat1 100 2</p>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/task cat1 100 2</code></pre>
+<pre class="language-none"><code v-pre class="language-none">- サンゴ:水の塔</code></pre>
 </doc-codeblock></div>
-<ul>
-<li>サンゴ:水の塔</li>
-</ul>
+<p>/execute at @p run fill 0 64 0 0 64 0 minecraft:water</p>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/execute at @p run fill 0 64 0 0 64 0 minecraft:water</code></pre>
+<pre class="language-none"><code v-pre class="language-none">- マネーガン:アイテム没収</code></pre>
 </doc-codeblock></div>
-<ul>
-<li>マネーガン:アイテム没収</li>
-</ul>
+<p>/clear @p</p>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/clear @p</code></pre>
+<pre class="language-none"><code v-pre class="language-none">- すばらしい！:爆撃TNT</code></pre>
 </doc-codeblock></div>
-<ul>
-<li>すばらしい！:爆撃TNT</li>
-</ul>
+<p>/task tptnt1 1 1</p>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/task tptnt1 1 1</code></pre>
+<pre class="language-none"><code v-pre class="language-none">- ハグ:お助け</code></pre>
 </doc-codeblock></div>
-<ul>
-<li>ハグ:お助け</li>
-</ul>
+<p>/execute at @p run fill 7 37 7 -7 45 -7 minecraft:gold_block</p>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/execute at @p run fill 7 37 7 -7 45 -7 minecraft:gold_block</code></pre>
+<pre class="language-none"><code v-pre class="language-none">- お疲れさま:監獄</code></pre>
 </doc-codeblock></div>
-<ul>
-<li>お疲れさま:監獄</li>
-</ul>
+<p>/task kangoku1 1 1</p>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/task kangoku1 1 1</code></pre>
+<pre class="language-none"><code v-pre class="language-none">- ライオンのたてがみ:お助け</code></pre>
 </doc-codeblock></div>
-<ul>
-<li>ライオンのたてがみ:お助け</li>
-</ul>
+<p>/execute at @p run fill 7 37 7 -7 45 -7 minecraft:gold_block</p>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/execute at @p run fill 7 37 7 -7 45 -7 minecraft:gold_block</code></pre>
+<pre class="language-none"><code v-pre class="language-none">- 白鳥:全員集合</code></pre>
 </doc-codeblock></div>
-<ul>
-<li>白鳥:全員集合</li>
-</ul>
+<p>/execute at @p run tp @e[type=!minecraft:minecart] ~ ~ ~</p>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/execute at @p run tp @e[type=!minecraft:minecart] ~ ~ ~</code></pre>
+<pre class="language-none"><code v-pre class="language-none">- 列車:砂追加</code></pre>
 </doc-codeblock></div>
-<ul>
-<li>列車:砂追加</li>
-</ul>
+<p>/execute at @p run fill -8 200 8 8 200 -8 minecraft:light_blue_concrete_powder</p>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/execute at @p run fill -8 200 8 8 200 -8 minecraft:light_blue_concrete_powder</code></pre>
+<pre class="language-none"><code v-pre class="language-none">- Travel with You:15分強制雨</code></pre>
 </doc-codeblock></div>
-<ul>
-<li>Travel with You:15分強制雨</li>
-</ul>
+<p>/task weather1 1 1</p>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/task weather1 1 1</code></pre>
+<pre class="language-none"><code v-pre class="language-none">- ラブリーミュージック:ラベジャーx2</code></pre>
 </doc-codeblock></div>
-<ul>
-<li>ラブリーミュージック:ラベジャーx2</li>
-</ul>
+<p>/summon minecraft:ravager ~ ~ ~</p>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/summon minecraft:ravager ~ ~ ~</code></pre>
+<pre class="language-none"><code v-pre class="language-none">- 銀河:マグマの塔</code></pre>
 </doc-codeblock></div>
-<ul>
-<li>銀河:マグマの塔</li>
-</ul>
+<p>/execute at @p run fill 0 62 0 0 62 0 lava</p>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/execute at @p run fill 0 62 0 0 62 0 lava</code></pre>
+<pre class="language-none"><code v-pre class="language-none">- マジカルキャット:ラベジャーx2</code></pre>
 </doc-codeblock></div>
-<ul>
-<li>マジカルキャット:ラベジャーx2</li>
-</ul>
+<p>/summon minecraft:ravager ~ ~ ~</p>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/summon minecraft:ravager ~ ~ ~</code></pre>
+<pre class="language-none"><code v-pre class="language-none">- フラワーミラー:ウォーデン</code></pre>
 </doc-codeblock></div>
-<ul>
-<li>フラワーミラー:ウォーデン</li>
-</ul>
+<p>/summon minecraft:warden ~ ~ ~</p>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/summon minecraft:warden ~ ~ ~</code></pre>
+<pre class="language-none"><code v-pre class="language-none">- キリン:ウォーデン</code></pre>
 </doc-codeblock></div>
-<ul>
-<li>キリン:ウォーデン</li>
-</ul>
+<p>/summon minecraft:warden ~ ~ ~</p>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/summon minecraft:warden ~ ~ ~</code></pre>
+<pre class="language-none"><code v-pre class="language-none">- 花火:チキンパーティー</code></pre>
 </doc-codeblock></div>
-<ul>
-<li>花火:チキンパーティー</li>
-</ul>
+<p>/task redstonetorch1 1 1</p>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/task redstonetorch1 1 1</code></pre>
+<pre class="language-none"><code v-pre class="language-none">- ドラムセット:チキンパーティー</code></pre>
 </doc-codeblock></div>
-<ul>
-<li>ドラムセット:チキンパーティー</li>
-</ul>
+<p>/task redstonetorch1 1 1</p>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/task redstonetorch1 1 1</code></pre>
+<pre class="language-none"><code v-pre class="language-none">- アーケードゲーム:超お助け</code></pre>
 </doc-codeblock></div>
-<ul>
-<li>アーケードゲーム:超お助け</li>
-</ul>
+<p>/task ArcadeGame1 1 1</p>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/task ArcadeGame1 1 1</code></pre>
+<pre class="language-none"><code v-pre class="language-none">- 配信者のセットアップ:最強戦士</code></pre>
 </doc-codeblock></div>
-<ul>
-<li>配信者のセットアップ:最強戦士</li>
-</ul>
+<p>/task warden1 1 1</p>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/task warden1 1 1</code></pre>
+<pre class="language-none"><code v-pre class="language-none">- 不思議な花火:ブロック変換</code></pre>
 </doc-codeblock></div>
-<ul>
-<li>不思議な花火:ブロック変換</li>
-</ul>
+<p>/execute at @p run fill 7 37 7 -7 51 -7 minecraft:blue_wool replace minecraft:diamond_block</p>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/execute at @p run fill 7 37 7 -7 51 -7 minecraft:blue_wool replace minecraft:diamond_block</code></pre>
+<pre class="language-none"><code v-pre class="language-none">- クジラのダイビング:動物園</code></pre>
 </doc-codeblock></div>
-<ul>
-<li>クジラのダイビング:動物園</li>
-</ul>
+<p>/task world2 1 1</p>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/task world2 1 1</code></pre>
+<pre class="language-none"><code v-pre class="language-none">- オートバイ:水族館</code></pre>
 </doc-codeblock></div>
-<ul>
-<li>オートバイ:水族館</li>
-</ul>
+<p>/task water1 1 1</p>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/task water1 1 1</code></pre>
+<pre class="language-none"><code v-pre class="language-none">- 流星群:TNT流星群</code></pre>
 </doc-codeblock></div>
-<ul>
-<li>流星群:TNT流星群</li>
-</ul>
+<p>/task tnt4 1200 1</p>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/task tnt4 1200 1</code></pre>
+<pre class="language-none"><code v-pre class="language-none">- 子猫のレオン:白馬の王子様</code></pre>
 </doc-codeblock></div>
-<ul>
-<li>子猫のレオン:白馬の王子様</li>
-</ul>
+<p>/task leon 1 1</p>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/task leon 1 1</code></pre>
+<pre class="language-none"><code v-pre class="language-none">- スポーツカー:炎ミサイル</code></pre>
 </doc-codeblock></div>
-<ul>
-<li>スポーツカー:炎ミサイル</li>
-</ul>
+<p>/task blazephantom1 200 4</p>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/task blazephantom1 200 4</code></pre>
+<pre class="language-none"><code v-pre class="language-none">- 星から星へ:TNT大爆発</code></pre>
 </doc-codeblock></div>
-<ul>
-<li>星から星へ:TNT大爆発</li>
-</ul>
+<p>/execute at @p run fill 7 37 -7 -7 51 7 minecraft:tnt</p>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/execute at @p run fill 7 37 -7 -7 51 7 minecraft:tnt</code></pre>
+<pre class="language-none"><code v-pre class="language-none">- ローザの星雲:領域展開</code></pre>
 </doc-codeblock></div>
-<ul>
-<li>ローザの星雲:領域展開</li>
-</ul>
+<p>/task world1 1 1</p>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/task world1 1 1</code></pre>
+<pre class="language-none"><code v-pre class="language-none">- ライオン:巨大ゾンビ群</code></pre>
 </doc-codeblock></div>
-<ul>
-<li>ライオン:巨大ゾンビ群</li>
-</ul>
+<p>/task ghastgiant1 200 4</p>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/task ghastgiant1 200 4</code></pre>
+<pre class="language-none"><code v-pre class="language-none">- TikTok Universe:ワールド崩壊</code></pre>
 </doc-codeblock></div>
-<ul>
-<li>TikTok Universe:ワールド崩壊</li>
-</ul>
+<p>/task tnt2 1200 2</p>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/task tnt2 1200 2</code></pre>
+<pre class="language-none"><code v-pre class="language-none"></code></pre>
 </doc-codeblock></div>
 
                                 
