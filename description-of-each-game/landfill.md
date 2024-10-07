@@ -76,7 +76,7 @@ order: 700000
 ```
 - バラ:ゾンビ
 ```
-/summon minecraft:zombie ~ ~ ~ {CustomNameVisible:1,PersistenceRequired:1b,Attributes:[{Name:""generic.max_health"",Base:10}],Health:10.0f}
+/summon minecraft:zombie ~ ~ ~ {CustomNameVisible:1,PersistenceRequired:1b,Attributes:[{Name:"generic.max_health",Base:10}],Health:10.0f}
 ```
 - GG:スケルトン
 ```
@@ -100,7 +100,7 @@ order: 700000
 ```
 - インスタントヌードル:防具付きゾンビ
 ```
-/summon minecraft:zombie ~ ~ ~ {CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:""minecraft:iron_sword"",Count:1}],ArmorItems:[{},{},{},{id:""minecraft:iron_helmet"",Count:1}]}
+/summon minecraft:zombie ~ ~ ~ {CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:"minecraft:iron_sword",Count:1}],ArmorItems:[{},{},{},{id:"minecraft:iron_helmet",Count:1}]}
 ```
 - 御守り:ハスク
 ```
@@ -116,7 +116,7 @@ order: 700000
 ```
 - ローザ:ファイヤースケルトン
 ```
-/summon minecraft:skeleton ~ ~ ~ {CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:""minecraft:bow"",Count:1b,tag:{Enchantments:[{id:""minecraft:flame"",lvl:1}]}}],ArmorItems:[{},{},{},{}]}
+/summon skeleton ~ ~ ~ {CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:"bow",Count:1b,tag:{Enchantments:[{id:"flame",lvl:1}]}}],ArmorItems:[{},{},{},{id:"iron_helmet",Count:1b}]}
 ```
 - 友情ネックレス:クリーパー
 ```
@@ -132,8 +132,7 @@ order: 700000
 ```
 - かき氷:防具つきゾンビx2
 ```
-/summon minecraft:zombie ~ ~ ~ {CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:""minecraft:iron_sword"",Count:1}],ArmorItems:[{},{},{},{id:""minecraft:iron_helmet"",Count:1}]}
-```
+/summon minecraft:zombie ~ ~ ~ {CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:"minecraft:iron_sword",Count:1}],ArmorItems:[{},{},{},{id:"minecraft:iron_helmet",Count:1}]}```
 - 筋肉ムキムキ:回復
 ```
 /effect give @p minecraft:regeneration 15 5
@@ -152,7 +151,7 @@ order: 700000
 ```
 - ドーナッツ:ゴキブリx3
 ```
-/summon minecraft:silverfish ~ ~ ~ {CustomNameVisible:1,PersistenceRequired:1b,Attributes:[{Name:""generic.max_health"",Base:5}],Health:5.0f}
+/summon minecraft:silverfish ~ ~ ~ {CustomNameVisible:1,PersistenceRequired:1b,Attributes:[{Name:"generic.max_health",Base:5}],Health:5.0f}
 ```
 - ホットチョコレート:クモの巣
 ```
@@ -192,7 +191,7 @@ order: 700000
 ```
 - ハート:黒曜石追加
 ```
-/execute at @p run summon minecraft:falling_block ~ ~10 ~ {BlockState:{Name:""minecraft:obsidian""},Time:1}
+/execute at @p run summon minecraft:falling_block ~ ~10 ~ {BlockState:{Name:"minecraft:obsidian"},Time:1}
 ```
 - ニット帽:氷塊
 ```
@@ -280,7 +279,7 @@ order: 700000
 ```
 - ラブリーミュージック:ラベジャーx2
 ```
-/summon minecraft:ravager ~ ~ ~
+/summon minecraft:ravager ~ ~ ~ 
 ```
 - 銀河:マグマの塔
 ```
@@ -288,7 +287,7 @@ order: 700000
 ```
 - マジカルキャット:ラベジャーx2
 ```
-/summon minecraft:ravager ~ ~ ~
+/summon minecraft:ravager ~ ~ ~ 
 ```
 - フラワーミラー:ウォーデン
 ```
