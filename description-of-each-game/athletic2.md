@@ -119,7 +119,6 @@ order: 699997
 - エンダーマンx2
 ```
 /summon minecraft:enderman ~ ~2 ~6 {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b}
-    - /summon minecraft:enderman ~ ~2 ~6 {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b}
 ```
 - 防具つきゾンビx2
 ```
