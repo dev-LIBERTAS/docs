@@ -23,7 +23,7 @@ order: 68000
 ![ao](/image/mod3.PNG)
 
 『Minecraft Forge』の公式サイトにアクセスして、左のバージョン一覧より1.20.4をクリックしましょう。
-公式サイト→https://files.minecraftforge.net/net/minecraftforge/forge/index_1.20.4.html
+[公式サイト](https://files.minecraftforge.net/net/minecraftforge/forge/index_1.20.4.html)
 
 
 
