@@ -17,6 +17,8 @@ order: 68000
   
 ![mod2](/image/mod2.png)
 
+### Minecraft Forgeをダウンロードする  
+導入するMODと同じバージョンの『Minecraft Forge』をダウンロードしていきます。
 
 
 
