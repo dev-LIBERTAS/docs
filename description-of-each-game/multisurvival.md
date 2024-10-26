@@ -79,6 +79,8 @@ MODの導入で通常のワールドデータに悪影響が及ばないよう�
   
 スタート画面の左下に「Forge」と表示されたら、『Minecraft Forge』の導入は完了です。
 
+![mod](/image/mod10.png)
+
 
 
 
