@@ -53,6 +53,8 @@ order: 68000
   
 「Install Client」を選択している状態で`OK`をクリックすると、インストールが始まります。
 
+![Forge](/image/mod7.png)
+
 
 
 
