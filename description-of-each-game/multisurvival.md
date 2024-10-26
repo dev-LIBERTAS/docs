@@ -20,7 +20,7 @@ order: 68000
 ### Minecraft Forgeをダウンロードする  
 導入するMODと同じバージョンの『Minecraft Forge』をダウンロードしていきます。
 
-![ao](/image/mod3.png)
+![ao](/image/mod3.PNG)
 
 
 
