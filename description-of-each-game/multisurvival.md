@@ -53,7 +53,7 @@ order: 68000
   
 「Install Client」を選択している状態で`OK`をクリックすると、インストールが始まります。
 
-![Forge](/image/mod7.png)
+![Forge](/image/mod7.5.png)
   
 「Successfully installed…」と表示されたら、`OK`を押してウィンドウを閉じましょう。
 
