@@ -84,6 +84,7 @@ MODの導入で通常のワールドデータに悪影響が及ばないよう�
 ## MODを導入する  
 いよいよMODを導入していきます。  
 まずは、Simple Voice chatの[公式ページ](https://www.curseforge.com/minecraft/mc-mods/simple-voice-chat/files/5716557)に飛びます。
+そして、ダウンロードをクリックします。少し待つと右上に保存と削除という欄が出てくるので、保存を選択します。
 
 ![mod](/image/mod13.png)
 
