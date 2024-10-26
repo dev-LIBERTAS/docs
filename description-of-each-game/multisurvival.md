@@ -4,6 +4,7 @@ order: 68000
 ---
 # Simple Voice Chatの入れ方
 ### 一度マイクラを起動する
+  
 まずは、導入するMODと同じバージョン（今回は1.20.4）のマイクラを起動しましょう。
 
 「マインクラフトランチャー」を開いて、`起動構成`をクリックしてください。
@@ -18,6 +19,7 @@ order: 68000
 ![mod2](/image/mod2.png)
 
 ### Minecraft Forgeをダウンロードする  
+  
 導入するMODと同じバージョンの『Minecraft Forge』をダウンロードしていきます。
 
 ![ao](/image/mod3.PNG)
@@ -31,6 +33,7 @@ order: 68000
 ![mod4](/image/mod4.png)
 
 ### JDKをインストールする
+  
 『Minecraft Forge』のインストーラーを起動するため、パソコンに『JDK』というツールをインストールします。
   
 ![JDK](/image/mod5.png)
