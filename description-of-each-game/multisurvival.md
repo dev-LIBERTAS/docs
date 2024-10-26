@@ -82,7 +82,8 @@ MODの導入で通常のワールドデータに悪影響が及ばないよう�
 ![mod](/image/mod10.png)
 
 ## MODを導入する  
-いよいよMODを導入していきます。
+いよいよMODを導入していきます。  
+まずは、Simple Voice chatの[公式ページ](https://www.curseforge.com/minecraft/mc-mods/simple-voice-chat/files/5716557)に飛びます
 
 「Forge」の起動構成でゲームを開始したら、スタート画面で`Mod`をクリックしましょう。
   
