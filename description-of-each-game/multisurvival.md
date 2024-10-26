@@ -34,6 +34,9 @@ order: 68000
 『Minecraft Forge』のインストーラーを起動するため、パソコンに『JDK』というツールをインストールします。
   
 ![JDK](/image/mod5.png)
+  
+『JDK』の[公式サイト](https://www.oracle.com/jp/java/technologies/downloads/)にアクセスして、「Windows」のタブをクリックしてください。
+そのあと、「x64 Installer」のURLをクリックすると、ダウンロードが始まります。
 
 
 
