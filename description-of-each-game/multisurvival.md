@@ -3,7 +3,7 @@ label: 【マルチサバイバル】の説明
 order: 68000
 ---
 # Simple Voice Chatの入れ方
-### 一度マイクラを起動する
+## 一度マイクラを起動する
   
 まずは、導入するMODと同じバージョン（今回は1.20.4）のマイクラを起動しましょう。
 
@@ -18,7 +18,7 @@ order: 68000
   
 ![mod2](/image/mod2.png)
 
-### Minecraft Forgeをダウンロードする  
+## Minecraft Forgeをダウンロードする  
   
 導入するMODと同じバージョンの『Minecraft Forge』をダウンロードしていきます。
 
@@ -32,7 +32,7 @@ order: 68000
 
 ![mod4](/image/mod4.png)
 
-### JDKをインストールする
+## JDKをインストールする
   
 『Minecraft Forge』のインストーラーを起動するため、パソコンに『JDK』というツールをインストールします。
   
