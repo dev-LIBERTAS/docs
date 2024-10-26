@@ -31,7 +31,7 @@ order: 68000
 ![mod4](/image/mod4.png)
 
 ### JDKをインストールする
-『Minecraft Forge』のインストーラーを起動するため、パソコンに『JDK』というツールをインストールします。
+『Minecraft Forge』のインストーラーを起動するため、パソコンに『JDK』というツールをインストールします。  
 ![JDK](/image/mod5.png)
 
 
