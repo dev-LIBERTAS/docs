@@ -37,9 +37,8 @@ order: 68000
   
 『JDK』の[公式サイト](https://www.oracle.com/jp/java/technologies/downloads/)にアクセスして、「Windows」のタブをクリックしてください。
 そのあと、「x64 Installer」のURLをクリックすると、ダウンロードが始まります。
-
-
-
+  
+![JAVA](/image/mod6.png)
 
 
 
