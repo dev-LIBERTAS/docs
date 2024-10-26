@@ -23,9 +23,12 @@ order: 68000
 ![ao](/image/mod3.PNG)
 
 『Minecraft Forge』の公式サイトにアクセスして、左のバージョン一覧より1.20.4をクリックしましょう。
-[公式サイト](https://files.minecraftforge.net/net/minecraftforge/forge/index_1.20.4.html)  
+[公式サイト](https://files.minecraftforge.net/net/minecraftforge/forge/index_1.20.4.html)
+  
 続いて、「Download Recommended（安定版）」のInstallerをクリックします。
-広告ページに遷移するので、5秒待ったあとに右上のSKIPをクリックしましょう。
+広告ページに遷移するので、5秒待ったあとに右上のSKIPをクリックしましょう。  
+
+![mod4](/image/mod4.png)
 
 
 
