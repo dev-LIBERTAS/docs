@@ -68,255 +68,232 @@ order: 699998
 ```
 
 ## ギフトコマンド一覧  
-- ハートミー:ミニ回復
+- ミニ回復
 ```
 /effect give @p minecraft:regeneration 5 5
 ```
-- バラ:ゾンビ
+- ゾンビ
 ```
-/summon minecraft:zombie ~ ~3 ~2 {CustomNameVisible:1,PersistenceRequired:1b,Attributes:[{Name:"generic.max_health",Base:10}],Health:10.0f}
+/summon minecraft:zombie ~ ~3 ~2 
 ```
-- GG:スケルトン
+- スケルトン
 ```
-/summon minecraft:skeleton ~ ~3 ~2 {CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:"minecraft:bow",Count:1},{}]}
+/summon minecraft:skeleton ~ ~3 ~2
 ```
-- ソフトクリーム:目隠し
+- 目隠し
 ```
 /execute at @p run particle minecraft:explosion ~ ~1 ~ 0.5 0.5 0.5 0.1 100
 ```
-- フィンガーハート:トロッコx1
+- トロッコx1
 ```
 /mobspawner:spawner shotcart CREEPER 10 2 2 all 0 15 15 0 -1 -1
 ```
-- ニャオ:エンダーマン
+- エンダーマン
 ```
 /summon minecraft:enderman ~ ~3 ~2 
 ```
-- インスタントヌードル:防具付きゾンビ
+- 防具付きゾンビ
 ```
-/summon minecraft:zombie ~ ~3 ~2 {CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:"minecraft:iron_sword",Count:1}],HandDropChances:[0.0f]}
+/summon minecraft:zombie ~ ~3 ~2 {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:""minecraft:iron_sword"",Count:1}],ArmorItems:[{},{},{},{id:""minecraft:iron_helmet"",Count:1}]}
 ```
-- 御守り:ハスク
+- ハスク
 ```
 /summon minecraft:husk ~ ~3 ~2 
 ```
-- www:クリーパー
+- クリーパー
 ```
 /summon minecraft:creeper ~ ~3 ~2 
 ```
-- ゲームパッド:牛x5
-```
-/summon minecraft:cow ~ ~3 ~2 
-```
-- ローザ:ファイヤースケルトン
-```
-/summon minecraft:skeleton ~ ~3 ~2 {CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:"minecraft:bow",Count:1b,tag:{Enchantments:[{id:"minecraft:flame",lvl:1}]}}],ArmorItems:[{},{},{},{}]}
-```
-- 友情ネックレス:クリーパー
-```
-/summon minecraft:creeper ~ ~3 ~2 
-```
-- ヴェノム:クリーパー
-```
-/summon minecraft:creeper ~ ~3 ~2 
-```
-- レイブダンス:エンダーマンx2
-```
-/summon minecraft:enderman ~ ~3 ~2 
-```
-- かき氷:防具つきゾンビx2
-```
-/summon minecraft:zombie ~ ~3 ~2 {CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:"minecraft:iron_sword",Count:1}],ArmorItems:[{},{},{},{id:"minecraft:iron_helmet",Count:1}]}
-```
-- 筋肉ムキムキ:回復
-```
-/effect give @p minecraft:regeneration 15 5
-```
-- 愛してる:回復
-```
-/effect give @p minecraft:regeneration 15 5
-```
-- 香水:豚10匹
+- 豚x10
 ```
 /summon minecraft:pig ~ ~3 ~2 
 ```
-- ありがとう:回復
+- ノックバックスケルトン
+```
+/summon skeleton ~ ~3 ~2 {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:""bow"",Count:1b,tag:{Enchantments:[{id:""punch"",lvl:4}]}}],ArmorItems:[{},{},{},{id:""iron_helmet"",Count:1b}]}
+```
+- エンダーマンx2
+```
+/summon minecraft:enderman ~ ~3 ~2 
+```
+- 防具つきゾンビx2
+```
+/summon minecraft:zombie ~ ~3 ~2 {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:""minecraft:iron_sword"",Count:1}],ArmorItems:[{},{},{},{id:""minecraft:iron_helmet"",Count:1}]}
+```
+- 回復
 ```
 /effect give @p minecraft:regeneration 15 5
 ```
-- ドーナッツ:トロッコ列
+- 豚10匹
 ```
-/task cart2 2 20
+/summon minecraft:pig ~ ~3 ~2 
 ```
-- ホットチョコレート:クモの巣
+- トロッコ列
+```
+/rtask cart2 1 1
+```
+- クモの巣
 ```
 /execute as @p run fill ~ ~ ~ ~ ~ ~ minecraft:cobweb
 ```
-- キャップ:空腹
+- 空腹
 ```
 /effect give @p minecraft:hunger 30 255
 ```
-- 折り鶴:TNT
+- TNT
 ```
-/task tnt3 1 1
+/rtask tnt3 1 1
 ```
-- スター:大ジャンプ
+- 大ジャンプ
 ```
 /effect give @p minecraft:levitation 1 25
 ```
-- ゲームコントローラー:肩車ゾンビx50
+- 肩車ゾンビx50
 ```
-/task zombie2 15 4
+/rtask zombie2 15 200
 ```
-- クラッカー:ゾンビx100
+- ゾンビx100
 ```
-/task zombie1 30 4
+/rtask zombie1 30 200
 ```
-- ハンドハート:魔法使い
+- 魔法使い
 ```
 /summon minecraft:illusioner ~ ~3 ~2 
 ```
-- 柴犬:カミナリ
+- カミナリ
 ```
 /execute at @e[type=!minecraft:player,limit=30] run summon minecraft:lightning_bolt ~ ~ ~
 ```
-- 鍵と鍵穴:金床の雨
+- 金床の雨
 ```
-/task anvil1 1 1 50
+/rtask anvil1 1 1 2500
 ```
-- ハート:黒曜石追加
+- 黒曜石追加
 ```
-/execute at @p run summon minecraft:falling_block ~ ~10 ~ {BlockState:{Name:"minecraft:obsidian"},Time:1}
+/execute at @p run summon minecraft:falling_block ~ ~10 ~ {BlockState:{Name:""minecraft:obsidian""},Time:1}
 ```
-- びよ～ん:シュルカー
-```
-/summon minecraft:shulker ~ ~3 ~2 
-```
-- 髪をなでる:シュルカー
-```
-/summon minecraft:shulker ~ ~3 ~2 
-```
-- ゲーマーキャット:雷+ねこパーティー
+- 雷+ねこパーティー
 ```
 /execute at @e[type=!minecraft:player,limit=30] run summon minecraft:lightning_bolt ~ ~ ~
 ```
-- ゲーミングキーボード:ルーレット
+```
+/rtask cat1 30 200
+```
+- ルーレット
 ```
 /roulette GamingKeyboard
 ```
-- コーギー:耐電クリーパー
+- 耐電クリーパー
 ```
-/task powercreeper1 40 2
+/rtask powercreeper1 40 100
 ```
-- ボクシンググローブ:TNT
+- 大量トロッコ
 ```
-/task tnt3 1 1
+/rtask cart3 5 50
 ```
-- アヒル:大量トロッコ
+- 激おこ犬
 ```
-/task cart3 5 26
+/rtask wolf1 25 150
 ```
-- フルーツの友達:激おこ犬
+- ルーレット
 ```
-/task wolf1 25 3
+/roulette roulette2
 ```
-- 招きねこ:ネコパーティー
+- ネコパーティー
 ```
-/task cat1 30 4
+/rtask cat1 30 200
 ```
-- マネーガン:アイテム没収
+- テレポート
+```
+/tp @a 0 223 285
+```
+- アイテム没収
 ```
 /clear @p
 ```
-- すばらしい！:爆撃TNT
+- 爆撃TNT
 ```
-/task tnt4 3 200
+/rtask tnt4 3 10000
 ```
-- ハグ:テレポート
+- ドラゴン群
 ```
-/tp @a 0 223 285
+/rtask dragon1 1 1
 ```
-- スパゲッティのキス:ドラゴン群
+- ダイヤ装備
 ```
-/task dragon1 1 1
+/rtask diamond1 1 1
 ```
-- タイムゴーグル:ダイヤ装備
-```
-/task diamond1 1 1
-```
-- ライオンのたてがみ:テレポート
-```
-/tp @a 0 223 285
-```
-- 白鳥:全員集合
+- 全員集合
 ```
 /execute at @p run tp @e[type=!minecraft:minecart] ~ ~ ~
 ```
-- 列車:砂追加
+- 砂追加
 ```
 /execute at @p run fill ~50 ~30 ~10 ~-50 ~45 ~10 minecraft:sand replace minecraft:air
 ```
-- Travel with You:15分強制雨
+- 15分強制雨
 ```
-/task weather1 1 1
+/rtask weather1 1 1
 ```
-- ラブリーミュージック:ラベジャーx2
+- ラベジャーx2
 ```
 /summon minecraft:ravager ~ ~3 ~2 
 ```
-- フラワーミラー:ウォーデン
+- ウォーデン
 ```
-/summon minecraft:warden ~ ~3 ~2
+/timemob minecraft:warden 900 ~ ~3 ~2
 ```
-- キリン:ウォーデン
+- チキンパーティー
 ```
-/summon minecraft:warden ~ ~3 ~2
+/rtask chicken1 300 200
 ```
-- 花火:チキンパーティー
+- 超お助け
 ```
-/task chicken1 300 4
+/rtask ArcadeGame1 1 1
 ```
-- ドラムセット:チキンパーティー
+- 最強戦士
 ```
-/task chicken1 300 4
+/rtask warden1 1 1
 ```
-- アーケードゲーム:超お助け
+- 動物園
 ```
-/task ArcadeGame1 1 1
+/rtask world2 1 1
 ```
-- 配信者のセットアップ:最強戦士
+- 水族館
 ```
-/task warden1 1 1
+/rtask water1 100 300
 ```
-- クジラのダイビング:動物園
+- 白馬の王子様
 ```
-/task world2 1 1
+/rtask leon 1 1
 ```
-- オートバイ:水族館
 ```
-/task water1 100 6
+/rtask weather1 1 1
 ```
-- 子猫のレオン:白馬の王子様
+- ジャイアントゾンビ群
 ```
-/task leon 1 1
+/rtask sportscar1 1 1
 ```
-- スポーツカー:ジャイアントゾンビ群
+- ワールド崩壊
 ```
-/task sportscar1 1 1
+/rtask dragon2 2 500
 ```
-- 星から星へ:ワールド崩壊
+- 領域展開
 ```
-/task dragon2 2 10
+/rtask world1 1 1
 ```
-- ローザの星雲:領域展開
+- ハッピーセット
 ```
-/task world1 1 1
+/rtask lion1 1 1
 ```
-- ライオン:ハッピーセット
+- 星から星へ+ライオン
 ```
-/task lion1 1 1
+/rtask dragon2 2 500
 ```
-- TikTok Universe:滅亡
 ```
-/task tiktokuniverse1 1 1
+/rtask lion1 1 1
+```
+- 滅亡
+```
+/rtask tiktokuniverse1 1 1
 ```
