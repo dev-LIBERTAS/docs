@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.6.0.783401690357">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.6.0.783401925984">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.6.0">
@@ -32,11 +32,11 @@
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../resources/css/retype.css?v=3.6.0.783401690357" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.6.0.783401925984" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.6.0.783401690357" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.6.0.783401925984" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.6.0.783401690357" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.6.0.783401925984" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -299,7 +299,7 @@
 <li>ゾンビ</li>
 </ul>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/summon minecraft:zombie ~ ~2 ~6 {CustomName:'{&quot;&quot;text&quot;&quot;:&quot;&quot;{user.profileName}&quot;&quot;}',CustomNameVisible:1,PersistenceRequired:1b}</code></pre>
+<pre class="language-none"><code v-pre class="language-none">/summon minecraft:zombie ~ ~2 ~6 </code></pre>
 </doc-codeblock></div>
 <ul>
 <li>スケルトン</li>
@@ -323,19 +323,7 @@
 <li>エンダーマン</li>
 </ul>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/summon minecraft:enderman ~ ~2 ~6 {CustomName:'{&quot;&quot;text&quot;&quot;:&quot;&quot;{user.profileName}&quot;&quot;}',CustomNameVisible:1,PersistenceRequired:1b}</code></pre>
-</doc-codeblock></div>
-<ul>
-<li>防具付きゾンビ</li>
-</ul>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/summon minecraft:zombie ~ ~2 ~6 {CustomName:'{&quot;&quot;text&quot;&quot;:&quot;&quot;{user.profileName}&quot;&quot;}',CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:&quot;&quot;minecraft:iron_sword&quot;&quot;,Count:1}],HandDropChances:[0.0f]}</code></pre>
-</doc-codeblock></div>
-<ul>
-<li>ハスク</li>
-</ul>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/summon minecraft:husk ~ ~2 ~6 {CustomName:'{&quot;&quot;text&quot;&quot;:&quot;&quot;{user.profileName}&quot;&quot;}',CustomNameVisible:1,PersistenceRequired:1b}</code></pre>
+<pre class="language-none"><code v-pre class="language-none">/summon minecraft:enderman ~ ~2 ~6 </code></pre>
 </doc-codeblock></div>
 <ul>
 <li>防具付きゾンビ</li>
@@ -344,28 +332,34 @@
 <pre class="language-none"><code v-pre class="language-none">/summon minecraft:zombie ~ ~2 ~6 {CustomName:'{&quot;&quot;text&quot;&quot;:&quot;&quot;{user.profileName}&quot;&quot;}',CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:&quot;&quot;minecraft:iron_sword&quot;&quot;,Count:1}],ArmorItems:[{},{},{},{id:&quot;&quot;minecraft:iron_helmet&quot;&quot;,Count:1}]}</code></pre>
 </doc-codeblock></div>
 <ul>
+<li>ハスク</li>
+</ul>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none">/summon minecraft:husk ~ ~2 ~6 </code></pre>
+</doc-codeblock></div>
+<ul>
 <li>クリーパー</li>
 </ul>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/summon minecraft:creeper ~ ~2 ~6 {CustomName:'{&quot;&quot;text&quot;&quot;:&quot;&quot;{user.profileName}&quot;&quot;}',CustomNameVisible:1,PersistenceRequired:1b}</code></pre>
+<pre class="language-none"><code v-pre class="language-none">/summon minecraft:creeper ~ ~2 ~6 </code></pre>
 </doc-codeblock></div>
 <ul>
-<li>牛x5</li>
+<li>豚x10</li>
 </ul>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/summon minecraft:cow ~ ~2 ~6 {CustomName:'{&quot;&quot;text&quot;&quot;:&quot;&quot;{user.profileName}&quot;&quot;}',CustomNameVisible:1,PersistenceRequired:1b}</code></pre>
+<pre class="language-none"><code v-pre class="language-none">/summon minecraft:pig ~ ~2 ~6 </code></pre>
 </doc-codeblock></div>
 <ul>
 <li>ノックバックスケルトン</li>
 </ul>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/summon skeleton ~ ~2 ~6 {CustomName:'{&quot;&quot;text&quot;&quot;:&quot;&quot;{user.profileName}&quot;&quot;}',CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:&quot;&quot;bow&quot;&quot;,Count:1b,tag:{Enchantments:[{id:&quot;&quot;punch&quot;&quot;,lvl:5}]}}],ArmorItems:[{},{},{},{id:&quot;&quot;iron_helmet&quot;&quot;,Count:1b}]}</code></pre>
+<pre class="language-none"><code v-pre class="language-none">/summon skeleton ~ ~2 ~6 {CustomName:'{&quot;&quot;text&quot;&quot;:&quot;&quot;{user.profileName}&quot;&quot;}',CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:&quot;&quot;bow&quot;&quot;,Count:1b,tag:{Enchantments:[{id:&quot;&quot;punch&quot;&quot;,lvl:4}]}}],ArmorItems:[{},{},{},{id:&quot;&quot;iron_helmet&quot;&quot;,Count:1b}]}</code></pre>
 </doc-codeblock></div>
 <ul>
 <li>エンダーマンx2</li>
 </ul>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/summon minecraft:enderman ~ ~2 ~6 {CustomName:'{&quot;&quot;text&quot;&quot;:&quot;&quot;{user.profileName}&quot;&quot;}',CustomNameVisible:1,PersistenceRequired:1b}</code></pre>
+<pre class="language-none"><code v-pre class="language-none">/summon minecraft:enderman ~ ~2 ~6 </code></pre>
 </doc-codeblock></div>
 <ul>
 <li>防具つきゾンビx2</li>
@@ -383,13 +377,13 @@
 <li>豚10匹</li>
 </ul>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/summon minecraft:pig ~ ~2 ~6 {CustomName:'{&quot;&quot;text&quot;&quot;:&quot;&quot;{user.profileName}&quot;&quot;}',CustomNameVisible:1,PersistenceRequired:1b}</code></pre>
+<pre class="language-none"><code v-pre class="language-none">/summon minecraft:pig ~ ~2 ~6 </code></pre>
 </doc-codeblock></div>
 <ul>
 <li>ゴキブリx3</li>
 </ul>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/summon minecraft:silverfish ~ ~2 ~6 {CustomName:'{&quot;&quot;text&quot;&quot;:&quot;&quot;{user.profileName}&quot;&quot;}',CustomNameVisible:1,PersistenceRequired:1b}</code></pre>
+<pre class="language-none"><code v-pre class="language-none">/summon minecraft:silverfish ~ ~2 ~6 </code></pre>
 </doc-codeblock></div>
 <ul>
 <li>クモの巣</li>
@@ -410,6 +404,12 @@
 <pre class="language-none"><code v-pre class="language-none">/execute at @p run summon tnt ~ ~2 ~6 {fuse:10}</code></pre>
 </doc-codeblock></div>
 <ul>
+<li>50ブロック戻る</li>
+</ul>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none">/tp @p ~ 0 ~-50</code></pre>
+</doc-codeblock></div>
+<ul>
 <li>大ジャンプ</li>
 </ul>
 <div class="codeblock-wrapper"><doc-codeblock>
@@ -419,19 +419,13 @@
 <li>肩車ゾンビx50</li>
 </ul>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/rtask zombie2 100 50</code></pre>
+<pre class="language-none"><code v-pre class="language-none">/rtask zombie2 50 100</code></pre>
 </doc-codeblock></div>
 <ul>
 <li>ゾンビx100</li>
 </ul>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/rtask zombie1 100 50</code></pre>
-</doc-codeblock></div>
-<ul>
-<li>100ブロック戻る</li>
-</ul>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/tp ~ 0 ~-100</code></pre>
+<pre class="language-none"><code v-pre class="language-none">/rtask zombie1 100 100</code></pre>
 </doc-codeblock></div>
 <ul>
 <li>カミナリ</li>
@@ -443,7 +437,7 @@
 <li>金床の雨</li>
 </ul>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/rtask anvil1 30 50</code></pre>
+<pre class="language-none"><code v-pre class="language-none">/rtask anvil1 1 1</code></pre>
 </doc-codeblock></div>
 <ul>
 <li>黒曜石追加</li>
@@ -455,13 +449,22 @@
 <li>魔法使い</li>
 </ul>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/summon minecraft:illusioner ~ ~2 ~6 {CustomName:'{&quot;&quot;text&quot;&quot;:&quot;&quot;{user.profileName}&quot;&quot;}',CustomNameVisible:1,PersistenceRequired:1b}</code></pre>
+<pre class="language-none"><code v-pre class="language-none">/summon minecraft:illusioner ~ ~2 ~6 </code></pre>
 </doc-codeblock></div>
 <ul>
 <li>氷塊</li>
 </ul>
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-none"><code v-pre class="language-none">/execute as @p run fill ~-1 ~ ~-1 ~1 ~2 ~1 minecraft:ice</code></pre>
+</doc-codeblock></div>
+<ul>
+<li>雷+ねこパーティー</li>
+</ul>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none">/execute at @e[type=!minecraft:player,limit=30] run summon minecraft:lightning_bolt ~ ~ ~</code></pre>
+</doc-codeblock></div>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none">/rtask cat1 30 4</code></pre>
 </doc-codeblock></div>
 <ul>
 <li>ルーレット</li>
@@ -473,7 +476,7 @@
 <li>耐電クリーパー</li>
 </ul>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/rtask creeper1 25 50</code></pre>
+<pre class="language-none"><code v-pre class="language-none">/rtask creeper1 25 100</code></pre>
 </doc-codeblock></div>
 <ul>
 <li>TNTx3</li>
@@ -498,6 +501,12 @@
 </ul>
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-none"><code v-pre class="language-none">/rtask dragon2 1 1</code></pre>
+</doc-codeblock></div>
+<ul>
+<li>ルーレット</li>
+</ul>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none">/roulette roulette2</code></pre>
 </doc-codeblock></div>
 <ul>
 <li>お助け</li>
@@ -530,12 +539,6 @@
 <pre class="language-none"><code v-pre class="language-none">/execute at @p run tp @e[type=!minecraft:minecart] ~ ~ ~</code></pre>
 </doc-codeblock></div>
 <ul>
-<li>蜘蛛の巣壁</li>
-</ul>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/execute at @p run fill ~20 ~-10 ~15 ~-20 ~10 ~16 minecraft:cobweb replace minecraft:air</code></pre>
-</doc-codeblock></div>
-<ul>
 <li>砂追加</li>
 </ul>
 <div class="codeblock-wrapper"><doc-codeblock>
@@ -551,7 +554,13 @@
 <li>ラベジャーx2</li>
 </ul>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/summon minecraft:ravager ~ ~2 ~6 {CustomName:'{&quot;&quot;text&quot;&quot;:&quot;&quot;{user.profileName}&quot;&quot;}',CustomNameVisible:1,PersistenceRequired:1b}</code></pre>
+<pre class="language-none"><code v-pre class="language-none">/summon minecraft:ravager ~ ~2 ~6 </code></pre>
+</doc-codeblock></div>
+<ul>
+<li>蜘蛛の巣壁</li>
+</ul>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none">/execute at @p run fill 11 -10 ~15 -11 10 ~17 minecraft:cobweb replace minecraft:air</code></pre>
 </doc-codeblock></div>
 <ul>
 <li>マグマの塔</li>
@@ -613,6 +622,9 @@
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-none"><code v-pre class="language-none">/rtask leon1 1 1</code></pre>
 </doc-codeblock></div>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none">/rtask weather1 1 1</code></pre>
+</doc-codeblock></div>
 <ul>
 <li>炎ミサイル</li>
 </ul>
@@ -634,6 +646,15 @@
 <ul>
 <li>巨大ゾンビ群</li>
 </ul>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none">/rtask lion1 1 1</code></pre>
+</doc-codeblock></div>
+<ul>
+<li>星から星へ x ライオン</li>
+</ul>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none">/rtask tnt6 1 1</code></pre>
+</doc-codeblock></div>
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-none"><code v-pre class="language-none">/rtask lion1 1 1</code></pre>
 </doc-codeblock></div>
