@@ -59,6 +59,7 @@ order: 699999
 ```
 
 ## ギフトコマンド一覧  
+
 - ミニ回復
 ```
 /effect give @p minecraft:regeneration 5 5
@@ -110,7 +111,6 @@ order: 699999
 - エンダーマンx2
 ```
 /summon minecraft:enderman ^ ^2 ^2 
-    - /summon minecraft:enderman ^ ^2 ^2 
 ```
 - 防具つきゾンビx2
 ```
@@ -171,7 +171,9 @@ order: 699999
 - 雷+ねこパーティー
 ```
 /execute at @e[type=!minecraft:player,limit=30] run summon minecraft:lightning_bolt ~ ~ ~
-    - /rtask cat1 100 100
+```
+```
+/rtask cat1 100 100
 ```
 - ルーレット
 ```
