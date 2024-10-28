@@ -59,295 +59,231 @@ order: 699999
 ```
 
 ## ギフトコマンド一覧  
-
-  - ハートミー ：ミニ回復
-    ```
-    /effect give @p minecraft:regeneration 5 5
-    ```
-
-  - バラ ：ゾンビ
-    ```
-    /summon minecraft:zombie ~ ~ ~
-    ```
-
-  - GG ：スケルトン
-    ```
-    /summon minecraft:skeleton ~ ~ ~
-    ```
-  
-  - ソフトクリーム ：目隠し
-    ```
-    /execute at @p run particle minecraft:explosion ~ ~1 ~ 0.5 0.5 0.5 0.1 100
-    ```
-    
-  - フィンガーハート ：殺人うさぎ
-    ```
-    /execute at @p run summon minecraft:rabbit ~ ~ ~ {RabbitType:99}
-    ```
-    
-  - www ：クリーパー
-    ```
-    /summon minecraft:creeper ~ ~ ~
-    ```
-
-  - ゲームパッド ：牛x5
-    ```
-    /summon minecraft:cow ~ ~ ~
-    ```
-
-  - ローザ ：ファイヤースケルトン
-    ```
-    /summon minecraft:skeleton ~ ~ ~ {CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:"minecraft:bow",Count:1b,tag:{Enchantments:[{id:"minecraft:flame",lvl:1}]}}],ArmorItems:[{},{},{},{}]}
-    ```
-    
-  - 友情ネックレス ：クリーパー
-    ```
-    /summon minecraft:creeper ~ ~ ~
-    ```
-
-  - ヴェノム ：クリーパー
-    ```
-    /summon minecraft:creeper ~ ~ ~
-    ```
-
-  - レイブダンス ：エンダーマンx2
-    ```
-    /summon minecraft:enderman ^ ^2 ^2 {CustomNameVisible:1,PersistenceRequired:1b}
-    ```
-
-  - かき氷 ：防具つきゾンビx2
-    ```
-    /summon minecraft:zombie ~ ~ ~ {CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:"minecraft:iron_sword",Count:1}],ArmorItems:[{},{},{},{id:"minecraft:iron_helmet",Count:1}]}
-    ```
-    
-  - 筋肉ムキムキ ：回復
-    ```
-    /effect give @p minecraft:regeneration 15 5
-    ```
-
-  - 愛してる ：回復
-    ```
-    /effect give @p minecraft:regeneration 15 5
-    ```
-
-  - 香水 ：豚10匹
-    ```
-    /summon minecraft:pig ~ ~ ~ {CustomNameVisible:1,PersistenceRequired:1b}
-    ```
-
-  - ありがとう ：回復
-    ```
-    /effect give @p minecraft:regeneration 15 5
-    ```
-
-  - ドーナッツ ：ゴキブリx3
-    ```
-    /summon minecraft:silverfish ~ ~ ~
-    ```
-
-  - キャップ ：空腹
-    ```
-    /effect give @p minecraft:hunger 30 255
-    ```
-    
-  - スター ：大ジャンプ
-    ```
-    /effect give @p minecraft:levitation 1 100
-    ```
-
-  - ゲームコントローラー ：肩車ゾンビx50
-    ```
-    /task zombie2 50 2
-    ```
-
-  - クラッカー ：ゾンビx100
-    ```
-    /task zombie1 100 2
-    ```
-
-  - ハンドハート ：魔法使い
-    ```
-    /summon minecraft:illusioner ~ ~ ~ {CustomNameVisible:1,PersistenceRequired:1b}
-    ```
-    
-  - ハンドハート ：魔法使い
-    ```
-    /summon minecraft:illusioner ~ ~ ~ {CustomNameVisible:1,PersistenceRequired:1b}
-    ```
-
-  - 柴犬 ：カミナリ
-    ```
-    /execute at @e[type=!minecraft:player,limit=30] run summon minecraft:lightning_bolt ~ ~ ~
-    ```
-
-  - 鍵と鍵穴 ：金床の雨
-    ```
-    /task anvil1 1 1 25
-    ```
-    
-  - ハート ：黒曜石追加
-    ```
-    /execute at @p run summon minecraft:falling_block ~ ~10 ~ {BlockState:{Name:"minecraft:obsidian"},Time:1}
-    ```
-
-  - 愛してる ：回復
-    ```
-    /effect give @p minecraft:regeneration 15 5
-    ```
-    
-  - 髪をなでる ：シュルカー
-    ```
-    /summon minecraft:shulker ~ ~ ~ {CustomNameVisible:1,PersistenceRequired:1b}
-    ```
-
-  - 花冠 ：氷塊
-    ```
-    /execute as @p run fill ~-1 ~ ~-1 ~1 ~2 ~1 minecraft:ice
-    ```
-
-  - ゲーマーキャット ：雷+ねこパーティー
-    ```
-    /execute at @e[type=!minecraft:player,limit=30] run summon minecraft:lightning_bolt ~ ~ ~
-    ```
-    ```
-    /task cat1 100 2    
-    ```
-  - ゲーミングキーボード ：ルーレット
-    ```
-    /roulette GamingKeyboard
-    ```
-
-  - コーギー ：耐電クリーパー
-    ```
-    /task powercreeper1 25 2
-    ```
-
-  - ボクシンググローブ ：TNT
-    ```
-    /execute at @p run summon tnt ~ ~5 ~ {fuse:100}
-    ```
-    
-  - フルーツの友達 ：激おこ犬
-    ```
-    /task wolf1 25 3
-    ```
-    
-  - 招きねこ ：ネコパーティー
-    ```
-    /task cat1 100 2
-    ```
-    
-  - マネーガン ：アイテム没収
-    ```
-    /clear @p
-    ```
-
-  - すばらしい！ ：ダイヤモンドシャベル
-    ```
-    /task diamondshovel1 1 1
-    ```
-
-  - ハグ ：お助け
-    ```
-    /effect give @a minecraft:haste 30 255 true
-    ```
-    
-  - ライオンのたてがみ ：お助け
-    ```
-    /effect give @a minecraft:haste 30 255 true
-    ```
-
-  - 白鳥 ：全員集合
-    ```
-    /execute at @p run tp @e[type=!minecraft:minecart] ~ ~ ~
-    ```
-    
-  - 列車 ：砂追加
-    ```
-    /execute at @p run fill -8 200 8 8 200 -8 minecraft:light_blue_concrete_powder
-    ```
-
-  - Travel with You ：15分強制雨
-    ```
-    /task weather1 1 1
-    ```
-    
-  - ラブリーミュージック ：ラベジャーx2
-    ```
-    /summon minecraft:ravager ~ ~ ~
-    ```
-
-  - フラワーミラー ：ウォーデン
-    ```
-    /summon minecraft:warden ~ ~ ~
-    ```
-
-  - キリン ：ウォーデン
-    ```
-    /summon minecraft:warden ~ ~ ~
-    ```
-    
-  - 花火 ：チキンパーティー
-    ```
-    /task redstonetorch1 1 1
-    ```
-
-  - ドラムセット ：チキンパーティー
-    ```
-    /task redstonetorch1 1 1
-    ```
-
-  - アーケードゲーム ：超お助け
-    ```
-    /task ArcadeGame1 1 1
-    ```
-
-  - 配信者のセットアップ ：最強戦士
-    ```
-    /task warden1 1 1
-    ```
-
-  - クジラのダイビング ：動物園
-    ```
-    /task world2 1 1
-    ```
-
-  - オートバイ ：水族館
-    ```
-    /task water1 1 1
-    ```
-    
-  - ゲーミングキーボード ：ルーレット
-    ```
-    /roulette GamingKeyboard
-    ```
-
-  - 子猫のレオン ：白馬の王子様
-    ```
-    /task leon 1 1
-    ```
-
-  - スポーツカー ：炎ミサイル
-    ```
-    /task blazephantom1 200 4
-    ```
-
-  - 星から星へ ：TNT大爆発
-    ```
-    /task concrete_powder1 1 1
-    ```
-
-  - ローザの星雲 ：砂タワー
-    ```
-    /task cart1 1 1
-    ```
-
-  - ライオン ：巨大ゾンビ群
-    ```
-    /task ghastgiant1 200 4
-    ```
-
-  - TikTok Universe ：ワールド崩壊
-    ```
-    /task tnt2 1200 2 
-    ```
+- ミニ回復
+```
+/effect give @p minecraft:regeneration 5 5
+```
+- ゾンビ
+```
+/summon minecraft:zombie ~ ~ ~
+```
+- スケルトン
+```
+/summon minecraft:skeleton ~ ~ ~ 
+```
+- 目隠し
+```
+/execute at @p run particle minecraft:explosion ~ ~1 ~ 0.5 0.5 0.5 0.1 100
+```
+- 殺人うさぎ
+```
+/execute at @p run summon minecraft:rabbit ~ ~ ~ {RabbitType:99}
+```
+- エンダーマン
+```
+/summon minecraft:enderman ^ ^2 ^2 
+```
+- 防具つきゾンビ
+```
+/summon minecraft:zombie ~ ~ ~ {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:""minecraft:iron_sword"",Count:1}],ArmorItems:[{},{},{},{id:""minecraft:iron_helmet"",Count:1}]}
+```
+- ハスク
+```
+/summon minecraft:husk ~ ~ ~ 
+```
+- 防具付きゾンビ
+```
+/summon minecraft:zombie ~ ~ ~ {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:""minecraft:iron_sword"",Count:1}],ArmorItems:[{},{},{},{id:""minecraft:iron_helmet"",Count:1}]}
+```
+- クリーパー
+```
+/summon minecraft:creeper ~ ~ ~ 
+```
+- 豚x10
+```
+/summon minecraft:pig ~ ~ ~ 
+```
+- ファイヤースケルトン
+```
+/summon skeleton ~ ~ ~ {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:""bow"",Count:1b,tag:{Enchantments:[{id:""flame"",lvl:1}]}}],ArmorItems:[{},{},{},{id:""iron_helmet"",Count:1b}]}
+```
+- エンダーマンx2
+```
+/summon minecraft:enderman ^ ^2 ^2 
+    - /summon minecraft:enderman ^ ^2 ^2 
+```
+- 防具つきゾンビx2
+```
+/summon minecraft:zombie ~ ~ ~ {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:""minecraft:iron_sword"",Count:1}],ArmorItems:[{},{},{},{id:""minecraft:iron_helmet"",Count:1}]}
+```
+- 回復
+```
+/effect give @p minecraft:regeneration 15 5
+```
+- 豚10匹
+```
+/summon minecraft:pig ~ ~ ~ 
+```
+- ゴキブリx3
+```
+/summon minecraft:silverfish ~ ~ ~ {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b,Attributes:[{Name:""generic.max_health"",Base:5}],Health:5.0f}
+```
+- 空腹
+```
+/effect give @p minecraft:hunger 30 255
+```
+- 大ジャンプ
+```
+/effect give @p minecraft:levitation 1 100
+```
+- 肩車ゾンビx50
+```
+/rtask zombie2 50 100
+```
+- ゾンビx100
+```
+/rtask zombie1 100 100
+```
+- 魔法使い
+```
+/summon minecraft:illusioner ~ ~ ~ 
+```
+- カミナリ
+```
+/execute at @e[type=!minecraft:player,limit=30] run summon minecraft:lightning_bolt ~ ~ ~
+```
+- 金床の雨
+```
+/rtask anvil1 1 1 1250
+```
+- 黒曜石追加
+```
+/execute at @p run summon minecraft:falling_block ~ ~10 ~ {BlockState:{Name:""minecraft:obsidian""},Time:1}
+```
+- シュルカー
+```
+/summon minecraft:shulker ~ ~ ~ 
+```
+- 氷塊
+```
+/execute as @p run fill ~-1 ~ ~-1 ~1 ~2 ~1 minecraft:ice
+```
+- 雷+ねこパーティー
+```
+/execute at @e[type=!minecraft:player,limit=30] run summon minecraft:lightning_bolt ~ ~ ~
+    - /rtask cat1 100 100
+```
+- ルーレット
+```
+/roulette GamingKeyboard
+```
+- 耐電クリーパー
+```
+/rtask powercreeper1 25 100
+```
+- TNT
+```
+/execute at @p run summon tnt ~ ~5 ~ {fuse:100}
+```
+- 激おこ犬
+```
+/rtask wolf1 25 150
+```
+- ルーレット
+```
+/roulette roulette2
+```
+- ネコパーティー
+```
+/rtask cat1 100 100
+```
+- お助け
+```
+/effect give @a minecraft:haste 30 255 true
+```
+- アイテム没収
+```
+/clear @p
+```
+- ダイヤモンドシャベル
+```
+/rtask diamondshovel1 1 1
+```
+- 全員集合
+```
+/execute at @p run tp @e[type=!minecraft:minecart] ~ ~ ~
+```
+- 砂追加
+```
+/execute at @p run fill -8 200 8 8 200 -8 minecraft:light_blue_concrete_powder
+```
+- 15分強制雨
+```
+/rtask weather1 1 1
+```
+- ラベジャーx2
+```
+/summon minecraft:ravager ~ ~ ~ 
+```
+- ウォーデン
+```
+/timemob minecraft:warden 900
+```
+- チキンパーティー
+```
+/rtask redstonetorch1 1 1
+```
+- 超お助け
+```
+/rtask ArcadeGame1 1 1
+```
+- 最強戦士
+```
+/rtask warden1 1 1
+```
+- 動物園
+```
+/rtask world2 1 1
+```
+- 水族館
+```
+/rtask water1 1 1
+```
+- ミニタワー！
+```
+/rtask sand1 200 2500
+```
+- 白馬の王子様
+```
+/rtask leon 1 1
+```
+```
+/rtask weather1 1 1
+```
+- 炎ミサイル
+```
+/rtask blazephantom1 200 200
+```
+- 砂タワー！
+```
+/rtask concrete_powder1 1 1
+```
+- クリーパーカー
+```
+/rtask cart1 1 1
+```
+- 巨大ゾンビ群
+```
+/rtask ghastgiant1 200 200
+```
+- 星から星へ+ライオン
+```
+/rtask concrete_powder1 1 1
+```
+```
+/rtask ghastgiant1 200 200
+```
+- ワールド崩壊
+```
+/rtask tnt2 600 200
+```
