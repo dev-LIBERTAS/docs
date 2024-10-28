@@ -62,7 +62,7 @@ order: 699997
 ```
 - ゾンビ
 ```
-/summon minecraft:zombie ~ ~2 ~6 {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b}
+/summon minecraft:zombie ~ ~2 ~6 
 ```
 - スケルトン
 ```
@@ -78,35 +78,31 @@ order: 699997
 ```
 - エンダーマン
 ```
-/summon minecraft:enderman ~ ~2 ~6 {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b}
-```
-- 防具付きゾンビ
-```
-/summon minecraft:zombie ~ ~2 ~6 {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:""minecraft:iron_sword"",Count:1}],HandDropChances:[0.0f]}
-```
-- ハスク
-```
-/summon minecraft:husk ~ ~2 ~6 {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b}
+/summon minecraft:enderman ~ ~2 ~6 
 ```
 - 防具付きゾンビ
 ```
 /summon minecraft:zombie ~ ~2 ~6 {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:""minecraft:iron_sword"",Count:1}],ArmorItems:[{},{},{},{id:""minecraft:iron_helmet"",Count:1}]}
 ```
+- ハスク
+```
+/summon minecraft:husk ~ ~2 ~6 
+```
 - クリーパー
 ```
-/summon minecraft:creeper ~ ~2 ~6 {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b}
+/summon minecraft:creeper ~ ~2 ~6 
 ```
-- 牛x5
+- 豚x10
 ```
-/summon minecraft:cow ~ ~2 ~6 {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b}
+/summon minecraft:pig ~ ~2 ~6 
 ```
 - ノックバックスケルトン
 ```
-/summon skeleton ~ ~2 ~6 {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:""bow"",Count:1b,tag:{Enchantments:[{id:""punch"",lvl:5}]}}],ArmorItems:[{},{},{},{id:""iron_helmet"",Count:1b}]}
+/summon skeleton ~ ~2 ~6 {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:""bow"",Count:1b,tag:{Enchantments:[{id:""punch"",lvl:4}]}}],ArmorItems:[{},{},{},{id:""iron_helmet"",Count:1b}]}
 ```
 - エンダーマンx2
 ```
-/summon minecraft:enderman ~ ~2 ~6 {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b}
+/summon minecraft:enderman ~ ~2 ~6 
 ```
 - 防具つきゾンビx2
 ```
@@ -118,11 +114,11 @@ order: 699997
 ```
 - 豚10匹
 ```
-/summon minecraft:pig ~ ~2 ~6 {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b}
+/summon minecraft:pig ~ ~2 ~6 
 ```
 - ゴキブリx3
 ```
-/summon minecraft:silverfish ~ ~2 ~6 {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b}
+/summon minecraft:silverfish ~ ~2 ~6 
 ```
 - クモの巣
 ```
@@ -136,21 +132,21 @@ order: 699997
 ```
 /execute at @p run summon tnt ~ ~2 ~6 {fuse:10}
 ```
+- 50ブロック戻る
+```
+/tp @p ~ 0 ~-50
+```
 - 大ジャンプ
 ```
 /effect give @p minecraft:levitation 1 25
 ```
 - 肩車ゾンビx50
 ```
-/rtask zombie2 100 50
+/rtask zombie2 50 100
 ```
 - ゾンビx100
 ```
-/rtask zombie1 100 50
-```
-- 100ブロック戻る
-```
-/tp ~ 0 ~-100
+/rtask zombie1 100 100
 ```
 - カミナリ
 ```
@@ -158,7 +154,7 @@ order: 699997
 ```
 - 金床の雨
 ```
-/rtask anvil1 30 50
+/rtask anvil1 1 1
 ```
 - 黒曜石追加
 ```
@@ -166,11 +162,18 @@ order: 699997
 ```
 - 魔法使い
 ```
-/summon minecraft:illusioner ~ ~2 ~6 {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b}
+/summon minecraft:illusioner ~ ~2 ~6 
 ```
 - 氷塊
 ```
 /execute as @p run fill ~-1 ~ ~-1 ~1 ~2 ~1 minecraft:ice
+```
+- 雷+ねこパーティー
+```
+/execute at @e[type=!minecraft:player,limit=30] run summon minecraft:lightning_bolt ~ ~ ~
+```
+```
+/rtask cat1 30 4
 ```
 - ルーレット
 ```
@@ -178,7 +181,7 @@ order: 699997
 ```
 - 耐電クリーパー
 ```
-/rtask creeper1 25 50
+/rtask creeper1 25 100
 ```
 - TNTx3
 ```
@@ -195,6 +198,10 @@ order: 699997
 - ドラゴン
 ```
 /rtask dragon2 1 1
+```
+- ルーレット
+```
+/roulette roulette2
 ```
 - お助け
 ```
@@ -216,10 +223,6 @@ order: 699997
 ```
 /execute at @p run tp @e[type=!minecraft:minecart] ~ ~ ~
 ```
-- 蜘蛛の巣壁
-```
-/execute at @p run fill ~20 ~-10 ~15 ~-20 ~10 ~16 minecraft:cobweb replace minecraft:air
-```
 - 砂追加
 ```
 /rtask train1 1 1
@@ -230,7 +233,11 @@ order: 699997
 ```
 - ラベジャーx2
 ```
-/summon minecraft:ravager ~ ~2 ~6 {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b}
+/summon minecraft:ravager ~ ~2 ~6 
+```
+- 蜘蛛の巣壁
+```
+/execute at @p run fill 11 -10 ~15 -11 10 ~17 minecraft:cobweb replace minecraft:air
 ```
 - マグマの塔
 ```
@@ -272,6 +279,9 @@ order: 699997
 ```
 /rtask leon1 1 1
 ```
+```
+/rtask weather1 1 1
+```
 - 炎ミサイル
 ```
 /rtask blazephantom1 50 200
@@ -285,6 +295,13 @@ order: 699997
 /rtask world2 1 1
 ```
 - 巨大ゾンビ群
+```
+/rtask lion1 1 1
+```
+- 星から星へ x ライオン
+```
+/rtask tnt6 1 1
+```
 ```
 /rtask lion1 1 1
 ```
