@@ -12,13 +12,13 @@ order: 700000
 
 2. **マインクラフトIDを入力**
 
-3. **配信するゲームを選ぶ**
+3. **ゲームを選ぶ**
 
 4. **空いているサーバーを選ぶ(どれでも可)**
 
 5. **利用時間を選択**  
 
-6. **配信開始**  
+6. **[サーバーへの接続方法](https://docs.libertasmc.xyz/howtojoin/)を参考にサーバーへ接続する**  
 
 <!-- <video src="https://nextcloud.nandeyanen.click/index.php/s/RMcHEjrjE3y88LM/download/1.mp4" controls="true"></video>　-->
 [!embed](https://youtu.be/54Pw7H54zB8)
