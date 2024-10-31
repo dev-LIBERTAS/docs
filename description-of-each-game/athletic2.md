@@ -5,7 +5,7 @@ order: 699997
 スタートアップゲーム名：
 ```未定```
 # アスレチック説明動画
-[!embed](https://)
+[!embed](https://youtu.be/P1Wc_cyfbYs)
 :::danger 注意
 ※アスレチックのプレイ前に必ず見てください。
 :::  
