@@ -20,7 +20,7 @@ order: 700000
 
 6. **配信開始**  
 
-# <video src="https://nextcloud.nandeyanen.click/index.php/s/RMcHEjrjE3y88LM/download/1.mp4" controls="true"></video>
+<!-- <video src="https://nextcloud.nandeyanen.click/index.php/s/RMcHEjrjE3y88LM/download/1.mp4" controls="true"></video>　-->
 [!embed](https://youtu.be/54Pw7H54zB8)
 ## 予約解除方法  
 
@@ -28,7 +28,7 @@ order: 700000
 
 2. **マインクラフトIDを入力**
 
-# <video src="https://nextcloud.nandeyanen.click/index.php/s/gmWeSLaBzL5Gq7Z/download/2.mp4" controls="true"></video>
+<!-- <video src="https://nextcloud.nandeyanen.click/index.php/s/gmWeSLaBzL5Gq7Z/download/2.mp4" controls="true"></video>　-->
 [!embed](https://youtu.be/bl2h8XrYj4s)
 ## 予約したサーバーにサブユーザーを追加する
 
@@ -47,5 +47,5 @@ order: 700000
 
 2. **自分のマインクラフトIDを入力**
 
-# <video src="https://nextcloud.nandeyanen.click/index.php/s/tMnpFgzLfAK6nDS/download/test2.mp4" controls="true"></video>
+<!-- <video src="https://nextcloud.nandeyanen.click/index.php/s/tMnpFgzLfAK6nDS/download/test2.mp4" controls="true"></video>　-->
 [!embed](https://youtu.be/54Pw7H54zB8)
