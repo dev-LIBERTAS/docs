@@ -48,4 +48,4 @@ order: 700000
 2. **自分のマインクラフトIDを入力**
 
 <!-- <video src="https://nextcloud.nandeyanen.click/index.php/s/tMnpFgzLfAK6nDS/download/test2.mp4" controls="true"></video>　-->
-[!embed](https://youtu.be/54Pw7H54zB8)
+[!embed](https://youtu.be/57ZRWsfuLZM)
