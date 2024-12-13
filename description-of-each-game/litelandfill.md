@@ -7,7 +7,7 @@ order: 700001
 
 
 # 埋め立て説明動画  
-[!embed](https://youtu.be/5NufXU4s7Vo)
+[!embed](https://youtu.be/oNc0Pzj_xGw)
 :::danger 注意
 ※埋め立てliteのプレイ前に必ず見てください。
 :::  
