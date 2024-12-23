@@ -66,9 +66,9 @@ https://cosmic-voyager.com/lunamouse/
 ```
 
 ## ギフトコマンド一覧  
-- 100ブロックお助け
+- TNTx10
 ```
-/rtask emerald1 100 1
+/rtask tnt1 10 1
 ```
 - TNTx1
 ```
@@ -81,6 +81,10 @@ https://cosmic-voyager.com/lunamouse/
 - TNTRainx1
 ```
 /rtask tntrain1 1 1
+```
+- ミニミニお助け
+```
+/rtask emerald1 30 1
 ```
 - TNTx20
 ```
@@ -110,17 +114,29 @@ https://cosmic-voyager.com/lunamouse/
 ```
 /rtask ghast1 20 100
 ```
-- チキンパーティー
+- クリーパーの雨
 ```
-/rtask chicken1 50 100
+/rtask creeper1 5 2500
 ```
 - ルーレット
 ```
 /roulette tnt
 ```
+- チキンパーティー
+```
+/rtask chicken1 50 100
+```
+- 鮭の雨
+```
+/rtask salmonrain1 500 1
+```
 - 全消し
 ```
 /rtask tnt3 1 1
+```
+- 砂タワー
+```
+/rtask concrete_powder1 1 1
 ```
 - エンダードラゴン
 ```
