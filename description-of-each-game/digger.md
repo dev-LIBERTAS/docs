@@ -6,7 +6,7 @@ order: 699999
 ```digger```
 
 # 整地説明動画
-[!embed](https://youtu.be/7gIpywjayBU)
+[!embed](https://youtu.be/uANeWhd9Ikg)
 :::danger 注意
 ※整地のプレイ前に必ず見てください。
 :::  
