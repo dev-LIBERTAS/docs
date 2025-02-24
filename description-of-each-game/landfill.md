@@ -117,6 +117,7 @@ order: 700000
 - 防具つきゾンビx2
 ```
 /summon minecraft:zombie ~ ~ ~ {CustomName:'{"text":"{user.profileName}"}',CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:"minecraft:iron_sword",Count:1}],ArmorItems:[{},{},{},{id:"minecraft:iron_helmet",Count:1}]}
+```
 - 回復
 ```
 /effect give @p minecraft:regeneration 15 5
