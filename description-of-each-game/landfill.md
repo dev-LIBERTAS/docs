@@ -70,6 +70,8 @@ order: 700000
 ```
 
 ## ギフトコマンド一覧  
+※1回分のコマンドです。回数分繰り返して入力してください。
+
 - ミニ回復
 ```
 /effect give @p minecraft:regeneration 5 5
@@ -125,6 +127,7 @@ order: 700000
 - 豚10匹
 ```
 /summon minecraft:pig ~ ~ ~
+
 ```
 - 豚5x牛5
 ```
@@ -178,17 +181,17 @@ order: 700000
 ```
 /summon minecraft:shulker ~ ~ ~
 ```
-- ルーレット
+- クモの巣xスケルトン
 ```
-/roulette GamingKeyboard
+/rtask cobweb1 1 1
 ```
 - 耐電クリーパー
 ```
 /rtask powercreeper1 25 100
 ```
-- クモの巣xスケルトン
+- ルーレット
 ```
-/rtask cobweb1 1 1
+/roulette GamingKeyboard
 ```
 - 激おこ犬
 ```
@@ -273,6 +276,8 @@ order: 700000
 - 妨害プレイヤー
 ```
 /spawnnpc create {user.profileName} break -6 80 -6
+/tellraw @a {"text":"{user.profileName} \u304c\u30b2\u30fc\u30e0\u306b\u53c2\u52a0\u3057\u307e\u3057\u305f","color":"yellow"}
+/spawnnpc create {user.profileName} break 6 80 6
 ```
 - ブロック変換
 ```
@@ -285,6 +290,10 @@ order: 700000
 - 水族館
 ```
 /rtask water1 1 1
+```
+- 床下マグマ
+```
+execute at @p run fill 7 37 7 -7 37 -7 lava
 ```
 - TNT流星群
 ```
