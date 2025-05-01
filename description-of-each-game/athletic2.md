@@ -60,6 +60,8 @@ order: 699997
 ```
 
 ## ギフトコマンド一覧  
+※1回分のコマンドです。回数分繰り返して入力してください。
+
 - ミニ回復
 ```
 /effect give @p minecraft:regeneration 5 5
