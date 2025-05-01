@@ -66,54 +66,47 @@ order: 699997
 ```
 - ゾンビ
 ```
-/summon minecraft:zombie ~ ~2 ~6 {CustomName:'{"text":"{user.profileName}"}',CustomNameVisible:1,PersistenceRequired:1b}
+/summon minecraft:zombie ~ ~2 ~6 
 ```
 - スケルトン
 ```
-/summon minecraft:skeleton ~ ~2 ~6 {CustomName:'{"text":"{user.profileName}"}',CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:"minecraft:bow",Count:1},{}]}
+/summon minecraft:skeleton ~ ~2 ~6 {CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:"minecraft:bow",Count:1},{}]}
 ```
 - 目隠し
 ```
 /execute at @p run particle minecraft:explosion ~ ~1 ~ 0.5 0.5 0.5 0.1 100
-    - /playsound minecraft:entity.generic.explode master @p ~ ~ ~ 1 1 1
 ```
 - 殺人うさぎ
 ```
-/execute at @p run summon minecraft:rabbit ~ ~2 ~6 {RabbitType:99,CustomName:'{"text":"{user.profileName}"}',CustomNameVisible:1,PersistenceRequired:1b}
+/execute at @p run summon minecraft:rabbit ~ ~2 ~6 {RabbitType:99,CustomNameVisible:1,PersistenceRequired:1b}
 ```
 - エンダーマン
 ```
-/summon minecraft:enderman ~ ~2 ~6 {CustomName:'{"text":"{user.profileName}"}',CustomNameVisible:1,PersistenceRequired:1b}
+/summon minecraft:enderman ~ ~2 ~6 
 ```
 - 防具付きゾンビ
 ```
-/summon minecraft:zombie ~ ~2 ~6 {CustomName:'{"text":"{user.profileName}"}',CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:"minecraft:iron_sword",Count:1}],ArmorItems:[{},{},{},{id:"minecraft:iron_helmet",Count:1}]}
+/summon minecraft:zombie ~ ~2 ~6 {CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:"minecraft:iron_sword",Count:1}],ArmorItems:[{},{},{},{id:"minecraft:iron_helmet",Count:1}]}
 ```
 - クリーパー
 ```
-/summon minecraft:creeper ~ ~2 ~6 {CustomName:'{"text":"{user.profileName}"}',CustomNameVisible:1,PersistenceRequired:1b}
+/summon minecraft:creeper ~ ~2 ~6 
 ```
 - 牛x5
 ```
-/summon minecraft:cow ~ ~2 ~6 {CustomName:'{"text":"{user.profileName}"}',CustomNameVisible:1,PersistenceRequired:1b}
-    - /summon minecraft:cow ~ ~2 ~6 {CustomName:'{"text":"{user.profileName}"}',CustomNameVisible:1,PersistenceRequired:1b}
-    - /summon minecraft:cow ~ ~2 ~6 {CustomName:'{"text":"{user.profileName}"}',CustomNameVisible:1,PersistenceRequired:1b}
-    - /summon minecraft:cow ~ ~2 ~6 {CustomName:'{"text":"{user.profileName}"}',CustomNameVisible:1,PersistenceRequired:1b}
-    - /summon minecraft:cow ~ ~2 ~6 {CustomName:'{"text":"{user.profileName}"}',CustomNameVisible:1,PersistenceRequired:1b}
+/summon minecraft:cow ~ ~2 ~6 
 ```
 - ノックバックスケルトン
 ```
-/summon skeleton ~ ~2 ~6 {CustomName:'{"text":"{user.profileName}"}',CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:"bow",Count:1b,tag:{Enchantments:[{id:"punch",lvl:4}]}}],ArmorItems:[{},{},{},{id:"iron_helmet",Count:1b}]}
+/summon skeleton ~ ~2 ~6 {CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:"bow",Count:1b,tag:{Enchantments:[{id:"punch",lvl:4}]}}],ArmorItems:[{},{},{},{id:"iron_helmet",Count:1b}]}
 ```
 - エンダーマンx2
 ```
-/summon minecraft:enderman ~ ~2 ~6 {CustomName:'{"text":"{user.profileName}"}',CustomNameVisible:1,PersistenceRequired:1b}
-    - /summon minecraft:enderman ~ ~2 ~6 {CustomName:'{"text":"{user.profileName}"}',CustomNameVisible:1,PersistenceRequired:1b}
+/summon minecraft:enderman ~ ~2 ~6 
 ```
 - 防具つきゾンビx2
 ```
-/summon minecraft:zombie ~ ~2 ~6 {CustomName:'{"text":"{user.profileName}"}',CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:"minecraft:iron_sword",Count:1}],ArmorItems:[{},{},{},{id:"minecraft:iron_helmet",Count:1}]}
-    - /summon minecraft:zombie ~ ~2 ~6 {CustomName:'{"text":"{user.profileName}"}',CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:"minecraft:iron_sword",Count:1}],ArmorItems:[{},{},{},{id:"minecraft:iron_helmet",Count:1}]}
+/summon minecraft:zombie ~ ~2 ~6 {CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:"minecraft:iron_sword",Count:1}],ArmorItems:[{},{},{},{id:"minecraft:iron_helmet",Count:1}]}
 ```
 - 回復
 ```
@@ -121,35 +114,15 @@ order: 699997
 ```
 - 豚10匹
 ```
-/summon minecraft:pig ~ ~2 ~6 {CustomName:'{"text":"{user.profileName}"}',CustomNameVisible:1,PersistenceRequired:1b}
-    - /summon minecraft:pig ~ ~2 ~6 {CustomName:'{"text":"{user.profileName}"}',CustomNameVisible:1,PersistenceRequired:1b}
-    - /summon minecraft:pig ~ ~2 ~6 {CustomName:'{"text":"{user.profileName}"}',CustomNameVisible:1,PersistenceRequired:1b}
-    - /summon minecraft:pig ~ ~2 ~6 {CustomName:'{"text":"{user.profileName}"}',CustomNameVisible:1,PersistenceRequired:1b}
-    - /summon minecraft:pig ~ ~2 ~6 {CustomName:'{"text":"{user.profileName}"}',CustomNameVisible:1,PersistenceRequired:1b}
-    - /summon minecraft:pig ~ ~2 ~6 {CustomName:'{"text":"{user.profileName}"}',CustomNameVisible:1,PersistenceRequired:1b}
-    - /summon minecraft:pig ~ ~2 ~6 {CustomName:'{"text":"{user.profileName}"}',CustomNameVisible:1,PersistenceRequired:1b}
-    - /summon minecraft:pig ~ ~2 ~6 {CustomName:'{"text":"{user.profileName}"}',CustomNameVisible:1,PersistenceRequired:1b}
-    - /summon minecraft:pig ~ ~2 ~6 {CustomName:'{"text":"{user.profileName}"}',CustomNameVisible:1,PersistenceRequired:1b}
-    - /summon minecraft:pig ~ ~2 ~6 {CustomName:'{"text":"{user.profileName}"}',CustomNameVisible:1,PersistenceRequired:1b}
+/summon minecraft:pig ~ ~2 ~6 
 ```
 - 豚5x牛5
 ```
-/summon minecraft:pig ~ ~2 ~6 {CustomName:'{"text":"{user.profileName}"}',CustomNameVisible:1,PersistenceRequired:1b}
-    - /summon minecraft:pig ~ ~2 ~6 {CustomName:'{"text":"{user.profileName}"}',CustomNameVisible:1,PersistenceRequired:1b}
-    - /summon minecraft:pig ~ ~2 ~6 {CustomName:'{"text":"{user.profileName}"}',CustomNameVisible:1,PersistenceRequired:1b}
-    - /summon minecraft:pig ~ ~2 ~6 {CustomName:'{"text":"{user.profileName}"}',CustomNameVisible:1,PersistenceRequired:1b}
-    - /summon minecraft:pig ~ ~2 ~6 {CustomName:'{"text":"{user.profileName}"}',CustomNameVisible:1,PersistenceRequired:1b}
-    - /summon minecraft:cow ~ ~2 ~6 {CustomName:'{"text":"{user.profileName}"}',CustomNameVisible:1,PersistenceRequired:1b}
-    - /summon minecraft:cow ~ ~2 ~6 {CustomName:'{"text":"{user.profileName}"}',CustomNameVisible:1,PersistenceRequired:1b}
-    - /summon minecraft:cow ~ ~2 ~6 {CustomName:'{"text":"{user.profileName}"}',CustomNameVisible:1,PersistenceRequired:1b}
-    - /summon minecraft:cow ~ ~2 ~6 {CustomName:'{"text":"{user.profileName}"}',CustomNameVisible:1,PersistenceRequired:1b}
-    - /summon minecraft:cow ~ ~2 ~6 {CustomName:'{"text":"{user.profileName}"}',CustomNameVisible:1,PersistenceRequired:1b}
+/summon minecraft:pig ~ ~2 ~6 
 ```
 - ゴキブリx3
 ```
-/summon minecraft:silverfish ~ ~2 ~6 {CustomName:'{"text":"{user.profileName}"}',CustomNameVisible:1,PersistenceRequired:1b}
-    - /summon minecraft:silverfish ~ ~2 ~6 {CustomName:'{"text":"{user.profileName}"}',CustomNameVisible:1,PersistenceRequired:1b}
-    - /summon minecraft:silverfish ~ ~2 ~6 {CustomName:'{"text":"{user.profileName}"}',CustomNameVisible:1,PersistenceRequired:1b}
+/summon minecraft:silverfish ~ ~2 ~6 
 ```
 - クモの巣
 ```
@@ -193,7 +166,7 @@ order: 699997
 ```
 - 魔法使い
 ```
-/summon minecraft:illusioner ~ ~2 ~6 {CustomName:'{"text":"{user.profileName}"}',CustomNameVisible:1,PersistenceRequired:1b}
+/summon minecraft:illusioner ~ ~2 ~6 
 ```
 - TNTx3
 ```
@@ -253,8 +226,7 @@ order: 699997
 ```
 - ラベジャーx2
 ```
-/summon minecraft:ravager ~ ~2 ~6 {CustomName:'{"text":"{user.profileName}"}',CustomNameVisible:1,PersistenceRequired:1b}
-    - /summon minecraft:ravager ~ ~2 ~6 {CustomName:'{"text":"{user.profileName}"}',CustomNameVisible:1,PersistenceRequired:1b}
+/summon minecraft:ravager ~ ~2 ~6 
 ```
 - 蜘蛛の巣壁
 ```
