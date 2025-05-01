@@ -7,7 +7,7 @@ order: 700000
 
 
 # 埋め立て説明動画  
-[!embed](https://youtu.be/SBS1IqX6SaA)
+[!embed](https://youtu.be/--p0tLgkrWc)
 :::danger 注意
 ※埋め立てのプレイ前に必ず見てください。
 :::  
