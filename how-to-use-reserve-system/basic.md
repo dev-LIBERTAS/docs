@@ -8,7 +8,7 @@ order: 700000
 
 ## 予約方法  
 
-![](/image/195616.png)
+<img src="/image/195616.png" style="float: left;" alt="予約アイコン">
 
 1. **LIBERTASサーバー内の⏰｜予約専用チャットに/reserveと入力**  
 
@@ -26,7 +26,7 @@ order: 700000
 [!embed](https://youtu.be/54Pw7H54zB8)
 ## 予約解除方法  
 
-![](/image/195616.png)
+<img src="/image/195616.png" style="float: left;" alt="予約アイコン">
 
 1. **LIBERTASサーバー内の⏰｜予約専用チャットに/unreserveと入力**  
 
@@ -38,7 +38,7 @@ order: 700000
 
 **サーバーに招待する側の操作**  
 
-![](/image/195616.png)
+<img src="/image/195616.png" style="float: left;" alt="予約アイコン">
 
 1. **LIBERTASサーバー内の⏰｜予約専用チャットに/inviteと入力**
 
