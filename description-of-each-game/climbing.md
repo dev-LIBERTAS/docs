@@ -68,17 +68,19 @@ order: 699998
 ```
 
 ## ギフトコマンド一覧  
+※1回分のコマンドです。回数分繰り返して入力してください。
+
 - ミニ回復
 ```
 /effect give @p minecraft:regeneration 5 5
 ```
 - ゾンビ
 ```
-/summon minecraft:zombie ~ ~3 ~2 
+/summon minecraft:zombie ~ ~3 ~2 {CustomNameVisible:1,Attributes:[{Name:"generic.max_health",Base:10}],Health:10.0f}
 ```
 - スケルトン
 ```
-/summon minecraft:skeleton ~ ~3 ~2
+/summon minecraft:skeleton ~ ~3 ~2 {CustomNameVisible:1,HandItems:[{id:"minecraft:bow",Count:1},{}]}
 ```
 - 目隠し
 ```
@@ -90,35 +92,31 @@ order: 699998
 ```
 - エンダーマン
 ```
-/summon minecraft:enderman ~ ~3 ~2 
+/summon minecraft:enderman ~ ~3 ~2 {CustomNameVisible:1}
 ```
 - 防具付きゾンビ
 ```
-/summon minecraft:zombie ~ ~3 ~2 {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:""minecraft:iron_sword"",Count:1}],ArmorItems:[{},{},{},{id:""minecraft:iron_helmet"",Count:1}]}
-```
-- ハスク
-```
-/summon minecraft:husk ~ ~3 ~2 
+/summon minecraft:zombie ~ ~3 ~2 {CustomNameVisible:1,HandItems:[{id:"minecraft:iron_sword",Count:1}],ArmorItems:[{},{},{},{id:"minecraft:iron_helmet",Count:1}]}
 ```
 - クリーパー
 ```
-/summon minecraft:creeper ~ ~3 ~2 
+/summon minecraft:creeper ~ ~3 ~2 {CustomNameVisible:1}
 ```
-- 豚x10
+- 牛x5
 ```
-/summon minecraft:pig ~ ~3 ~2 
+/summon minecraft:cow ~ ~3 ~2 {CustomNameVisible:1}
 ```
 - ノックバックスケルトン
 ```
-/summon skeleton ~ ~3 ~2 {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:""bow"",Count:1b,tag:{Enchantments:[{id:""punch"",lvl:4}]}}],ArmorItems:[{},{},{},{id:""iron_helmet"",Count:1b}]}
+/summon skeleton ~ ~3 ~2 {CustomNameVisible:1,HandItems:[{id:"bow",Count:1b,tag:{Enchantments:[{id:"punch",lvl:4}]}}],ArmorItems:[{},{},{},{id:"iron_helmet",Count:1b}]}
 ```
 - エンダーマンx2
 ```
-/summon minecraft:enderman ~ ~3 ~2 
+/summon minecraft:enderman ~ ~3 ~2 {CustomNameVisible:1}
 ```
 - 防具つきゾンビx2
 ```
-/summon minecraft:zombie ~ ~3 ~2 {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:""minecraft:iron_sword"",Count:1}],ArmorItems:[{},{},{},{id:""minecraft:iron_helmet"",Count:1}]}
+/summon minecraft:zombie ~ ~3 ~2 {CustomNameVisible:1,HandItems:[{id:"minecraft:iron_sword",Count:1}],ArmorItems:[{},{},{},{id:"minecraft:iron_helmet",Count:1}]}
 ```
 - 回復
 ```
@@ -126,7 +124,11 @@ order: 699998
 ```
 - 豚10匹
 ```
-/summon minecraft:pig ~ ~3 ~2 
+/summon minecraft:pig ~ ~3 ~2 {CustomNameVisible:1}
+```
+- 豚5x牛5
+```
+/summon minecraft:pig ~ ~3 ~2 {CustomNameVisible:1}
 ```
 - トロッコ列
 ```
@@ -156,10 +158,6 @@ order: 699998
 ```
 /rtask zombie1 30 200
 ```
-- 魔法使い
-```
-/summon minecraft:illusioner ~ ~3 ~2 
-```
 - カミナリ
 ```
 /execute at @e[type=!minecraft:player,limit=30] run summon minecraft:lightning_bolt ~ ~ ~
@@ -170,14 +168,11 @@ order: 699998
 ```
 - 黒曜石追加
 ```
-/execute at @p run summon minecraft:falling_block ~ ~10 ~ {BlockState:{Name:""minecraft:obsidian""},Time:1}
+/execute at @p run summon minecraft:falling_block ~ ~10 ~ {BlockState:{Name:"minecraft:obsidian"},Time:1}
 ```
-- 雷+ねこパーティー
+- 耐電クリーパー
 ```
-/execute at @e[type=!minecraft:player,limit=30] run summon minecraft:lightning_bolt ~ ~ ~
-```
-```
-/rtask cat1 30 200
+/rtask tnt3 1 1
 ```
 - ルーレット
 ```
@@ -195,10 +190,6 @@ order: 699998
 ```
 /rtask wolf1 25 150
 ```
-- ルーレット
-```
-/roulette roulette2
-```
 - ネコパーティー
 ```
 /rtask cat1 30 200
@@ -215,6 +206,10 @@ order: 699998
 ```
 /rtask tnt4 3 10000
 ```
+- 監獄
+```
+
+```
 - ドラゴン群
 ```
 /rtask dragon1 1 1
@@ -222,6 +217,10 @@ order: 699998
 - ダイヤ装備
 ```
 /rtask diamond1 1 1
+```
+- 強制晴れ
+```
+/weather clear
 ```
 - 全員集合
 ```
@@ -237,7 +236,11 @@ order: 699998
 ```
 - ラベジャーx2
 ```
-/summon minecraft:ravager ~ ~3 ~2 
+/summon minecraft:ravager ~ ~3 ~2 {CustomNameVisible:1}
+```
+- ウィザー
+```
+/timemob minecraft:wither 300 ~ ~3 ~2
 ```
 - ウォーデン
 ```
@@ -267,9 +270,6 @@ order: 699998
 ```
 /rtask leon 1 1
 ```
-```
-/rtask weather1 1 1
-```
 - ジャイアントゾンビ群
 ```
 /rtask sportscar1 1 1
@@ -283,13 +283,6 @@ order: 699998
 /rtask world1 1 1
 ```
 - ハッピーセット
-```
-/rtask lion1 1 1
-```
-- 星から星へ+ライオン
-```
-/rtask dragon2 2 500
-```
 ```
 /rtask lion1 1 1
 ```
