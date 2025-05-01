@@ -59,6 +59,7 @@ order: 699999
 ```
 
 ## ギフトコマンド一覧  
+※1回分のコマンドです。回数分繰り返して入力してください。
 
 - ミニ回復
 ```
@@ -66,7 +67,7 @@ order: 699999
 ```
 - ゾンビ
 ```
-/summon minecraft:zombie ~ ~ ~
+/summon minecraft:zombie ~ ~ ~ {CustomNameVisible:1,PersistenceRequired:1b,Attributes:[{Name:"generic.max_health",Base:10}],Health:10.0f}
 ```
 - スケルトン
 ```
@@ -78,7 +79,7 @@ order: 699999
 ```
 - 殺人うさぎ
 ```
-/execute at @p run summon minecraft:rabbit ~ ~ ~ {RabbitType:99}
+/execute at @p run summon minecraft:rabbit ~ ~ ~ {RabbitType:99,CustomNameVisible:1,PersistenceRequired:1b}
 ```
 - エンダーマン
 ```
@@ -86,27 +87,23 @@ order: 699999
 ```
 - 防具つきゾンビ
 ```
-/summon minecraft:zombie ~ ~ ~ {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:""minecraft:iron_sword"",Count:1}],ArmorItems:[{},{},{},{id:""minecraft:iron_helmet"",Count:1}]}
-```
-- ハスク
-```
-/summon minecraft:husk ~ ~ ~ 
+/summon minecraft:zombie ~ ~ ~ {CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:"minecraft:iron_sword",Count:1}],ArmorItems:[{},{},{},{id:"minecraft:iron_helmet",Count:1}]}
 ```
 - 防具付きゾンビ
 ```
-/summon minecraft:zombie ~ ~ ~ {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:""minecraft:iron_sword"",Count:1}],ArmorItems:[{},{},{},{id:""minecraft:iron_helmet"",Count:1}]}
+/summon minecraft:zombie ~ ~ ~ {CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:"minecraft:iron_sword",Count:1}],ArmorItems:[{},{},{},{id:"minecraft:iron_helmet",Count:1}]}
 ```
 - クリーパー
 ```
 /summon minecraft:creeper ~ ~ ~ 
 ```
-- 豚x10
+- 牛x5
 ```
-/summon minecraft:pig ~ ~ ~ 
+/summon minecraft:cow ~ ~ ~ 
 ```
 - ファイヤースケルトン
 ```
-/summon skeleton ~ ~ ~ {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:""bow"",Count:1b,tag:{Enchantments:[{id:""flame"",lvl:1}]}}],ArmorItems:[{},{},{},{id:""iron_helmet"",Count:1b}]}
+/summon skeleton ~ ~ ~ {CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:"bow",Count:1b,tag:{Enchantments:[{id:"flame",lvl:1}]}}],ArmorItems:[{},{},{},{id:"iron_helmet",Count:1b}]}
 ```
 - エンダーマンx2
 ```
@@ -114,19 +111,27 @@ order: 699999
 ```
 - 防具つきゾンビx2
 ```
-/summon minecraft:zombie ~ ~ ~ {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:""minecraft:iron_sword"",Count:1}],ArmorItems:[{},{},{},{id:""minecraft:iron_helmet"",Count:1}]}
+/summon minecraft:zombie ~ ~ ~ {CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:"minecraft:iron_sword",Count:1}],ArmorItems:[{},{},{},{id:"minecraft:iron_helmet",Count:1}]}
 ```
 - 回復
 ```
 /effect give @p minecraft:regeneration 15 5
 ```
+- 牛x5
+```
+/summon minecraft:cow ~ ~ ~ 
+```
 - 豚10匹
+```
+/summon minecraft:pig ~ ~ ~ 
+```
+- 豚5x牛5
 ```
 /summon minecraft:pig ~ ~ ~ 
 ```
 - ゴキブリx3
 ```
-/summon minecraft:silverfish ~ ~ ~ {CustomName:'{""text"":""{user.profileName}""}',CustomNameVisible:1,PersistenceRequired:1b,Attributes:[{Name:""generic.max_health"",Base:5}],Health:5.0f}
+/summon minecraft:silverfish ~ ~ ~ {CustomNameVisible:1,PersistenceRequired:1b,Attributes:[{Name:"generic.max_health",Base:5}],Health:5.0f}
 ```
 - 空腹
 ```
@@ -138,15 +143,15 @@ order: 699999
 ```
 - 肩車ゾンビx50
 ```
+/effect give @p minecraft:levitation 1 100
+```
+- 肩車ゾンビx50
+```
 /rtask zombie2 50 100
 ```
 - ゾンビx100
 ```
 /rtask zombie1 100 100
-```
-- 魔法使い
-```
-/summon minecraft:illusioner ~ ~ ~ 
 ```
 - カミナリ
 ```
@@ -154,50 +159,42 @@ order: 699999
 ```
 - 金床の雨
 ```
-/rtask anvil1 1 1 1250
 ```
 - 黒曜石追加
 ```
-/execute at @p run summon minecraft:falling_block ~ ~10 ~ {BlockState:{Name:""minecraft:obsidian""},Time:1}
+/execute at @p run summon minecraft:falling_block ~ ~10 ~ {BlockState:{Name:"minecraft:obsidian"},Time:1}
 ```
 - シュルカー
 ```
 /summon minecraft:shulker ~ ~ ~ 
 ```
-- 氷塊
-```
-/execute as @p run fill ~-1 ~ ~-1 ~1 ~2 ~1 minecraft:ice
-```
-- 雷+ねこパーティー
+- カミナリ
 ```
 /execute at @e[type=!minecraft:player,limit=30] run summon minecraft:lightning_bolt ~ ~ ~
-```
-```
-/rtask cat1 100 100
-```
-- ルーレット
-```
-/roulette GamingKeyboard
-```
-- 耐電クリーパー
-```
-/rtask powercreeper1 25 100
 ```
 - TNT
 ```
 /execute at @p run summon tnt ~ ~5 ~ {fuse:100}
 ```
+- 耐電クリーパー
+```
+/rtask powercreeper1 25 100
+```
+- ルーレット
+```
+/roulette GamingKeyboard
+```
 - 激おこ犬
 ```
 /rtask wolf1 25 150
 ```
-- ルーレット
-```
-/roulette roulette2
-```
 - ネコパーティー
 ```
 /rtask cat1 100 100
+```
+- 氷塊
+```
+/execute as @p run fill ~-1 ~ ~-1 ~1 ~2 ~1 minecraft:ice
 ```
 - お助け
 ```
@@ -210,6 +207,14 @@ order: 699999
 - ダイヤモンドシャベル
 ```
 /rtask diamondshovel1 1 1
+```
+- シャベルガチャ
+```
+/roulette shovel
+```
+- 強制晴れ
+```
+/weather clear
 ```
 - 全員集合
 ```
@@ -226,6 +231,10 @@ order: 699999
 - ラベジャーx2
 ```
 /summon minecraft:ravager ~ ~ ~ 
+```
+- ウィザー
+```
+/timemob minecraft:wither 300
 ```
 - ウォーデン
 ```
@@ -251,6 +260,10 @@ order: 699999
 ```
 /rtask water1 1 1
 ```
+- 水族館
+```
+/rtask water1 1 1
+```
 - ミニタワー！
 ```
 /rtask sand1 200 2500
@@ -258,9 +271,6 @@ order: 699999
 - 白馬の王子様
 ```
 /rtask leon 1 1
-```
-```
-/rtask weather1 1 1
 ```
 - 炎ミサイル
 ```
@@ -275,13 +285,6 @@ order: 699999
 /rtask cart1 1 1
 ```
 - 巨大ゾンビ群
-```
-/rtask ghastgiant1 200 200
-```
-- 星から星へ+ライオン
-```
-/rtask concrete_powder1 1 1
-```
 ```
 /rtask ghastgiant1 200 200
 ```
