@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.7.0.799361341853">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.7.0.799386045528">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.7.0">
@@ -32,11 +32,11 @@
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../resources/css/retype.css?v=3.7.0.799361341853" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.7.0.799386045528" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.7.0.799361341853" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.7.0.799386045528" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.7.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.7.0.799361341853" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.7.0.799386045528" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -300,73 +300,74 @@
 <li>ゾンビ</li>
 </ul>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/summon minecraft:zombie ~ ~2 ~6 </code></pre>
+<pre class="language-none"><code v-pre class="language-none">/summon minecraft:zombie ~ ~2 ~6 {CustomName:'{&quot;text&quot;:&quot;{user.profileName}&quot;}',CustomNameVisible:1,PersistenceRequired:1b}</code></pre>
 </doc-codeblock></div>
 <ul>
 <li>スケルトン</li>
 </ul>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/summon minecraft:skeleton ~ ~2 ~6 {CustomName:'{&quot;&quot;text&quot;&quot;:&quot;&quot;{user.profileName}&quot;&quot;}',CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:&quot;&quot;minecraft:bow&quot;&quot;,Count:1},{}]}</code></pre>
+<pre class="language-none"><code v-pre class="language-none">/summon minecraft:skeleton ~ ~2 ~6 {CustomName:'{&quot;text&quot;:&quot;{user.profileName}&quot;}',CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:&quot;minecraft:bow&quot;,Count:1},{}]}</code></pre>
 </doc-codeblock></div>
 <ul>
 <li>目隠し</li>
 </ul>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/execute at @p run particle minecraft:explosion ~ ~1 ~ 0.5 0.5 0.5 0.1 100</code></pre>
+<pre class="language-none"><code v-pre class="language-none">/execute at @p run particle minecraft:explosion ~ ~1 ~ 0.5 0.5 0.5 0.1 100
+    - /playsound minecraft:entity.generic.explode master @p ~ ~ ~ 1 1 1</code></pre>
 </doc-codeblock></div>
 <ul>
 <li>殺人うさぎ</li>
 </ul>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/execute at @p run summon minecraft:rabbit ~ ~2 ~6 {RabbitType:99}</code></pre>
+<pre class="language-none"><code v-pre class="language-none">/execute at @p run summon minecraft:rabbit ~ ~2 ~6 {RabbitType:99,CustomName:'{&quot;text&quot;:&quot;{user.profileName}&quot;}',CustomNameVisible:1,PersistenceRequired:1b}</code></pre>
 </doc-codeblock></div>
 <ul>
 <li>エンダーマン</li>
 </ul>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/summon minecraft:enderman ~ ~2 ~6 </code></pre>
+<pre class="language-none"><code v-pre class="language-none">/summon minecraft:enderman ~ ~2 ~6 {CustomName:'{&quot;text&quot;:&quot;{user.profileName}&quot;}',CustomNameVisible:1,PersistenceRequired:1b}</code></pre>
 </doc-codeblock></div>
 <ul>
 <li>防具付きゾンビ</li>
 </ul>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/summon minecraft:zombie ~ ~2 ~6 {CustomName:'{&quot;&quot;text&quot;&quot;:&quot;&quot;{user.profileName}&quot;&quot;}',CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:&quot;&quot;minecraft:iron_sword&quot;&quot;,Count:1}],ArmorItems:[{},{},{},{id:&quot;&quot;minecraft:iron_helmet&quot;&quot;,Count:1}]}</code></pre>
-</doc-codeblock></div>
-<ul>
-<li>ハスク</li>
-</ul>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/summon minecraft:husk ~ ~2 ~6 </code></pre>
+<pre class="language-none"><code v-pre class="language-none">/summon minecraft:zombie ~ ~2 ~6 {CustomName:'{&quot;text&quot;:&quot;{user.profileName}&quot;}',CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:&quot;minecraft:iron_sword&quot;,Count:1}],ArmorItems:[{},{},{},{id:&quot;minecraft:iron_helmet&quot;,Count:1}]}</code></pre>
 </doc-codeblock></div>
 <ul>
 <li>クリーパー</li>
 </ul>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/summon minecraft:creeper ~ ~2 ~6 </code></pre>
+<pre class="language-none"><code v-pre class="language-none">/summon minecraft:creeper ~ ~2 ~6 {CustomName:'{&quot;text&quot;:&quot;{user.profileName}&quot;}',CustomNameVisible:1,PersistenceRequired:1b}</code></pre>
 </doc-codeblock></div>
 <ul>
-<li>豚x10</li>
+<li>牛x5</li>
 </ul>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/summon minecraft:pig ~ ~2 ~6 </code></pre>
+<pre class="language-none"><code v-pre class="language-none">/summon minecraft:cow ~ ~2 ~6 {CustomName:'{&quot;text&quot;:&quot;{user.profileName}&quot;}',CustomNameVisible:1,PersistenceRequired:1b}
+    - /summon minecraft:cow ~ ~2 ~6 {CustomName:'{&quot;text&quot;:&quot;{user.profileName}&quot;}',CustomNameVisible:1,PersistenceRequired:1b}
+    - /summon minecraft:cow ~ ~2 ~6 {CustomName:'{&quot;text&quot;:&quot;{user.profileName}&quot;}',CustomNameVisible:1,PersistenceRequired:1b}
+    - /summon minecraft:cow ~ ~2 ~6 {CustomName:'{&quot;text&quot;:&quot;{user.profileName}&quot;}',CustomNameVisible:1,PersistenceRequired:1b}
+    - /summon minecraft:cow ~ ~2 ~6 {CustomName:'{&quot;text&quot;:&quot;{user.profileName}&quot;}',CustomNameVisible:1,PersistenceRequired:1b}</code></pre>
 </doc-codeblock></div>
 <ul>
 <li>ノックバックスケルトン</li>
 </ul>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/summon skeleton ~ ~2 ~6 {CustomName:'{&quot;&quot;text&quot;&quot;:&quot;&quot;{user.profileName}&quot;&quot;}',CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:&quot;&quot;bow&quot;&quot;,Count:1b,tag:{Enchantments:[{id:&quot;&quot;punch&quot;&quot;,lvl:4}]}}],ArmorItems:[{},{},{},{id:&quot;&quot;iron_helmet&quot;&quot;,Count:1b}]}</code></pre>
+<pre class="language-none"><code v-pre class="language-none">/summon skeleton ~ ~2 ~6 {CustomName:'{&quot;text&quot;:&quot;{user.profileName}&quot;}',CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:&quot;bow&quot;,Count:1b,tag:{Enchantments:[{id:&quot;punch&quot;,lvl:4}]}}],ArmorItems:[{},{},{},{id:&quot;iron_helmet&quot;,Count:1b}]}</code></pre>
 </doc-codeblock></div>
 <ul>
 <li>エンダーマンx2</li>
 </ul>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/summon minecraft:enderman ~ ~2 ~6 </code></pre>
+<pre class="language-none"><code v-pre class="language-none">/summon minecraft:enderman ~ ~2 ~6 {CustomName:'{&quot;text&quot;:&quot;{user.profileName}&quot;}',CustomNameVisible:1,PersistenceRequired:1b}
+    - /summon minecraft:enderman ~ ~2 ~6 {CustomName:'{&quot;text&quot;:&quot;{user.profileName}&quot;}',CustomNameVisible:1,PersistenceRequired:1b}</code></pre>
 </doc-codeblock></div>
 <ul>
 <li>防具つきゾンビx2</li>
 </ul>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/summon minecraft:zombie ~ ~2 ~6 {CustomName:'{&quot;&quot;text&quot;&quot;:&quot;&quot;{user.profileName}&quot;&quot;}',CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:&quot;&quot;minecraft:iron_sword&quot;&quot;,Count:1}],ArmorItems:[{},{},{},{id:&quot;&quot;minecraft:iron_helmet&quot;&quot;,Count:1}]}</code></pre>
+<pre class="language-none"><code v-pre class="language-none">/summon minecraft:zombie ~ ~2 ~6 {CustomName:'{&quot;text&quot;:&quot;{user.profileName}&quot;}',CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:&quot;minecraft:iron_sword&quot;,Count:1}],ArmorItems:[{},{},{},{id:&quot;minecraft:iron_helmet&quot;,Count:1}]}
+    - /summon minecraft:zombie ~ ~2 ~6 {CustomName:'{&quot;text&quot;:&quot;{user.profileName}&quot;}',CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:&quot;minecraft:iron_sword&quot;,Count:1}],ArmorItems:[{},{},{},{id:&quot;minecraft:iron_helmet&quot;,Count:1}]}</code></pre>
 </doc-codeblock></div>
 <ul>
 <li>回復</li>
@@ -378,13 +379,39 @@
 <li>豚10匹</li>
 </ul>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/summon minecraft:pig ~ ~2 ~6 </code></pre>
+<pre class="language-none"><code v-pre class="language-none">/summon minecraft:pig ~ ~2 ~6 {CustomName:'{&quot;text&quot;:&quot;{user.profileName}&quot;}',CustomNameVisible:1,PersistenceRequired:1b}
+    - /summon minecraft:pig ~ ~2 ~6 {CustomName:'{&quot;text&quot;:&quot;{user.profileName}&quot;}',CustomNameVisible:1,PersistenceRequired:1b}
+    - /summon minecraft:pig ~ ~2 ~6 {CustomName:'{&quot;text&quot;:&quot;{user.profileName}&quot;}',CustomNameVisible:1,PersistenceRequired:1b}
+    - /summon minecraft:pig ~ ~2 ~6 {CustomName:'{&quot;text&quot;:&quot;{user.profileName}&quot;}',CustomNameVisible:1,PersistenceRequired:1b}
+    - /summon minecraft:pig ~ ~2 ~6 {CustomName:'{&quot;text&quot;:&quot;{user.profileName}&quot;}',CustomNameVisible:1,PersistenceRequired:1b}
+    - /summon minecraft:pig ~ ~2 ~6 {CustomName:'{&quot;text&quot;:&quot;{user.profileName}&quot;}',CustomNameVisible:1,PersistenceRequired:1b}
+    - /summon minecraft:pig ~ ~2 ~6 {CustomName:'{&quot;text&quot;:&quot;{user.profileName}&quot;}',CustomNameVisible:1,PersistenceRequired:1b}
+    - /summon minecraft:pig ~ ~2 ~6 {CustomName:'{&quot;text&quot;:&quot;{user.profileName}&quot;}',CustomNameVisible:1,PersistenceRequired:1b}
+    - /summon minecraft:pig ~ ~2 ~6 {CustomName:'{&quot;text&quot;:&quot;{user.profileName}&quot;}',CustomNameVisible:1,PersistenceRequired:1b}
+    - /summon minecraft:pig ~ ~2 ~6 {CustomName:'{&quot;text&quot;:&quot;{user.profileName}&quot;}',CustomNameVisible:1,PersistenceRequired:1b}</code></pre>
+</doc-codeblock></div>
+<ul>
+<li>豚5x牛5</li>
+</ul>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none">/summon minecraft:pig ~ ~2 ~6 {CustomName:'{&quot;text&quot;:&quot;{user.profileName}&quot;}',CustomNameVisible:1,PersistenceRequired:1b}
+    - /summon minecraft:pig ~ ~2 ~6 {CustomName:'{&quot;text&quot;:&quot;{user.profileName}&quot;}',CustomNameVisible:1,PersistenceRequired:1b}
+    - /summon minecraft:pig ~ ~2 ~6 {CustomName:'{&quot;text&quot;:&quot;{user.profileName}&quot;}',CustomNameVisible:1,PersistenceRequired:1b}
+    - /summon minecraft:pig ~ ~2 ~6 {CustomName:'{&quot;text&quot;:&quot;{user.profileName}&quot;}',CustomNameVisible:1,PersistenceRequired:1b}
+    - /summon minecraft:pig ~ ~2 ~6 {CustomName:'{&quot;text&quot;:&quot;{user.profileName}&quot;}',CustomNameVisible:1,PersistenceRequired:1b}
+    - /summon minecraft:cow ~ ~2 ~6 {CustomName:'{&quot;text&quot;:&quot;{user.profileName}&quot;}',CustomNameVisible:1,PersistenceRequired:1b}
+    - /summon minecraft:cow ~ ~2 ~6 {CustomName:'{&quot;text&quot;:&quot;{user.profileName}&quot;}',CustomNameVisible:1,PersistenceRequired:1b}
+    - /summon minecraft:cow ~ ~2 ~6 {CustomName:'{&quot;text&quot;:&quot;{user.profileName}&quot;}',CustomNameVisible:1,PersistenceRequired:1b}
+    - /summon minecraft:cow ~ ~2 ~6 {CustomName:'{&quot;text&quot;:&quot;{user.profileName}&quot;}',CustomNameVisible:1,PersistenceRequired:1b}
+    - /summon minecraft:cow ~ ~2 ~6 {CustomName:'{&quot;text&quot;:&quot;{user.profileName}&quot;}',CustomNameVisible:1,PersistenceRequired:1b}</code></pre>
 </doc-codeblock></div>
 <ul>
 <li>ゴキブリx3</li>
 </ul>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/summon minecraft:silverfish ~ ~2 ~6 </code></pre>
+<pre class="language-none"><code v-pre class="language-none">/summon minecraft:silverfish ~ ~2 ~6 {CustomName:'{&quot;text&quot;:&quot;{user.profileName}&quot;}',CustomNameVisible:1,PersistenceRequired:1b}
+    - /summon minecraft:silverfish ~ ~2 ~6 {CustomName:'{&quot;text&quot;:&quot;{user.profileName}&quot;}',CustomNameVisible:1,PersistenceRequired:1b}
+    - /summon minecraft:silverfish ~ ~2 ~6 {CustomName:'{&quot;text&quot;:&quot;{user.profileName}&quot;}',CustomNameVisible:1,PersistenceRequired:1b}</code></pre>
 </doc-codeblock></div>
 <ul>
 <li>クモの巣</li>
@@ -450,28 +477,13 @@
 <li>魔法使い</li>
 </ul>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/summon minecraft:illusioner ~ ~2 ~6 </code></pre>
+<pre class="language-none"><code v-pre class="language-none">/summon minecraft:illusioner ~ ~2 ~6 {CustomName:'{&quot;text&quot;:&quot;{user.profileName}&quot;}',CustomNameVisible:1,PersistenceRequired:1b}</code></pre>
 </doc-codeblock></div>
 <ul>
-<li>氷塊</li>
+<li>TNTx3</li>
 </ul>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/execute as @p run fill ~-1 ~ ~-1 ~1 ~2 ~1 minecraft:ice</code></pre>
-</doc-codeblock></div>
-<ul>
-<li>雷+ねこパーティー</li>
-</ul>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/execute at @e[type=!minecraft:player,limit=30] run summon minecraft:lightning_bolt ~ ~ ~</code></pre>
-</doc-codeblock></div>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/rtask cat1 30 4</code></pre>
-</doc-codeblock></div>
-<ul>
-<li>ルーレット</li>
-</ul>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/roulette GamingKeyboard</code></pre>
+<pre class="language-none"><code v-pre class="language-none">/rtask tnt3 1 1</code></pre>
 </doc-codeblock></div>
 <ul>
 <li>耐電クリーパー</li>
@@ -480,10 +492,10 @@
 <pre class="language-none"><code v-pre class="language-none">/rtask creeper1 25 100</code></pre>
 </doc-codeblock></div>
 <ul>
-<li>TNTx3</li>
+<li>ルーレット</li>
 </ul>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/rtask tnt3 1 1</code></pre>
+<pre class="language-none"><code v-pre class="language-none">/roulette GamingKeyboard</code></pre>
 </doc-codeblock></div>
 <ul>
 <li>クモの巣の雨</li>
@@ -502,12 +514,6 @@
 </ul>
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-none"><code v-pre class="language-none">/rtask dragon2 1 1</code></pre>
-</doc-codeblock></div>
-<ul>
-<li>ルーレット</li>
-</ul>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/roulette roulette2</code></pre>
 </doc-codeblock></div>
 <ul>
 <li>お助け</li>
@@ -534,6 +540,12 @@
 <pre class="language-none"><code v-pre class="language-none">/rtask kangoku1 1 1</code></pre>
 </doc-codeblock></div>
 <ul>
+<li>強制晴れ</li>
+</ul>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none">/weather clear</code></pre>
+</doc-codeblock></div>
+<ul>
 <li>全員集合</li>
 </ul>
 <div class="codeblock-wrapper"><doc-codeblock>
@@ -555,7 +567,8 @@
 <li>ラベジャーx2</li>
 </ul>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/summon minecraft:ravager ~ ~2 ~6 </code></pre>
+<pre class="language-none"><code v-pre class="language-none">/summon minecraft:ravager ~ ~2 ~6 {CustomName:'{&quot;text&quot;:&quot;{user.profileName}&quot;}',CustomNameVisible:1,PersistenceRequired:1b}
+    - /summon minecraft:ravager ~ ~2 ~6 {CustomName:'{&quot;text&quot;:&quot;{user.profileName}&quot;}',CustomNameVisible:1,PersistenceRequired:1b}</code></pre>
 </doc-codeblock></div>
 <ul>
 <li>蜘蛛の巣壁</li>
@@ -573,7 +586,7 @@
 <li>ウィザー</li>
 </ul>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/timemob minecraft:wither 600 ~ ~2 ~15</code></pre>
+<pre class="language-none"><code v-pre class="language-none">/timemob minecraft:wither 300 ~ ~2 ~15</code></pre>
 </doc-codeblock></div>
 <ul>
 <li>ウォーデン</li>
@@ -623,9 +636,6 @@
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-none"><code v-pre class="language-none">/rtask leon1 1 1</code></pre>
 </doc-codeblock></div>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/rtask weather1 1 1</code></pre>
-</doc-codeblock></div>
 <ul>
 <li>炎ミサイル</li>
 </ul>
@@ -647,15 +657,6 @@
 <ul>
 <li>巨大ゾンビ群</li>
 </ul>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/rtask lion1 1 1</code></pre>
-</doc-codeblock></div>
-<ul>
-<li>星から星へ x ライオン</li>
-</ul>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">/rtask tnt6 1 1</code></pre>
-</doc-codeblock></div>
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-none"><code v-pre class="language-none">/rtask lion1 1 1</code></pre>
 </doc-codeblock></div>
