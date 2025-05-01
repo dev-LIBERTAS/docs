@@ -6,6 +6,10 @@ icon: sign-in
 
 # マイクラサーバーへの接続方法
 [!embed](https://youtu.be/D5B7q-cLf_k)
+- サーバーIP
+```
+play.libertasmc.xyz:41000
+```
 ## バージョン変更
 
 まずは、マインクラフトのバージョンを変更します。
