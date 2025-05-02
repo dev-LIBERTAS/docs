@@ -6,12 +6,3 @@ icon: server
 
 # マインクラフトIP<br>  
 ```play.libertasmc.xyz:41000```  
-:::info 注意
-サーバーへの接続は、事前登録が必要です。
-:::  
----------------------------------------  
-
-# パネルURL  
-[https://panel.libertasmc.xyz/](https://panel.libertasmc.xyz/)  
-
----------------------------------------
