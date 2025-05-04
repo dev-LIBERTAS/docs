@@ -25,7 +25,7 @@ icon: project-roadmap
 
 スライドショーを作成できます。 
 
-[Canvaスライドショーリンク](https://www.canva.com/design/DAGCkaLB-pU/VxmocEz9hwGyxe_HEgvT2Q/edit?utm_content=DAGCkaLB-pU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+[Canvaスライドショーリンク](https://www.canva.com/design/DAGkn4q4-hQ/DfVbqtZ-Ml5YLwqdTkmKbw/edit?utm_content=DAGkn4q4-hQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 ---
