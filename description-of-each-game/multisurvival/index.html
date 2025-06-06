@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.7.0.799681643159">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.9.0.802516864179">
 
     <!-- See retype.com -->
-    <meta name="generator" content="Retype 3.7.0">
+    <meta name="generator" content="Retype 3.9.0">
 
     <!-- Primary Meta Tags -->
     <title>Simple Voice Chatの入れ方</title>
@@ -30,13 +30,13 @@
     <meta property="twitter:description" content="まずは、導入するMODと同じバージョン（今回は1.20.4）のマイクラを起動しましょう。">
     <meta property="twitter:image" content="/image/mod1.png">
 
-    <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
+    <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
-    <link href="../../resources/css/retype.css?v=3.7.0.799681643159" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.9.0.802516864179" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.7.0.799681643159" data-turbo-eval="false" defer></script>
-    <script data-cfasync="false" src="../../resources/js/retype.js?v=3.7.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.7.0.799681643159" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.9.0.802516864179" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/retype.js?v=3.9.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.9.0.802516864179" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -56,8 +56,8 @@
                                 <img class="max-h-10 dark:hidden md:inline-block" src="../../libertasdarklogo.png">
                                 <img class="max-h-10 hidden dark:inline-block" src="../../libertaswhitelogo.png">
                             </span>
-                            <span class="dark:text-white font-semibold line-clamp-1 md:line-clamp-2">Libertas</span>
-                        </a><span class="hidden px-2 py-1 ml-4 text-sm font-semibold leading-none text-root-logo-label-text bg-root-logo-label-bg rounded-sm md:inline-block">docs</span>
+                            <span class="dark:text-white font-bold line-clamp-1 md:line-clamp-2">Libertas</span>
+                        </a><span class="hidden mt-1 px-2 py-1 ml-4 text-xs font-semibold leading-none text-root-logo-label-text bg-root-logo-label-bg rounded-md md:inline-block">docs</span>
                     </div>
         
                     <span class="hidden h-8 border-r md:inline-block dark:border-dark-650"></span>
@@ -119,7 +119,7 @@
     
         <div class="container relative flex bg-white">
             <!-- Sidebar Skeleton -->
-            <div v-cloak class="fixed flex flex-col shrink-0 duration-300 ease-in-out bg-gray-100 border-gray-200 sidebar top-20 w-75 border-r h-screen md:sticky transition-transform skeleton dark:bg-dark-800 dark:border-dark-650">
+            <div v-cloak class="fixed flex flex-col shrink-0 duration-300 ease-in-out bg-white border-gray-200 sidebar top-20 w-75 border-r h-screen md:sticky transition-transform skeleton dark:bg-dark-800 dark:border-dark-650">
             
                 <div class="flex items-center h-16 px-6">
                     <input class="w-full h-8 px-3 py-2 transition-colors duration-200 ease-linear bg-white border border-gray-200 rounded shadow-none text-sm focus:outline-none focus:border-gray-600 dark:bg-dark-600 dark:border-dark-600" type="text" placeholder="フィルタ">
@@ -198,14 +198,14 @@
 <p>「マインクラフトランチャー」を開いて、<code v-pre>起動構成</code>をクリックしてください。
 続けて、<code v-pre>新規作成</code>をクリックします。</p>
 <p><figure class="content-center">
-    <img src="../../image/mod1.png" alt="MOD1">
+    <img src="../../image/mod1.png" alt="MOD1" />
     <figcaption class="caption">MOD1</figcaption>
 </figure>
 </p>
 <p>「起動構成の作成」画面が表示されるので、任意の名前を入力したあと、バージョン（release1.20.4）を選択しましょう。</p>
 <p><code v-pre>作成</code>のクリック後、その起動構成でゲームを開始すればOKです。</p>
 <p><figure class="content-center">
-    <img src="../../image/mod2.png" alt="mod2">
+    <img src="../../image/mod2.png" alt="mod2" />
     <figcaption class="caption">mod2</figcaption>
 </figure>
 </p>
@@ -217,7 +217,7 @@
 </doc-anchor-target>
 <p>導入するMODと同じバージョンの『Minecraft Forge』をダウンロードしていきます。</p>
 <p><figure class="content-center">
-    <img src="../../image/mod3.png" alt="ao">
+    <img src="../../image/mod3.png" alt="ao" />
     <figcaption class="caption">ao</figcaption>
 </figure>
 </p>
@@ -226,7 +226,7 @@
 <p>続いて、「Download Recommended（安定版）」の<code v-pre>Installer</code>をクリックします。
 広告ページに遷移するので、5秒待ったあとに右上の<code v-pre>SKIP</code>をクリックしましょう。</p>
 <p><figure class="content-center">
-    <img src="../../image/mod4.png" alt="mod4">
+    <img src="../../image/mod4.png" alt="mod4" />
     <figcaption class="caption">mod4</figcaption>
 </figure>
 </p>
@@ -238,14 +238,14 @@
 </doc-anchor-target>
 <p>『Minecraft Forge』のインストーラーを起動するため、パソコンに『JDK』というツールをインストールします。</p>
 <p><figure class="content-center">
-    <img src="../../image/mod5.png" alt="JDK">
+    <img src="../../image/mod5.png" alt="JDK" />
     <figcaption class="caption">JDK</figcaption>
 </figure>
 </p>
 <p>『JDK』の<a href="https://www.oracle.com/jp/java/technologies/downloads/">公式サイト</a>にアクセスして、「Windows」のタブをクリックしてください。
 そのあと、「x64 Installer」のURLをクリックすると、ダウンロードが始まります。</p>
 <p><figure class="content-center">
-    <img src="../../image/mod6.png" alt="JAVA">
+    <img src="../../image/mod6.png" alt="JAVA" />
     <figcaption class="caption">JAVA</figcaption>
 </figure>
 </p>
@@ -260,7 +260,7 @@
 <p>続いて、『Minecraft Forge』のインストーラーをダブルクリックで起動してください。</p>
 <p>「Install Client」を選択している状態で<code v-pre>OK</code>をクリックすると、インストールが始まります。</p>
 <p><figure class="content-center">
-    <img src="../../image/mod7.5.png" alt="Forge">
+    <img src="../../image/mod7.5.png" alt="Forge" />
     <figcaption class="caption">Forge</figcaption>
 </figure>
 </p>
@@ -275,14 +275,14 @@
 <p>「マインクラフトランチャー」を開いたら、<code v-pre>起動構成</code>をクリックしてください。
 「Forge」の起動構成にカーソルを当て、「…」をクリックしたあと、<code v-pre>編集</code>を選択しましょう。</p>
 <p><figure class="content-center">
-    <img src="../../image/mod8.png" alt="kousei">
+    <img src="../../image/mod8.png" alt="kousei" />
     <figcaption class="caption">kousei</figcaption>
 </figure>
 </p>
 <p>「起動構成の編集」画面が表示されるので、「ゲームディレクトリ」の<code v-pre>参照</code>をクリックします。</p>
 <p>「デスクトップ」を選択している状態で、<code v-pre>新しいフォルダーの作成</code>をクリックしましょう。</p>
 <p><figure class="content-center">
-    <img src="../../image/mod9.png" alt="kousei2">
+    <img src="../../image/mod9.png" alt="kousei2" />
     <figcaption class="caption">kousei2</figcaption>
 </figure>
 </p>
@@ -296,7 +296,7 @@
 <p>最後に、「Forge」の起動構成でゲームを開始しましょう。</p>
 <p>スタート画面の左下に「Forge」と表示されたら、『Minecraft Forge』の導入は完了です。</p>
 <p><figure class="content-center">
-    <img src="../../image/mod10.png" alt="mod">
+    <img src="../../image/mod10.png" alt="mod" />
     <figcaption class="caption">mod</figcaption>
 </figure>
 </p>
@@ -310,32 +310,32 @@
 まずは、Simple Voice chatの<a href="https://www.curseforge.com/minecraft/mc-mods/simple-voice-chat/files/5716557">公式ページ</a>に飛びます。
 そして、ダウンロードをクリックします。少し待つと右上に保存と削除という欄が出てくるので、保存を選択します。</p>
 <p><figure class="content-center">
-    <img src="../../image/mod13.png" alt="mod">
+    <img src="../../image/mod13.png" alt="mod" />
     <figcaption class="caption">mod</figcaption>
 </figure>
 </p>
 <p>次にマイクラを「Forge」の起動構成でゲームを開始したら、スタート画面で<code v-pre>Mod</code>をクリックしましょう。</p>
 <p><figure class="content-center">
-    <img src="../../image/mod11.png" alt="mod">
+    <img src="../../image/mod11.png" alt="mod" />
     <figcaption class="caption">mod</figcaption>
 </figure>
 </p>
 <p>画面左下の<code v-pre>Modフォルダーを開く</code>をクリックしてください。</p>
 <p><figure class="content-center">
-    <img src="../../image/mod12.png" alt="mod">
+    <img src="../../image/mod12.png" alt="mod" />
     <figcaption class="caption">mod</figcaption>
 </figure>
 </p>
 <p>「mods」フォルダが開くので、ここに先ほどダウンロードしたMODを移動します。</p>
 <p><figure class="content-center">
-    <img src="../../image/mod14.png" alt="mod">
+    <img src="../../image/mod14.png" alt="mod" />
     <figcaption class="caption">mod</figcaption>
 </figure>
 </p>
 <p>ゲームを再起動して、スタート画面の<code v-pre>Mod</code>をクリックしましょう。</p>
 <p>一覧に追加されていれば、MODの導入は完了です！</p>
 <p><figure class="content-center">
-    <img src="../../image/mod15.png" alt="mod">
+    <img src="../../image/mod15.png" alt="mod" />
     <figcaption class="caption">mod</figcaption>
 </figure>
 </p>
@@ -346,7 +346,7 @@
                             </div>
                             <footer class="clear-both">
                             
-                                <nav class="flex mt-14">
+                                <nav class="print:hidden flex mt-14">
                                     <div class="w-1/2">
                                         <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../description-of-each-game/vslandfill/">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
@@ -363,16 +363,16 @@
                             </footer>
                         </main>
                 
-                        <div class="border-t dark:border-dark-650 pt-6 mb-8">
-                            <footer class="flex flex-wrap items-center justify-between">
-                                <div>
+                        <div class="print:border-none border-t dark:border-dark-650 pt-6 mb-8">
+                            <footer class="flex flex-wrap items-center justify-between print:justify-center">
+                                <div class="print:hidden">
                                     <ul class="flex flex-wrap items-center text-sm">
                                         <li>
                                             <a class="block mr-4 py-2 text-sm whitespace-nowrap transition-colors duration-200 ease-linear text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200 md:mb-0" href="https://discord.gg/2FNp2kTwxX">Discord</a>
                                         </li>
                                     </ul>
                                 </div>
-                                <div class="docs-copyright py-2 text-gray-500 dark:text-dark-350 text-sm leading-relaxed"><p>© 2025 Libertas. All rights reserved.</p></div>
+                                <div class="print:justify-center docs-copyright py-2 text-gray-500 dark:text-dark-350 text-sm leading-relaxed"><p>© 2025 Libertas. All rights reserved.</p></div>
                             </footer>
                         </div>
                     </div>
